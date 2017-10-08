@@ -1,0 +1,18 @@
+package res;
+
+public class Strings {
+	public final static String INITCONN = "Connecting to the server. Please wait ...";
+	public final static String CONNFAIL = "Failed to connect to the server, please try later!";
+	public final static String SERVERSUCCESS = "Server stated successfully!";
+	
+	public final static String WELCOME = "Welcome To Mike's Library!";
+	public final static String WHO = "Who are you?";
+	public final static String LIBRARIANLOGIN = "What can I do for you?";
+	public final static String PASSPROMPT = "Please Input the password";
+	public final static String INCPASS = "Wrong Password! Please Input The Password:";
+	
+	public final static String LIBRARIANMENU = "Menu: <No options yet>";
+	public final static String LOGOUT = "Successfully Logged Out!";
+	
+	public final static String INVALID = "Sorry, that command doesn't work\n";
+}

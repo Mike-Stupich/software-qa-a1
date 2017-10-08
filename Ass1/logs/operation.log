@@ -1,0 +1,438 @@
+2017-10-08 06:05:45 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 06:05:45 FATAL LibServer:36 - java.net.BindException: Address already in use: JVM_Bind
+@2017-10-08 06:06:08 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 06:06:08 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:06:08 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-08 06:06:32 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 06:06:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:06:32 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-08 06:06:49 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:52041] Client Socket: [52041 ]
+
+@2017-10-08 06:06:49 INFO  LibClient:32 - 52041 : Connected to server: /127.0.0.1
+@2017-10-08 06:06:49 INFO  LibClient:33 - 52041 : Connected to portid: 52041
+@2017-10-08 06:06:49 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:06:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52041
+@2017-10-08 06:07:04 INFO  LibServer:94 - Input from 127.0.0.1:52041 hello
+@2017-10-08 06:07:04 INFO  LibServer:110 - Output to 127.0.0.1:52041 Who Are you?
+
+@2017-10-08 06:07:07 INFO  LibServer:94 - Input from 127.0.0.1:52041 Librarian
+@2017-10-08 06:07:07 INFO  LibServer:102 - Output to 127.0.0.1:52041 Please Input The Password:
+
+@2017-10-08 06:07:10 INFO  LibServer:94 - Input from 127.0.0.1:52041 admin
+@2017-10-08 06:07:10 INFO  LibServer:102 - Output to 127.0.0.1:52041 What can I do for you?
+
+@2017-10-08 06:07:20 INFO  LibServer:94 - Input from 127.0.0.1:52041 Create Item
+@2017-10-08 06:07:20 INFO  LibServer:102 - Output to 127.0.0.1:52041 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:07:39 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:22:50 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 06:22:50 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-08 06:22:50 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:22:59 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:56904] Client Socket: [56904 ]
+
+@2017-10-08 06:22:59 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:22:59 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__56904
+@2017-10-08 06:22:59 INFO  LibClient:32 - 56904 : Connected to server: /127.0.0.1
+@2017-10-08 06:22:59 INFO  LibClient:33 - 56904 : Connected to portid: 56904
+@2017-10-08 06:23:01 INFO  LibServer:94 - Input from 127.0.0.1:56904 hi
+@2017-10-08 06:23:01 INFO  LibServer:110 - Output to 127.0.0.1:56904 Who Are you?
+
+@2017-10-08 06:23:04 INFO  LibServer:94 - Input from 127.0.0.1:56904 Librarian
+@2017-10-08 06:23:04 INFO  LibServer:102 - Output to 127.0.0.1:56904 Please Input The Password:
+
+@2017-10-08 06:23:06 INFO  LibServer:94 - Input from 127.0.0.1:56904 admin
+@2017-10-08 06:23:06 INFO  LibServer:102 - Output to 127.0.0.1:56904 What can I do for you?
+
+@2017-10-08 06:23:09 INFO  LibServer:94 - Input from 127.0.0.1:56904 l
+@2017-10-08 06:23:09 INFO  LibServer:102 - Output to 127.0.0.1:56904 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:23:11 INFO  LibServer:94 - Input from 127.0.0.1:56904 l
+@2017-10-08 06:23:11 INFO  LibServer:102 - Output to 127.0.0.1:56904 Menu: 
+
+@2017-10-08 06:23:13 INFO  LibServer:94 - Input from 127.0.0.1:56904 l
+@2017-10-08 06:23:13 INFO  LibServer:102 - Output to 127.0.0.1:56904 Menu: 
+
+@2017-10-08 06:23:14 INFO  LibServer:94 - Input from 127.0.0.1:56904 l
+@2017-10-08 06:23:14 INFO  LibServer:102 - Output to 127.0.0.1:56904 Menu: 
+
+@2017-10-08 06:23:14 INFO  LibServer:94 - Input from 127.0.0.1:56904 l
+@2017-10-08 06:23:14 INFO  LibServer:102 - Output to 127.0.0.1:56904 Menu: 
+
+@2017-10-08 06:32:08 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:32:12 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57001] Client Socket: [57001 ]
+
+@2017-10-08 06:32:12 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:32:12 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57001
+@2017-10-08 06:32:12 INFO  LibClient:32 - 57001 : Connected to server: /127.0.0.1
+@2017-10-08 06:32:12 INFO  LibClient:33 - 57001 : Connected to portid: 57001
+@2017-10-08 06:32:14 INFO  LibServer:94 - Input from 127.0.0.1:57001 hi
+@2017-10-08 06:32:14 INFO  LibServer:110 - Output to 127.0.0.1:57001 Who Are you?
+
+@2017-10-08 06:32:17 INFO  LibServer:94 - Input from 127.0.0.1:57001 Librarian
+@2017-10-08 06:32:17 INFO  LibServer:102 - Output to 127.0.0.1:57001 Please Input The Password:
+
+@2017-10-08 06:32:19 INFO  LibServer:94 - Input from 127.0.0.1:57001 admin
+@2017-10-08 06:32:19 INFO  LibServer:102 - Output to 127.0.0.1:57001 What can I do for you?
+
+@2017-10-08 06:32:22 INFO  LibServer:94 - Input from 127.0.0.1:57001 m
+@2017-10-08 06:32:22 INFO  LibServer:102 - Output to 127.0.0.1:57001 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:32:23 INFO  LibServer:94 - Input from 127.0.0.1:57001 ,
+@2017-10-08 06:32:23 INFO  LibServer:102 - Output to 127.0.0.1:57001 Menu: 
+
+@2017-10-08 06:34:58 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:35:02 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57029] Client Socket: [57029 ]
+
+@2017-10-08 06:35:02 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:35:02 INFO  LibClient:32 - 57029 : Connected to server: /127.0.0.1
+@2017-10-08 06:35:02 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57029
+@2017-10-08 06:35:02 INFO  LibClient:33 - 57029 : Connected to portid: 57029
+@2017-10-08 06:35:04 INFO  LibServer:94 - Input from 127.0.0.1:57029 hi
+@2017-10-08 06:35:04 INFO  LibServer:110 - Output to 127.0.0.1:57029 Who Are you?
+
+@2017-10-08 06:35:09 INFO  LibServer:94 - Input from 127.0.0.1:57029 Librarian
+@2017-10-08 06:35:09 INFO  LibServer:102 - Output to 127.0.0.1:57029 Please Input The Password:
+
+@2017-10-08 06:35:10 INFO  LibServer:94 - Input from 127.0.0.1:57029 admin
+@2017-10-08 06:35:10 INFO  LibServer:102 - Output to 127.0.0.1:57029 What can I do for you?
+
+@2017-10-08 06:35:13 INFO  LibServer:94 - Input from 127.0.0.1:57029 help
+@2017-10-08 06:35:13 INFO  LibServer:102 - Output to 127.0.0.1:57029 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:36:12 INFO  LibServer:94 - Input from 127.0.0.1:57029 log out
+@2017-10-08 06:36:12 INFO  LibServer:102 - Output to 127.0.0.1:57029 Menu: 
+
+@2017-10-08 06:36:14 INFO  LibServer:94 - Input from 127.0.0.1:57029 a
+@2017-10-08 06:36:14 INFO  LibServer:102 - Output to 127.0.0.1:57029 Menu: 
+
+@2017-10-08 06:36:22 INFO  LibServer:94 - Input from 127.0.0.1:57029 log out
+@2017-10-08 06:36:22 INFO  LibServer:102 - Output to 127.0.0.1:57029 Menu: 
+
+@2017-10-08 06:36:27 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:39:40 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57079] Client Socket: [57079 ]
+
+@2017-10-08 06:39:40 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:39:40 INFO  LibClient:32 - 57079 : Connected to server: /127.0.0.1
+@2017-10-08 06:39:40 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57079
+@2017-10-08 06:39:40 INFO  LibClient:33 - 57079 : Connected to portid: 57079
+@2017-10-08 06:39:42 INFO  LibServer:94 - Input from 127.0.0.1:57079 hi
+@2017-10-08 06:39:42 INFO  LibServer:110 - Output to 127.0.0.1:57079 Who Are you?
+
+@2017-10-08 06:39:45 INFO  LibServer:94 - Input from 127.0.0.1:57079 librarian
+@2017-10-08 06:39:45 INFO  LibServer:102 - Output to 127.0.0.1:57079 Please Input The Password:
+
+@2017-10-08 06:39:47 INFO  LibServer:94 - Input from 127.0.0.1:57079 admin
+@2017-10-08 06:39:47 INFO  LibServer:102 - Output to 127.0.0.1:57079 What can I do for you?
+
+@2017-10-08 06:39:49 INFO  LibServer:94 - Input from 127.0.0.1:57079 menu
+@2017-10-08 06:39:49 INFO  LibServer:102 - Output to 127.0.0.1:57079 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:39:50 INFO  LibServer:94 - Input from 127.0.0.1:57079 
+@2017-10-08 06:39:50 INFO  LibServer:102 - Output to 127.0.0.1:57079 Menu: 
+
+@2017-10-08 06:39:51 INFO  LibServer:94 - Input from 127.0.0.1:57079 
+@2017-10-08 06:39:51 INFO  LibServer:102 - Output to 127.0.0.1:57079 Menu: 
+
+@2017-10-08 06:40:42 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:40:44 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57095] Client Socket: [57095 ]
+
+@2017-10-08 06:40:44 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:40:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57095
+@2017-10-08 06:40:44 INFO  LibClient:32 - 57095 : Connected to server: /127.0.0.1
+@2017-10-08 06:40:44 INFO  LibClient:33 - 57095 : Connected to portid: 57095
+@2017-10-08 06:40:46 INFO  LibServer:94 - Input from 127.0.0.1:57095 hi
+@2017-10-08 06:40:46 INFO  LibServer:110 - Output to 127.0.0.1:57095 Who Are you?
+
+@2017-10-08 06:40:50 INFO  LibServer:94 - Input from 127.0.0.1:57095 librarian
+@2017-10-08 06:40:50 INFO  LibServer:102 - Output to 127.0.0.1:57095 Please Input The Password:
+
+@2017-10-08 06:40:57 INFO  LibServer:94 - Input from 127.0.0.1:57095 admin
+@2017-10-08 06:40:57 INFO  LibServer:102 - Output to 127.0.0.1:57095 What can I do for you?
+
+@2017-10-08 06:41:23 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:41:26 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57103] Client Socket: [57103 ]
+
+@2017-10-08 06:41:26 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:41:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57103
+@2017-10-08 06:41:26 INFO  LibClient:32 - 57103 : Connected to server: /127.0.0.1
+@2017-10-08 06:41:26 INFO  LibClient:33 - 57103 : Connected to portid: 57103
+@2017-10-08 06:41:29 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:41:38 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57105] Client Socket: [57105 ]
+
+@2017-10-08 06:41:38 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:41:38 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57105
+@2017-10-08 06:41:38 INFO  LibClient:32 - 57105 : Connected to server: /127.0.0.1
+@2017-10-08 06:41:38 INFO  LibClient:33 - 57105 : Connected to portid: 57105
+@2017-10-08 06:42:45 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:44:13 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57128] Client Socket: [57128 ]
+
+@2017-10-08 06:44:13 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:44:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57128
+@2017-10-08 06:44:13 INFO  LibClient:32 - 57128 : Connected to server: /127.0.0.1
+@2017-10-08 06:44:13 INFO  LibClient:33 - 57128 : Connected to portid: 57128
+@2017-10-08 06:44:15 INFO  LibServer:94 - Input from 127.0.0.1:57128 hi
+@2017-10-08 06:44:15 INFO  LibServer:110 - Output to 127.0.0.1:57128 Who Are you?
+
+@2017-10-08 06:44:18 INFO  LibServer:94 - Input from 127.0.0.1:57128 l
+@2017-10-08 06:44:18 INFO  LibServer:102 - Output to 127.0.0.1:57128 
+
+@2017-10-08 06:44:23 INFO  LibServer:94 - Input from 127.0.0.1:57128 librarian
+@2017-10-08 06:44:23 INFO  LibServer:102 - Output to 127.0.0.1:57128 Who Are you?
+
+@2017-10-08 06:44:27 INFO  LibServer:94 - Input from 127.0.0.1:57128 librarian
+@2017-10-08 06:44:27 INFO  LibServer:102 - Output to 127.0.0.1:57128 Please Input The Password:
+
+@2017-10-08 06:44:33 INFO  LibServer:94 - Input from 127.0.0.1:57128 admin
+@2017-10-08 06:44:33 INFO  LibServer:102 - Output to 127.0.0.1:57128 What can I do for you?
+
+@2017-10-08 06:44:35 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:35 INFO  LibServer:102 - Output to 127.0.0.1:57128 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:44:36 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:36 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:37 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:37 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:37 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:37 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:37 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:37 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:38 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:38 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:38 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:38 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:38 INFO  LibServer:94 - Input from 127.0.0.1:57128 
+@2017-10-08 06:44:38 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:38 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:38 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:38 INFO  LibServer:94 - Input from 127.0.0.1:57128 a
+@2017-10-08 06:44:38 INFO  LibServer:102 - Output to 127.0.0.1:57128 Menu: 
+
+@2017-10-08 06:44:43 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:53:36 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57233] Client Socket: [57233 ]
+
+@2017-10-08 06:53:36 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:53:36 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57233
+@2017-10-08 06:53:36 INFO  LibClient:32 - 57233 : Connected to server: /127.0.0.1
+@2017-10-08 06:53:36 INFO  LibClient:33 - 57233 : Connected to portid: 57233
+@2017-10-08 06:53:39 INFO  LibServer:94 - Input from 127.0.0.1:57233 h
+@2017-10-08 06:53:39 INFO  LibServer:110 - Output to 127.0.0.1:57233 Who Are you?
+
+@2017-10-08 06:53:42 INFO  LibServer:94 - Input from 127.0.0.1:57233 librarian
+@2017-10-08 06:53:42 INFO  LibServer:102 - Output to 127.0.0.1:57233 Please Input The Password:
+
+@2017-10-08 06:53:44 INFO  LibServer:94 - Input from 127.0.0.1:57233 admin
+@2017-10-08 06:53:44 INFO  LibServer:102 - Output to 127.0.0.1:57233 What can I do for you?
+
+@2017-10-08 06:53:46 INFO  LibServer:94 - Input from 127.0.0.1:57233 menu
+@2017-10-08 06:53:46 INFO  LibServer:102 - Output to 127.0.0.1:57233 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:53:48 INFO  LibServer:94 - Input from 127.0.0.1:57233 menu
+@2017-10-08 06:53:48 INFO  LibServer:102 - Output to 127.0.0.1:57233 Menu: 
+
+@2017-10-08 06:54:23 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:54:25 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57241] Client Socket: [57241 ]
+
+@2017-10-08 06:54:25 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:54:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57241
+@2017-10-08 06:54:25 INFO  LibClient:32 - 57241 : Connected to server: /127.0.0.1
+@2017-10-08 06:54:25 INFO  LibClient:33 - 57241 : Connected to portid: 57241
+@2017-10-08 06:54:27 INFO  LibServer:94 - Input from 127.0.0.1:57241 he
+@2017-10-08 06:54:27 INFO  LibServer:110 - Output to 127.0.0.1:57241 Who Are you?
+
+@2017-10-08 06:54:29 INFO  LibServer:94 - Input from 127.0.0.1:57241 librarian
+@2017-10-08 06:54:29 INFO  LibServer:102 - Output to 127.0.0.1:57241 Please Input The Password:
+
+@2017-10-08 06:54:31 INFO  LibServer:94 - Input from 127.0.0.1:57241 admin
+@2017-10-08 06:54:31 INFO  LibServer:102 - Output to 127.0.0.1:57241 What can I do for you?
+
+@2017-10-08 06:54:34 INFO  LibServer:94 - Input from 127.0.0.1:57241 menu
+@2017-10-08 06:54:34 INFO  LibServer:102 - Output to 127.0.0.1:57241 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:54:36 INFO  LibServer:94 - Input from 127.0.0.1:57241 a
+@2017-10-08 06:54:36 INFO  LibServer:102 - Output to 127.0.0.1:57241 Menu: 
+
+@2017-10-08 06:58:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:58:53 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57291] Client Socket: [57291 ]
+
+@2017-10-08 06:58:53 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:58:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57291
+@2017-10-08 06:58:53 INFO  LibClient:32 - 57291 : Connected to server: /127.0.0.1
+@2017-10-08 06:58:53 INFO  LibClient:33 - 57291 : Connected to portid: 57291
+@2017-10-08 06:58:56 INFO  LibServer:94 - Input from 127.0.0.1:57291 hi
+@2017-10-08 06:58:56 INFO  LibServer:110 - Output to 127.0.0.1:57291 Who Are you?
+
+@2017-10-08 06:58:58 INFO  LibServer:94 - Input from 127.0.0.1:57291 librarian
+@2017-10-08 06:58:58 INFO  LibServer:102 - Output to 127.0.0.1:57291 Please Input The Password:
+
+@2017-10-08 06:59:00 INFO  LibServer:94 - Input from 127.0.0.1:57291 admin
+@2017-10-08 06:59:00 INFO  LibServer:102 - Output to 127.0.0.1:57291 What can I do for you?
+
+@2017-10-08 06:59:03 INFO  LibServer:94 - Input from 127.0.0.1:57291 menu
+@2017-10-08 06:59:03 INFO  LibServer:102 - Output to 127.0.0.1:57291 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:59:42 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 06:59:44 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57301] Client Socket: [57301 ]
+
+@2017-10-08 06:59:44 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 06:59:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57301
+@2017-10-08 06:59:44 INFO  LibClient:32 - 57301 : Connected to server: /127.0.0.1
+@2017-10-08 06:59:44 INFO  LibClient:33 - 57301 : Connected to portid: 57301
+@2017-10-08 06:59:46 INFO  LibServer:94 - Input from 127.0.0.1:57301 a
+@2017-10-08 06:59:46 INFO  LibServer:110 - Output to 127.0.0.1:57301 Who Are you?
+
+@2017-10-08 06:59:48 INFO  LibServer:94 - Input from 127.0.0.1:57301 librarian
+@2017-10-08 06:59:48 INFO  LibServer:102 - Output to 127.0.0.1:57301 Please Input The Password:
+
+@2017-10-08 06:59:50 INFO  LibServer:94 - Input from 127.0.0.1:57301 admin
+@2017-10-08 06:59:50 INFO  LibServer:102 - Output to 127.0.0.1:57301 What can I do for you?
+
+@2017-10-08 06:59:52 INFO  LibServer:94 - Input from 127.0.0.1:57301 menu
+@2017-10-08 06:59:52 INFO  LibServer:102 - Output to 127.0.0.1:57301 Wrong Password! Please Input The Password:
+
+@2017-10-08 06:59:53 INFO  LibServer:94 - Input from 127.0.0.1:57301 
+@2017-10-08 06:59:53 INFO  LibServer:102 - Output to 127.0.0.1:57301 Menu: 
+
+@2017-10-08 07:01:19 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57315] Client Socket: [57315 ]
+
+@2017-10-08 07:01:19 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:01:19 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57315
+@2017-10-08 07:01:27 INFO  LibServer:94 - Input from 127.0.0.1:57315 hi
+@2017-10-08 07:01:27 INFO  LibServer:110 - Output to 127.0.0.1:57315 Who Are you?
+
+@2017-10-08 07:01:30 INFO  LibServer:94 - Input from 127.0.0.1:57315 clerk
+@2017-10-08 07:01:30 INFO  LibServer:102 - Output to 127.0.0.1:57315 
+
+@2017-10-08 07:01:32 INFO  LibServer:94 - Input from 127.0.0.1:57315 
+@2017-10-08 07:01:32 INFO  LibServer:102 - Output to 127.0.0.1:57315 Who Are you?
+
+@2017-10-08 07:01:35 INFO  LibServer:94 - Input from 127.0.0.1:57315 librarian
+@2017-10-08 07:01:35 INFO  LibServer:102 - Output to 127.0.0.1:57315 Please Input The Password:
+
+@2017-10-08 07:01:37 INFO  LibServer:94 - Input from 127.0.0.1:57315 admin
+@2017-10-08 07:01:37 INFO  LibServer:102 - Output to 127.0.0.1:57315 What can I do for you?
+
+@2017-10-08 07:01:39 INFO  LibServer:94 - Input from 127.0.0.1:57315 menu
+@2017-10-08 07:01:39 INFO  LibServer:102 - Output to 127.0.0.1:57315 Wrong Password! Please Input The Password:
+
+@2017-10-08 07:01:50 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:02:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:02:19 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:57325] Client Socket: [57325 ]
+
+@2017-10-08 07:02:19 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:02:19 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57325
+@2017-10-08 07:02:19 INFO  LibClient:32 - 57325 : Connected to server: /127.0.0.1
+@2017-10-08 07:02:19 INFO  LibClient:33 - 57325 : Connected to portid: 57325
+@2017-10-08 07:02:21 INFO  LibServer:94 - Input from 127.0.0.1:57325 hi
+@2017-10-08 07:02:21 INFO  LibServer:110 - Output to 127.0.0.1:57325 Who Are you?
+
+@2017-10-08 07:02:25 INFO  LibServer:94 - Input from 127.0.0.1:57325 librarian
+@2017-10-08 07:02:25 INFO  LibServer:102 - Output to 127.0.0.1:57325 Please Input The Password:
+
+@2017-10-08 07:02:27 INFO  LibServer:94 - Input from 127.0.0.1:57325 admin
+@2017-10-08 07:02:27 INFO  LibServer:102 - Output to 127.0.0.1:57325 What can I do for you?
+
+@2017-10-08 07:02:29 INFO  LibServer:94 - Input from 127.0.0.1:57325 menu
+@2017-10-08 07:02:29 INFO  LibServer:102 - Output to 127.0.0.1:57325 Wrong Password! Please Input The Password:
+
+@2017-10-08 07:02:32 INFO  LibServer:94 - Input from 127.0.0.1:57325 
+@2017-10-08 07:02:32 INFO  LibServer:102 - Output to 127.0.0.1:57325 Menu: 
+
+@2017-10-08 07:02:34 INFO  LibServer:94 - Input from 127.0.0.1:57325 a
+@2017-10-08 07:02:34 INFO  LibServer:102 - Output to 127.0.0.1:57325 Menu: 
+
+@2017-10-08 07:04:04 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:12:23 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:62254] Client Socket: [62254 ]
+
+@2017-10-08 07:12:23 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:12:23 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62254
+@2017-10-08 07:12:23 INFO  LibClient:32 - 62254 : Connected to server: /127.0.0.1
+@2017-10-08 07:12:23 INFO  LibClient:33 - 62254 : Connected to portid: 62254
+@2017-10-08 07:12:27 INFO  LibServer:94 - Input from 127.0.0.1:62254 librarian
+@2017-10-08 07:12:27 INFO  LibServer:110 - Output to 127.0.0.1:62254 Who Are you?
+
+@2017-10-08 07:12:31 INFO  LibServer:94 - Input from 127.0.0.1:62254 librarian
+@2017-10-08 07:12:31 INFO  LibServer:102 - Output to 127.0.0.1:62254 Please Input The Password:
+
+@2017-10-08 07:15:33 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:15:35 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:62285] Client Socket: [62285 ]
+
+@2017-10-08 07:15:35 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:15:35 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62285
+@2017-10-08 07:15:35 INFO  LibClient:32 - 62285 : Connected to server: /127.0.0.1
+@2017-10-08 07:15:35 INFO  LibClient:33 - 62285 : Connected to portid: 62285
+@2017-10-08 07:15:37 INFO  LibServer:94 - Input from 127.0.0.1:62285 hi
+@2017-10-08 07:15:37 INFO  LibServer:110 - Output to 127.0.0.1:62285 Who Are you?
+
+@2017-10-08 07:15:40 INFO  LibServer:94 - Input from 127.0.0.1:62285 librarian
+@2017-10-08 07:15:40 INFO  LibServer:102 - Output to 127.0.0.1:62285 Please Input The Password:
+
+@2017-10-08 07:15:42 INFO  LibServer:94 - Input from 127.0.0.1:62285 admin
+@2017-10-08 07:15:42 INFO  LibServer:102 - Output to 127.0.0.1:62285 What can I do for you?
+
+@2017-10-08 07:15:44 INFO  LibServer:94 - Input from 127.0.0.1:62285 
+@2017-10-08 07:15:44 INFO  LibServer:102 - Output to 127.0.0.1:62285 Wrong Password! Please Input The Password:
+
+@2017-10-08 07:21:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:21:42 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:62347] Client Socket: [62347 ]
+
+@2017-10-08 07:21:42 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:21:42 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62347
+@2017-10-08 07:21:42 INFO  LibClient:32 - 62347 : Connected to server: /127.0.0.1
+@2017-10-08 07:21:42 INFO  LibClient:33 - 62347 : Connected to portid: 62347
+@2017-10-08 07:21:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 07:21:59 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 07:21:59 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-08 07:21:59 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:22:01 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:62351] Client Socket: [62351 ]
+
+@2017-10-08 07:22:01 INFO  LibClient:32 - 62351 : Connected to server: /127.0.0.1
+@2017-10-08 07:22:01 INFO  LibClient:33 - 62351 : Connected to portid: 62351
+@2017-10-08 07:22:01 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 07:22:01 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62351
+@2017-10-08 07:22:03 INFO  LibServer:94 - Input from 127.0.0.1:62351 hi
+@2017-10-08 07:22:03 INFO  LibServer:110 - Output to 127.0.0.1:62351 Who are you?
+
+@2017-10-08 07:22:06 INFO  LibServer:94 - Input from 127.0.0.1:62351 librarian
+@2017-10-08 07:22:06 INFO  LibServer:102 - Output to 127.0.0.1:62351 Please Input the password
+
+@2017-10-08 07:22:08 INFO  LibServer:94 - Input from 127.0.0.1:62351 admin
+@2017-10-08 07:22:08 INFO  LibServer:102 - Output to 127.0.0.1:62351 Menu: <No options yet>
+
+@2017-10-08 07:22:13 INFO  LibServer:94 - Input from 127.0.0.1:62351 a
+@2017-10-08 07:22:13 INFO  LibServer:102 - Output to 127.0.0.1:62351 Menu: <No options yet>
+
+@2017-10-08 07:22:15 INFO  LibServer:94 - Input from 127.0.0.1:62351 log out
+@2017-10-08 07:22:15 INFO  LibServer:102 - Output to 127.0.0.1:62351 Successfully Logged Out!
+
+@2017-10-08 07:22:18 INFO  LibServer:94 - Input from 127.0.0.1:62351 hi
+@2017-10-08 07:22:18 INFO  LibServer:102 - Output to 127.0.0.1:62351 Who are you?
+
+@2017-10-08 07:22:23 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@
