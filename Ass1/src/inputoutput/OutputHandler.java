@@ -1,5 +1,6 @@
 package inputoutput;
 
+import collections.TitleTable;
 import collections.UserTable;
 import res.Strings;
 import utilities.Config;
@@ -10,6 +11,7 @@ public class OutputHandler {
     public static final int LIBRARIANLOGIN = 2;
     public static final int LIBRARIAN = 3;
     public static final int ADDUSER = 4;
+    public static final int ADDTITLE = 5;
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
@@ -37,6 +39,25 @@ public class OutputHandler {
 				o.setOutput("User added! UserId = " + result.toString());
 			} else {
 				o.setOutput(Strings.USEREXISTS);
+			}
+			o.setState(LIBRARIAN);
+		}
+		return o;
+	}
+	
+	public Output addTitle(String title) {
+		Output o = new Output("",0);
+		String[] str = title.split(",");
+		Object result = -1;
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDADDTITLE);
+			o.setState(ADDTITLE);
+		} else {
+			result = TitleTable.getInstance().addTitle(str[0], str[1]);
+			if (!result.equals(-1)) {
+				o.setOutput("Title added! TitleId = " + result.toString());
+			} else {
+				o.setOutput(Strings.TITLEEXISTS);
 			}
 			o.setState(LIBRARIAN);
 		}

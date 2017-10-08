@@ -556,4 +556,1322 @@
 @2017-10-08 08:26:36 INFO  String:44 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
 @2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 User added! UserId = 6
 
+@2017-10-08 08:59:49 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:59:49 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:59:49 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:59:50 INFO  LibClient:43 - Class: LibClient   : Exception thrown : Connection refused: connect 
+
+@2017-10-08 08:59:50 INFO  LibClient:32 - 58777 : Connected to server: /127.0.0.1
+@2017-10-08 08:59:50 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58777] Client Socket: [58777 ]
+
+@2017-10-08 08:59:50 INFO  LibClient:33 - 58777 : Connected to portid: 58777
+@2017-10-08 08:59:50 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:59:50 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58777
+@2017-10-08 08:59:50 INFO  LibServer:94 - Input from 127.0.0.1:58777 hi
+@2017-10-08 08:59:50 INFO  LibServer:110 - Output to 127.0.0.1:58777 Your input should be titlename,isbn
+
+@2017-10-08 08:59:50 INFO  LibServer:94 - Input from 127.0.0.1:58777 librarian
+@2017-10-08 08:59:50 INFO  LibServer:102 - Output to 127.0.0.1:58777 Your input should be titlename,isbn
+
+@2017-10-08 08:59:50 INFO  LibServer:94 - Input from 127.0.0.1:58777 admin
+@2017-10-08 08:59:50 INFO  LibServer:102 - Output to 127.0.0.1:58777 Your input should be titlename,isbn
+
+@2017-10-08 08:59:50 INFO  LibServer:94 - Input from 127.0.0.1:58777 Add User
+@2017-10-08 08:59:50 INFO  LibServer:102 - Output to 127.0.0.1:58777 Your input should be titlename,isbn
+
+@2017-10-08 08:59:50 INFO  LibServer:94 - Input from 127.0.0.1:58777 Zhibo@carleton.ca,Zhibo
+@2017-10-08 08:59:50 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@3830f1c0, models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3]
+@2017-10-08 08:59:50 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 08:59:50 INFO  LibServer:102 - Output to 127.0.0.1:58777 Title added! TitleId = 6
+
+@2017-10-08 08:59:53 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:59:53 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:59:53 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:59:54 INFO  LibClient:43 - Class: LibClient   : Exception thrown : Connection refused: connect 
+
+@2017-10-08 08:59:54 INFO  LibClient:32 - 58781 : Connected to server: /127.0.0.1
+@2017-10-08 08:59:54 INFO  LibClient:33 - 58781 : Connected to portid: 58781
+@2017-10-08 08:59:54 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58781] Client Socket: [58781 ]
+
+@2017-10-08 08:59:54 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:59:54 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58781
+@2017-10-08 09:00:43 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:00:43 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:43 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:00:43 INFO  LibClient:32 - 58794 : Connected to server: /127.0.0.1
+@2017-10-08 09:00:43 INFO  LibClient:33 - 58794 : Connected to portid: 58794
+@2017-10-08 09:00:43 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58794] Client Socket: [58794 ]
+
+@2017-10-08 09:00:43 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:43 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58794
+@2017-10-08 09:00:43 INFO  LibClient:32 - 58795 : Connected to server: /127.0.0.1
+@2017-10-08 09:00:43 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58795] Client Socket: [58795 ]
+
+@2017-10-08 09:00:43 INFO  LibClient:33 - 58795 : Connected to portid: 58795
+@2017-10-08 09:00:43 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:43 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58795
+@2017-10-08 09:00:43 INFO  LibServer:94 - Input from 127.0.0.1:58795 hi
+@2017-10-08 09:00:43 INFO  LibServer:110 - Output to 127.0.0.1:58795 Your input should be titlename,isbn
+
+@2017-10-08 09:00:43 INFO  LibServer:94 - Input from 127.0.0.1:58795 librarian
+@2017-10-08 09:00:43 INFO  LibServer:102 - Output to 127.0.0.1:58795 Your input should be titlename,isbn
+
+@2017-10-08 09:00:43 INFO  LibServer:94 - Input from 127.0.0.1:58795 admin
+@2017-10-08 09:00:43 INFO  LibServer:102 - Output to 127.0.0.1:58795 Your input should be titlename,isbn
+
+@2017-10-08 09:00:43 INFO  LibServer:94 - Input from 127.0.0.1:58795 Add User
+@2017-10-08 09:00:43 INFO  LibServer:102 - Output to 127.0.0.1:58795 Your input should be titlename,isbn
+
+@2017-10-08 09:00:43 INFO  LibServer:94 - Input from 127.0.0.1:58795 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:00:43 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:00:43 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:00:43 INFO  LibServer:102 - Output to 127.0.0.1:58795 Title added! TitleId = 6
+
+@2017-10-08 09:00:47 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:00:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:47 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:00:47 INFO  LibClient:32 - 58799 : Connected to server: /127.0.0.1
+@2017-10-08 09:00:47 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58799] Client Socket: [58799 ]
+
+@2017-10-08 09:00:47 INFO  LibClient:33 - 58799 : Connected to portid: 58799
+@2017-10-08 09:00:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:47 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58799
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58799 hi
+@2017-10-08 09:00:47 INFO  LibServer:110 - Output to 127.0.0.1:58799 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58799 librarian
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58799 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58799 admin
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58799 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58799 Add Title
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58799 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58799 By the grace of God
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58799 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibClient:32 - 58800 : Connected to server: /127.0.0.1
+@2017-10-08 09:00:47 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58800] Client Socket: [58800 ]
+
+@2017-10-08 09:00:47 INFO  LibClient:33 - 58800 : Connected to portid: 58800
+@2017-10-08 09:00:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:00:47 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58800
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58800 hi
+@2017-10-08 09:00:47 INFO  LibServer:110 - Output to 127.0.0.1:58800 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58800 librarian
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58800 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58800 admin
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58800 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58800 Add User
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58800 Your input should be titlename,isbn
+
+@2017-10-08 09:00:47 INFO  LibServer:94 - Input from 127.0.0.1:58800 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:00:47 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@200a570f, models.Title@16b3fc9e, models.Title@e2d56bf, models.Title@244038d0, models.Title@5680a178]
+@2017-10-08 09:00:47 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:00:47 INFO  LibServer:102 - Output to 127.0.0.1:58800 Title added! TitleId = 6
+
+@2017-10-08 09:10:27 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:27 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:27 INFO  LibClient:32 - 58939 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:27 INFO  LibClient:33 - 58939 : Connected to portid: 58939
+@2017-10-08 09:10:27 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58939] Client Socket: [58939 ]
+
+@2017-10-08 09:10:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58939
+@2017-10-08 09:10:27 INFO  LibClient:32 - 58940 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:27 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58940] Client Socket: [58940 ]
+
+@2017-10-08 09:10:27 INFO  LibClient:33 - 58940 : Connected to portid: 58940
+@2017-10-08 09:10:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:27 INFO  LibServer:94 - Input from 127.0.0.1:58940 hi
+@2017-10-08 09:10:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58940
+@2017-10-08 09:10:27 INFO  LibServer:110 - Output to 127.0.0.1:58940 Your input should be titlename,isbn
+
+@2017-10-08 09:10:27 INFO  LibServer:94 - Input from 127.0.0.1:58940 librarian
+@2017-10-08 09:10:27 INFO  LibServer:102 - Output to 127.0.0.1:58940 Your input should be titlename,isbn
+
+@2017-10-08 09:10:27 INFO  LibServer:94 - Input from 127.0.0.1:58940 admin
+@2017-10-08 09:10:27 INFO  LibServer:102 - Output to 127.0.0.1:58940 Your input should be titlename,isbn
+
+@2017-10-08 09:10:27 INFO  LibServer:94 - Input from 127.0.0.1:58940 Add User
+@2017-10-08 09:10:27 INFO  LibServer:102 - Output to 127.0.0.1:58940 Your input should be titlename,isbn
+
+@2017-10-08 09:10:27 INFO  LibServer:94 - Input from 127.0.0.1:58940 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:10:27 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:10:27 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:10:27 INFO  LibServer:102 - Output to 127.0.0.1:58940 Title added! TitleId = 6
+
+@2017-10-08 09:10:30 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:30 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:30 INFO  LibClient:32 - 58943 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:30 INFO  LibClient:33 - 58943 : Connected to portid: 58943
+@2017-10-08 09:10:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58943] Client Socket: [58943 ]
+
+@2017-10-08 09:10:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58943
+@2017-10-08 09:10:30 INFO  LibClient:32 - 58944 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:30 INFO  LibClient:33 - 58944 : Connected to portid: 58944
+@2017-10-08 09:10:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58944] Client Socket: [58944 ]
+
+@2017-10-08 09:10:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58944
+@2017-10-08 09:10:31 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:31 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:31 INFO  LibClient:32 - 58947 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:31 INFO  LibClient:33 - 58947 : Connected to portid: 58947
+@2017-10-08 09:10:31 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58947] Client Socket: [58947 ]
+
+@2017-10-08 09:10:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:31 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58947
+@2017-10-08 09:10:31 INFO  LibClient:32 - 58948 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:31 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58948] Client Socket: [58948 ]
+
+@2017-10-08 09:10:31 INFO  LibClient:33 - 58948 : Connected to portid: 58948
+@2017-10-08 09:10:31 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58948
+@2017-10-08 09:10:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:31 INFO  LibServer:94 - Input from 127.0.0.1:58948 hi
+@2017-10-08 09:10:31 INFO  LibServer:110 - Output to 127.0.0.1:58948 Your input should be titlename,isbn
+
+@2017-10-08 09:10:31 INFO  LibServer:94 - Input from 127.0.0.1:58948 librarian
+@2017-10-08 09:10:31 INFO  LibServer:102 - Output to 127.0.0.1:58948 Your input should be titlename,isbn
+
+@2017-10-08 09:10:31 INFO  LibServer:94 - Input from 127.0.0.1:58948 admin
+@2017-10-08 09:10:31 INFO  LibServer:102 - Output to 127.0.0.1:58948 Your input should be titlename,isbn
+
+@2017-10-08 09:10:31 INFO  LibServer:94 - Input from 127.0.0.1:58948 Add User
+@2017-10-08 09:10:31 INFO  LibServer:102 - Output to 127.0.0.1:58948 Your input should be titlename,isbn
+
+@2017-10-08 09:10:31 INFO  LibServer:94 - Input from 127.0.0.1:58948 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:10:31 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:10:31 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:10:31 INFO  LibServer:102 - Output to 127.0.0.1:58948 Title added! TitleId = 6
+
+@2017-10-08 09:10:32 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:32 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:32 INFO  LibClient:32 - 58952 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:32 INFO  LibClient:33 - 58952 : Connected to portid: 58952
+@2017-10-08 09:10:32 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58952] Client Socket: [58952 ]
+
+@2017-10-08 09:10:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:32 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58952
+@2017-10-08 09:10:32 INFO  LibClient:32 - 58953 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:32 INFO  LibClient:33 - 58953 : Connected to portid: 58953
+@2017-10-08 09:10:32 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58953] Client Socket: [58953 ]
+
+@2017-10-08 09:10:34 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:34 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:34 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:34 INFO  LibClient:32 - 58957 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:34 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58957] Client Socket: [58957 ]
+
+@2017-10-08 09:10:34 INFO  LibClient:33 - 58957 : Connected to portid: 58957
+@2017-10-08 09:10:34 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:34 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58957
+@2017-10-08 09:10:34 INFO  LibServer:94 - Input from 127.0.0.1:58957 hi
+@2017-10-08 09:10:34 INFO  LibServer:110 - Output to 127.0.0.1:58957 Your input should be titlename,isbn
+
+@2017-10-08 09:10:34 INFO  LibServer:94 - Input from 127.0.0.1:58957 librarian
+@2017-10-08 09:10:34 INFO  LibServer:102 - Output to 127.0.0.1:58957 Your input should be titlename,isbn
+
+@2017-10-08 09:10:34 INFO  LibServer:94 - Input from 127.0.0.1:58957 admin
+@2017-10-08 09:10:34 INFO  LibServer:102 - Output to 127.0.0.1:58957 Your input should be titlename,isbn
+
+@2017-10-08 09:10:34 INFO  LibServer:94 - Input from 127.0.0.1:58957 Add Title
+@2017-10-08 09:10:34 INFO  LibServer:102 - Output to 127.0.0.1:58957 Your input should be titlename,isbn
+
+@2017-10-08 09:10:34 INFO  LibServer:94 - Input from 127.0.0.1:58957 9781442668584,By the grace of God
+@2017-10-08 09:10:34 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:10:34 INFO  String:44 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:10:34 INFO  LibServer:102 - Output to 127.0.0.1:58957 The title entered already exists!
+
+@2017-10-08 09:10:34 INFO  LibClient:32 - 58958 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:34 INFO  LibClient:33 - 58958 : Connected to portid: 58958
+@2017-10-08 09:10:34 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58958] Client Socket: [58958 ]
+
+@2017-10-08 09:10:34 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:54 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:10:54 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:54 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:10:54 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58963] Client Socket: [58963 ]
+
+@2017-10-08 09:10:54 INFO  LibClient:32 - 58963 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:54 INFO  LibClient:33 - 58963 : Connected to portid: 58963
+@2017-10-08 09:10:54 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:54 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58963
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 hi
+@2017-10-08 09:10:54 INFO  LibServer:110 - Output to 127.0.0.1:58963 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 librarian
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 admin
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 Add Title
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 9781442668584,By the grace of God
+@2017-10-08 09:10:54 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:10:54 INFO  String:44 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 The title entered already exists!
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 Add Title
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58963 9999999999999,Mike's fantastic book
+@2017-10-08 09:10:54 INFO  String:42 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58963 Title added! TitleId = 6
+
+@2017-10-08 09:10:54 INFO  LibClient:32 - 58964 : Connected to server: /127.0.0.1
+@2017-10-08 09:10:54 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58964] Client Socket: [58964 ]
+
+@2017-10-08 09:10:54 INFO  LibClient:33 - 58964 : Connected to portid: 58964
+@2017-10-08 09:10:54 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:10:54 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58964
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58964 hi
+@2017-10-08 09:10:54 INFO  LibServer:110 - Output to 127.0.0.1:58964 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58964 librarian
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58964 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58964 admin
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58964 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58964 Add User
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58964 Your input should be titlename,isbn
+
+@2017-10-08 09:10:54 INFO  LibServer:94 - Input from 127.0.0.1:58964 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:10:54 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:10:54 INFO  LibServer:102 - Output to 127.0.0.1:58964 Title added! TitleId = 7
+
+@2017-10-08 09:12:30 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:12:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:12:30 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:12:30 INFO  LibClient:32 - 58988 : Connected to server: /127.0.0.1
+@2017-10-08 09:12:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58988] Client Socket: [58988 ]
+
+@2017-10-08 09:12:30 INFO  LibClient:33 - 58988 : Connected to portid: 58988
+@2017-10-08 09:12:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:12:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58988
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 hi
+@2017-10-08 09:12:30 INFO  LibServer:110 - Output to 127.0.0.1:58988 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 librarian
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 admin
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 Add Title
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 9781442668584,By the grace of God
+@2017-10-08 09:12:30 INFO  String:24 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:12:30 INFO  String:44 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 The title entered already exists!
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 Add Title
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58988 9999999999999,Mike's fantastic book
+@2017-10-08 09:12:30 INFO  String:42 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58988 Title added! TitleId = 6
+
+@2017-10-08 09:12:30 INFO  LibClient:32 - 58989 : Connected to server: /127.0.0.1
+@2017-10-08 09:12:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:58989] Client Socket: [58989 ]
+
+@2017-10-08 09:12:30 INFO  LibClient:33 - 58989 : Connected to portid: 58989
+@2017-10-08 09:12:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:12:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__58989
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58989 hi
+@2017-10-08 09:12:30 INFO  LibServer:110 - Output to 127.0.0.1:58989 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58989 librarian
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58989 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58989 admin
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58989 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58989 Add User
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58989 Your input should be titlename,isbn
+
+@2017-10-08 09:12:30 INFO  LibServer:94 - Input from 127.0.0.1:58989 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:12:30 INFO  String:42 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:12:30 INFO  LibServer:102 - Output to 127.0.0.1:58989 Title added! TitleId = 7
+
+@2017-10-08 09:17:42 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:17:42 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:42 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:17:42 INFO  LibClient:32 - 59050 : Connected to server: /127.0.0.1
+@2017-10-08 09:17:42 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59050] Client Socket: [59050 ]
+
+@2017-10-08 09:17:42 INFO  LibClient:33 - 59050 : Connected to portid: 59050
+@2017-10-08 09:17:42 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:42 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59050
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 hi
+@2017-10-08 09:17:42 INFO  LibServer:110 - Output to 127.0.0.1:59050 Your input should be titlename,isbn
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 librarian
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 Your input should be titlename,isbn
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 admin
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 Your input should be titlename,isbn
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 Add Title
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 Your input should be titlename,isbn
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 9781442668584,By the grace of God
+@2017-10-08 09:17:42 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:17:42 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 The title entered already exists!
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 Add Title
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 Your input should be titlename,isbn
+
+@2017-10-08 09:17:42 INFO  LibServer:94 - Input from 127.0.0.1:59050 9999999999999,Mike's fantastic book
+@2017-10-08 09:17:42 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:17:42 INFO  LibServer:102 - Output to 127.0.0.1:59050 Title added! TitleId = 6
+
+@2017-10-08 09:17:42 INFO  LibClient:32 - 59051 : Connected to server: /127.0.0.1
+@2017-10-08 09:17:42 INFO  LibClient:33 - 59051 : Connected to portid: 59051
+@2017-10-08 09:17:42 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59051] Client Socket: [59051 ]
+
+@2017-10-08 09:17:42 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:42 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59051
+@2017-10-08 09:17:47 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:17:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:47 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:17:47 INFO  LibClient:32 - 59055 : Connected to server: /127.0.0.1
+@2017-10-08 09:17:47 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59055] Client Socket: [59055 ]
+
+@2017-10-08 09:17:47 INFO  LibClient:33 - 59055 : Connected to portid: 59055
+@2017-10-08 09:17:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:47 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59055
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 hi
+@2017-10-08 09:17:47 INFO  LibServer:110 - Output to 127.0.0.1:59055 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 librarian
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 admin
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 Add Title
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 9781442668584,By the grace of God
+@2017-10-08 09:17:47 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:17:47 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 The title entered already exists!
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 Add Title
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59055 9999999999999,Mike's fantastic book
+@2017-10-08 09:17:47 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59055 Title added! TitleId = 6
+
+@2017-10-08 09:17:47 INFO  LibClient:32 - 59056 : Connected to server: /127.0.0.1
+@2017-10-08 09:17:47 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59056] Client Socket: [59056 ]
+
+@2017-10-08 09:17:47 INFO  LibClient:33 - 59056 : Connected to portid: 59056
+@2017-10-08 09:17:47 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:17:47 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59056
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59056 hi
+@2017-10-08 09:17:47 INFO  LibServer:110 - Output to 127.0.0.1:59056 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59056 librarian
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59056 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59056 admin
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59056 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59056 Add User
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59056 Your input should be titlename,isbn
+
+@2017-10-08 09:17:47 INFO  LibServer:94 - Input from 127.0.0.1:59056 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:17:47 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:17:47 INFO  LibServer:102 - Output to 127.0.0.1:59056 Title added! TitleId = 7
+
+@2017-10-08 09:19:01 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:19:01 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:19:01 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:01 INFO  LibClient:32 - 59073 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:01 INFO  LibClient:33 - 59073 : Connected to portid: 59073
+@2017-10-08 09:19:01 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59073] Client Socket: [59073 ]
+
+@2017-10-08 09:19:01 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:01 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59073
+@2017-10-08 09:19:01 INFO  LibClient:32 - 59074 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:01 INFO  LibClient:33 - 59074 : Connected to portid: 59074
+@2017-10-08 09:19:01 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59074] Client Socket: [59074 ]
+
+@2017-10-08 09:19:05 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:19:05 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:19:05 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:05 INFO  LibClient:32 - 59077 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:05 INFO  LibClient:33 - 59077 : Connected to portid: 59077
+@2017-10-08 09:19:05 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59077] Client Socket: [59077 ]
+
+@2017-10-08 09:19:05 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59077
+@2017-10-08 09:19:05 INFO  LibClient:32 - 59078 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:05 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59078] Client Socket: [59078 ]
+
+@2017-10-08 09:19:05 INFO  LibClient:33 - 59078 : Connected to portid: 59078
+@2017-10-08 09:19:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59078
+@2017-10-08 09:19:05 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:05 INFO  LibServer:94 - Input from 127.0.0.1:59078 hi
+@2017-10-08 09:19:05 INFO  LibServer:110 - Output to 127.0.0.1:59078 Your input should be titlename,isbn
+
+@2017-10-08 09:19:05 INFO  LibServer:94 - Input from 127.0.0.1:59078 librarian
+@2017-10-08 09:19:05 INFO  LibServer:102 - Output to 127.0.0.1:59078 Your input should be titlename,isbn
+
+@2017-10-08 09:19:05 INFO  LibServer:94 - Input from 127.0.0.1:59078 admin
+@2017-10-08 09:19:05 INFO  LibServer:102 - Output to 127.0.0.1:59078 Your input should be titlename,isbn
+
+@2017-10-08 09:19:05 INFO  LibServer:94 - Input from 127.0.0.1:59078 Add User
+@2017-10-08 09:19:05 INFO  LibServer:102 - Output to 127.0.0.1:59078 Your input should be titlename,isbn
+
+@2017-10-08 09:19:05 INFO  LibServer:94 - Input from 127.0.0.1:59078 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:19:05 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:19:05 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:19:05 INFO  LibServer:102 - Output to 127.0.0.1:59078 Title added! TitleId = 6
+
+@2017-10-08 09:19:06 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:19:06 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:19:06 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:06 INFO  LibClient:32 - 59081 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:06 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59081] Client Socket: [59081 ]
+
+@2017-10-08 09:19:06 INFO  LibClient:33 - 59081 : Connected to portid: 59081
+@2017-10-08 09:19:06 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:06 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59081
+@2017-10-08 09:19:06 INFO  LibClient:32 - 59082 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:06 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59082] Client Socket: [59082 ]
+
+@2017-10-08 09:19:06 INFO  LibClient:33 - 59082 : Connected to portid: 59082
+@2017-10-08 09:19:06 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59082
+@2017-10-08 09:19:06 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:06 INFO  LibServer:94 - Input from 127.0.0.1:59082 hi
+@2017-10-08 09:19:06 INFO  LibServer:110 - Output to 127.0.0.1:59082 Your input should be titlename,isbn
+
+@2017-10-08 09:19:06 INFO  LibServer:94 - Input from 127.0.0.1:59082 librarian
+@2017-10-08 09:19:06 INFO  LibServer:102 - Output to 127.0.0.1:59082 Your input should be titlename,isbn
+
+@2017-10-08 09:19:06 INFO  LibServer:94 - Input from 127.0.0.1:59082 admin
+@2017-10-08 09:19:06 INFO  LibServer:102 - Output to 127.0.0.1:59082 Your input should be titlename,isbn
+
+@2017-10-08 09:19:06 INFO  LibServer:94 - Input from 127.0.0.1:59082 Add User
+@2017-10-08 09:19:06 INFO  LibServer:102 - Output to 127.0.0.1:59082 Your input should be titlename,isbn
+
+@2017-10-08 09:19:06 INFO  LibServer:94 - Input from 127.0.0.1:59082 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:19:06 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:19:06 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:19:06 INFO  LibServer:102 - Output to 127.0.0.1:59082 Title added! TitleId = 6
+
+@2017-10-08 09:19:07 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:19:07 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:07 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:19:07 INFO  LibClient:32 - 59085 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:07 INFO  LibClient:33 - 59085 : Connected to portid: 59085
+@2017-10-08 09:19:07 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59085] Client Socket: [59085 ]
+
+@2017-10-08 09:19:07 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:07 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59085
+@2017-10-08 09:19:07 INFO  LibClient:32 - 59086 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:07 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59086] Client Socket: [59086 ]
+
+@2017-10-08 09:19:07 INFO  LibClient:33 - 59086 : Connected to portid: 59086
+@2017-10-08 09:19:07 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:07 INFO  LibServer:94 - Input from 127.0.0.1:59086 hi
+@2017-10-08 09:19:07 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59086
+@2017-10-08 09:19:07 INFO  LibServer:110 - Output to 127.0.0.1:59086 Your input should be titlename,isbn
+
+@2017-10-08 09:19:07 INFO  LibServer:94 - Input from 127.0.0.1:59086 librarian
+@2017-10-08 09:19:07 INFO  LibServer:102 - Output to 127.0.0.1:59086 Your input should be titlename,isbn
+
+@2017-10-08 09:19:07 INFO  LibServer:94 - Input from 127.0.0.1:59086 admin
+@2017-10-08 09:19:07 INFO  LibServer:102 - Output to 127.0.0.1:59086 Your input should be titlename,isbn
+
+@2017-10-08 09:19:07 INFO  LibServer:94 - Input from 127.0.0.1:59086 Add User
+@2017-10-08 09:19:07 INFO  LibServer:102 - Output to 127.0.0.1:59086 Your input should be titlename,isbn
+
+@2017-10-08 09:19:07 INFO  LibServer:94 - Input from 127.0.0.1:59086 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:19:07 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@39ed3c8d, models.Title@71dac704, models.Title@123772c4, models.Title@2d363fb3, models.Title@7d6f77cc]
+@2017-10-08 09:19:07 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:19:07 INFO  LibServer:102 - Output to 127.0.0.1:59086 Title added! TitleId = 6
+
+@2017-10-08 09:19:09 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:19:09 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:19:09 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:09 INFO  LibClient:32 - 59090 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:09 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59090] Client Socket: [59090 ]
+
+@2017-10-08 09:19:09 INFO  LibClient:33 - 59090 : Connected to portid: 59090
+@2017-10-08 09:19:09 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:09 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59090
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 hi
+@2017-10-08 09:19:09 INFO  LibServer:110 - Output to 127.0.0.1:59090 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 librarian
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 admin
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 Add Title
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 9781442668584,By the grace of God
+@2017-10-08 09:19:09 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:19:09 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 The title entered already exists!
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 Add Title
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59090 9999999999999,Mike's fantastic book
+@2017-10-08 09:19:09 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59090 Title added! TitleId = 6
+
+@2017-10-08 09:19:09 INFO  LibClient:32 - 59091 : Connected to server: /127.0.0.1
+@2017-10-08 09:19:09 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59091] Client Socket: [59091 ]
+
+@2017-10-08 09:19:09 INFO  LibClient:33 - 59091 : Connected to portid: 59091
+@2017-10-08 09:19:09 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59091 hi
+@2017-10-08 09:19:09 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59091
+@2017-10-08 09:19:09 INFO  LibServer:110 - Output to 127.0.0.1:59091 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59091 librarian
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59091 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59091 admin
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59091 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59091 Add User
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59091 Your input should be titlename,isbn
+
+@2017-10-08 09:19:09 INFO  LibServer:94 - Input from 127.0.0.1:59091 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:19:09 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:19:09 INFO  LibServer:102 - Output to 127.0.0.1:59091 Title added! TitleId = 7
+
+@2017-10-08 09:21:00 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:21:00 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:21:00 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:21:00 INFO  LibClient:32 - 59113 : Connected to server: /127.0.0.1
+@2017-10-08 09:21:00 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59113] Client Socket: [59113 ]
+
+@2017-10-08 09:21:00 INFO  LibClient:33 - 59113 : Connected to portid: 59113
+@2017-10-08 09:21:00 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:21:00 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59113
+@2017-10-08 09:21:00 INFO  LibServer:94 - Input from 127.0.0.1:59113 hi
+@2017-10-08 09:21:00 INFO  LibServer:110 - Output to 127.0.0.1:59113 Who are you?
+
+@2017-10-08 09:21:00 INFO  LibServer:94 - Input from 127.0.0.1:59113 librarian
+@2017-10-08 09:21:00 INFO  LibServer:102 - Output to 127.0.0.1:59113 Please Input the password
+
+@2017-10-08 09:21:00 INFO  LibServer:94 - Input from 127.0.0.1:59113 admin
+@2017-10-08 09:21:00 INFO  LibServer:102 - Output to 127.0.0.1:59113 Menu: Add User
+
+@2017-10-08 09:21:00 INFO  LibServer:94 - Input from 127.0.0.1:59113 Add Title
+@2017-10-08 09:21:00 INFO  LibServer:102 - Output to 127.0.0.1:59113 Menu: Add User
+
+@2017-10-08 09:21:00 INFO  LibServer:94 - Input from 127.0.0.1:59113 9781442668584,By the grace of God
+@2017-10-08 09:21:00 INFO  LibServer:102 - Output to 127.0.0.1:59113 Menu: Add User
+
+@2017-10-08 09:21:00 INFO  LibClient:32 - 59114 : Connected to server: /127.0.0.1
+@2017-10-08 09:21:00 INFO  LibClient:33 - 59114 : Connected to portid: 59114
+@2017-10-08 09:21:00 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59114] Client Socket: [59114 ]
+
+@2017-10-08 09:21:00 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:21:35 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:21:35 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:21:35 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:21:35 INFO  LibClient:32 - 59123 : Connected to server: /127.0.0.1
+@2017-10-08 09:21:35 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59123] Client Socket: [59123 ]
+
+@2017-10-08 09:21:35 INFO  LibClient:33 - 59123 : Connected to portid: 59123
+@2017-10-08 09:21:35 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:21:35 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59123
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 hi
+@2017-10-08 09:21:35 INFO  LibServer:110 - Output to 127.0.0.1:59123 Who are you?
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 librarian
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 Please Input the password
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 admin
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 Menu: Add User
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 Add User
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 Enter the user name to add
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:21:35 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@7de26db8, models.User@1175e2db, models.User@36aa7bc2, models.User@76ccd017, models.User@182decdb]
+@2017-10-08 09:21:35 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 The user entered already exists!
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 Add User
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 Enter the user name to add
+
+@2017-10-08 09:21:35 INFO  LibServer:94 - Input from 127.0.0.1:59123 Mike@carleton.ca,Mike
+@2017-10-08 09:21:35 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:21:35 INFO  LibServer:102 - Output to 127.0.0.1:59123 User added! UserId = 6
+
+@2017-10-08 09:22:08 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:22:08 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:08 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:22:08 INFO  LibClient:32 - 59133 : Connected to server: /127.0.0.1
+@2017-10-08 09:22:08 INFO  LibClient:33 - 59133 : Connected to portid: 59133
+@2017-10-08 09:22:08 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59133] Client Socket: [59133 ]
+
+@2017-10-08 09:22:08 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:08 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59133
+@2017-10-08 09:22:11 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:22:11 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:11 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:22:11 INFO  LibClient:32 - 59137 : Connected to server: /127.0.0.1
+@2017-10-08 09:22:11 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59137] Client Socket: [59137 ]
+
+@2017-10-08 09:22:11 INFO  LibClient:33 - 59137 : Connected to portid: 59137
+@2017-10-08 09:22:11 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:11 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59137
+@2017-10-08 09:22:12 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:22:12 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:12 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:22:12 INFO  LibClient:32 - 59140 : Connected to server: /127.0.0.1
+@2017-10-08 09:22:12 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59140] Client Socket: [59140 ]
+
+@2017-10-08 09:22:12 INFO  LibClient:33 - 59140 : Connected to portid: 59140
+@2017-10-08 09:22:12 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:22:12 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59140
+@2017-10-08 09:22:12 INFO  LibServer:94 - Input from 127.0.0.1:59140 hi
+@2017-10-08 09:22:12 INFO  LibServer:110 - Output to 127.0.0.1:59140 Your input should be titlename,isbn
+
+@2017-10-08 09:22:12 INFO  LibServer:94 - Input from 127.0.0.1:59140 librarian
+@2017-10-08 09:22:12 INFO  LibServer:102 - Output to 127.0.0.1:59140 Your input should be titlename,isbn
+
+@2017-10-08 09:22:12 INFO  LibServer:94 - Input from 127.0.0.1:59140 admin
+@2017-10-08 09:22:12 INFO  LibServer:102 - Output to 127.0.0.1:59140 Your input should be titlename,isbn
+
+@2017-10-08 09:22:12 INFO  LibServer:94 - Input from 127.0.0.1:59140 Add User
+@2017-10-08 09:22:12 INFO  LibServer:102 - Output to 127.0.0.1:59140 Your input should be titlename,isbn
+
+@2017-10-08 09:22:12 INFO  LibServer:94 - Input from 127.0.0.1:59140 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:22:12 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:22:12 INFO  String:46 - Operation:Create New Title;Title Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 09:22:12 INFO  LibServer:102 - Output to 127.0.0.1:59140 Title added! TitleId = 6
+
+@2017-10-08 09:25:01 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:25:01 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:01 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:25:02 INFO  LibClient:32 - 59204 : Connected to server: /127.0.0.1
+@2017-10-08 09:25:02 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59204] Client Socket: [59204 ]
+
+@2017-10-08 09:25:02 INFO  LibClient:33 - 59204 : Connected to portid: 59204
+@2017-10-08 09:25:02 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:02 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59204
+@2017-10-08 09:25:03 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:25:03 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:03 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:25:03 INFO  LibClient:32 - 59211 : Connected to server: /127.0.0.1
+@2017-10-08 09:25:03 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59211] Client Socket: [59211 ]
+
+@2017-10-08 09:25:03 INFO  LibClient:33 - 59211 : Connected to portid: 59211
+@2017-10-08 09:25:03 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59211
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 hi
+@2017-10-08 09:25:03 INFO  LibServer:110 - Output to 127.0.0.1:59211 Who are you?
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 librarian
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 Please Input the password
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 admin
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 Menu: Add User
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 Add User
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 Enter the user name to add
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:25:03 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@7de26db8, models.User@1175e2db, models.User@36aa7bc2, models.User@76ccd017, models.User@182decdb]
+@2017-10-08 09:25:03 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 The user entered already exists!
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 Add User
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 Enter the user name to add
+
+@2017-10-08 09:25:03 INFO  LibServer:94 - Input from 127.0.0.1:59211 Mike@carleton.ca,Mike
+@2017-10-08 09:25:03 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:25:03 INFO  LibServer:102 - Output to 127.0.0.1:59211 User added! UserId = 6
+
+@2017-10-08 09:25:13 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:25:13 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:13 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:25:13 INFO  LibClient:32 - 59218 : Connected to server: /127.0.0.1
+@2017-10-08 09:25:13 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59218] Client Socket: [59218 ]
+
+@2017-10-08 09:25:13 INFO  LibClient:33 - 59218 : Connected to portid: 59218
+@2017-10-08 09:25:13 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59218 hi
+@2017-10-08 09:25:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59218
+@2017-10-08 09:25:13 INFO  LibServer:110 - Output to 127.0.0.1:59218 Who are you?
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59218 librarian
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59218 Please Input the password
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59218 admin
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59218 Menu: Add User
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59218 Add Title
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59218 Menu: Add User
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59218 9781442668584,By the grace of God
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59218 Menu: Add User
+
+@2017-10-08 09:25:13 INFO  LibClient:32 - 59219 : Connected to server: /127.0.0.1
+@2017-10-08 09:25:13 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59219] Client Socket: [59219 ]
+
+@2017-10-08 09:25:13 INFO  LibClient:33 - 59219 : Connected to portid: 59219
+@2017-10-08 09:25:13 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:25:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59219
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 hi
+@2017-10-08 09:25:13 INFO  LibServer:110 - Output to 127.0.0.1:59219 Who are you?
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 librarian
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 Please Input the password
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 admin
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 Menu: Add User
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 Add User
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 Enter the user name to add
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:25:13 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@200a570f, models.User@16b3fc9e, models.User@e2d56bf, models.User@244038d0, models.User@5680a178]
+@2017-10-08 09:25:13 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 The user entered already exists!
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 Add User
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 Enter the user name to add
+
+@2017-10-08 09:25:13 INFO  LibServer:94 - Input from 127.0.0.1:59219 Mike@carleton.ca,Mike
+@2017-10-08 09:25:13 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:25:13 INFO  LibServer:102 - Output to 127.0.0.1:59219 User added! UserId = 6
+
+@2017-10-08 09:27:44 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:27:44 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:27:44 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:27:44 INFO  LibClient:32 - 59249 : Connected to server: /127.0.0.1
+@2017-10-08 09:27:44 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59249] Client Socket: [59249 ]
+
+@2017-10-08 09:27:44 INFO  LibClient:33 - 59249 : Connected to portid: 59249
+@2017-10-08 09:27:44 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:27:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59249
+@2017-10-08 09:27:44 INFO  LibServer:94 - Input from 127.0.0.1:59249 hi
+@2017-10-08 09:27:44 INFO  LibServer:110 - Output to 127.0.0.1:59249 Who are you?
+
+@2017-10-08 09:27:44 INFO  LibServer:94 - Input from 127.0.0.1:59249 librarian
+@2017-10-08 09:27:44 INFO  LibServer:102 - Output to 127.0.0.1:59249 Please Input the password
+
+@2017-10-08 09:27:44 INFO  LibServer:94 - Input from 127.0.0.1:59249 admin
+@2017-10-08 09:27:44 INFO  LibServer:102 - Output to 127.0.0.1:59249 Menu: Add User
+
+@2017-10-08 09:27:44 INFO  LibServer:94 - Input from 127.0.0.1:59249 Add Title
+@2017-10-08 09:27:44 INFO  LibServer:102 - Output to 127.0.0.1:59249 Menu: Add User
+
+@2017-10-08 09:27:44 INFO  LibServer:94 - Input from 127.0.0.1:59249 9781442668584,By the grace of God
+@2017-10-08 09:27:44 INFO  LibServer:102 - Output to 127.0.0.1:59249 Menu: Add User
+
+@2017-10-08 09:29:10 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:10 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:10 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:10 INFO  LibClient:32 - 59266 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:10 INFO  LibClient:33 - 59266 : Connected to portid: 59266
+@2017-10-08 09:29:10 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59266] Client Socket: [59266 ]
+
+@2017-10-08 09:29:10 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:10 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59266
+@2017-10-08 09:29:15 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:15 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:15 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:15 INFO  LibClient:32 - 59271 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:15 INFO  LibClient:33 - 59271 : Connected to portid: 59271
+@2017-10-08 09:29:15 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59271] Client Socket: [59271 ]
+
+@2017-10-08 09:29:15 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:15 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59271
+@2017-10-08 09:29:17 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:17 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:17 INFO  LibClient:32 - 59274 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:17 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59274] Client Socket: [59274 ]
+
+@2017-10-08 09:29:17 INFO  LibClient:33 - 59274 : Connected to portid: 59274
+@2017-10-08 09:29:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59274
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 hi
+@2017-10-08 09:29:17 INFO  LibServer:110 - Output to 127.0.0.1:59274 Who are you?
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 librarian
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 Please Input the password
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 admin
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 Menu: Add User, Add Title
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 Add Title
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 Enter the title name to add
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 9781442668584,By the grace of God
+@2017-10-08 09:29:17 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:29:17 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 The title entered already exists!
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 Add Title
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 Enter the title name to add
+
+@2017-10-08 09:29:17 INFO  LibServer:94 - Input from 127.0.0.1:59274 9999999999999,Mike's fantastic book
+@2017-10-08 09:29:17 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:29:17 INFO  LibServer:102 - Output to 127.0.0.1:59274 Title added! TitleId = 6
+
+@2017-10-08 09:29:27 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:27 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:27 INFO  LibClient:32 - 59279 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:27 INFO  LibClient:33 - 59279 : Connected to portid: 59279
+@2017-10-08 09:29:27 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59279] Client Socket: [59279 ]
+
+@2017-10-08 09:29:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59279
+@2017-10-08 09:29:27 INFO  LibClient:32 - 59280 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:27 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59280] Client Socket: [59280 ]
+
+@2017-10-08 09:29:27 INFO  LibClient:33 - 59280 : Connected to portid: 59280
+@2017-10-08 09:29:27 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59280
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 hi
+@2017-10-08 09:29:27 INFO  LibServer:110 - Output to 127.0.0.1:59280 Who are you?
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 librarian
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 Please Input the password
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 admin
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 Menu: Add User, Add Title
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 Add User
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 Enter the user name to add
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:29:27 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@39ed3c8d, models.User@71dac704, models.User@123772c4, models.User@2d363fb3, models.User@7d6f77cc]
+@2017-10-08 09:29:27 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 The user entered already exists!
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 Add User
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 Enter the user name to add
+
+@2017-10-08 09:29:27 INFO  LibServer:94 - Input from 127.0.0.1:59280 Mike@carleton.ca,Mike
+@2017-10-08 09:29:27 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:29:27 INFO  LibServer:102 - Output to 127.0.0.1:59280 User added! UserId = 6
+
+@2017-10-08 09:29:30 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:30 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:30 INFO  LibClient:32 - 59283 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:30 INFO  LibClient:33 - 59283 : Connected to portid: 59283
+@2017-10-08 09:29:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59283] Client Socket: [59283 ]
+
+@2017-10-08 09:29:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59283
+@2017-10-08 09:29:30 INFO  LibClient:32 - 59284 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59284] Client Socket: [59284 ]
+
+@2017-10-08 09:29:30 INFO  LibClient:33 - 59284 : Connected to portid: 59284
+@2017-10-08 09:29:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 hi
+@2017-10-08 09:29:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59284
+@2017-10-08 09:29:30 INFO  LibServer:110 - Output to 127.0.0.1:59284 Who are you?
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 librarian
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 Please Input the password
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 admin
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 Menu: Add User, Add Title
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 Add User
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 Enter the user name to add
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:29:30 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@39ed3c8d, models.User@71dac704, models.User@123772c4, models.User@2d363fb3, models.User@7d6f77cc]
+@2017-10-08 09:29:30 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 The user entered already exists!
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 Add User
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 Enter the user name to add
+
+@2017-10-08 09:29:30 INFO  LibServer:94 - Input from 127.0.0.1:59284 Mike@carleton.ca,Mike
+@2017-10-08 09:29:30 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:29:30 INFO  LibServer:102 - Output to 127.0.0.1:59284 User added! UserId = 6
+
+@2017-10-08 09:29:31 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:29:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:31 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:29:31 INFO  LibClient:32 - 59287 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:31 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59287] Client Socket: [59287 ]
+
+@2017-10-08 09:29:31 INFO  LibClient:33 - 59287 : Connected to portid: 59287
+@2017-10-08 09:29:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:31 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59287
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 hi
+@2017-10-08 09:29:31 INFO  LibServer:110 - Output to 127.0.0.1:59287 Who are you?
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 librarian
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 Please Input the password
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 admin
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 Menu: Add User, Add Title
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 Add Title
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 Enter the title name to add
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 9781442668584,By the grace of God
+@2017-10-08 09:29:31 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:29:31 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 The title entered already exists!
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 Add Title
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 Enter the title name to add
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59287 9999999999999,Mike's fantastic book
+@2017-10-08 09:29:31 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59287 Title added! TitleId = 6
+
+@2017-10-08 09:29:31 INFO  LibClient:32 - 59288 : Connected to server: /127.0.0.1
+@2017-10-08 09:29:31 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59288] Client Socket: [59288 ]
+
+@2017-10-08 09:29:31 INFO  LibClient:33 - 59288 : Connected to portid: 59288
+@2017-10-08 09:29:31 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:29:31 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59288
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 hi
+@2017-10-08 09:29:31 INFO  LibServer:110 - Output to 127.0.0.1:59288 Who are you?
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 librarian
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 Please Input the password
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 admin
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 Menu: Add User, Add Title
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 Add User
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 Enter the user name to add
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:29:31 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@470e2030, models.User@3fb4f649, models.User@33833882, models.User@200a570f, models.User@16b3fc9e]
+@2017-10-08 09:29:31 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 The user entered already exists!
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 Add User
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 Enter the user name to add
+
+@2017-10-08 09:29:31 INFO  LibServer:94 - Input from 127.0.0.1:59288 Mike@carleton.ca,Mike
+@2017-10-08 09:29:31 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:29:31 INFO  LibServer:102 - Output to 127.0.0.1:59288 User added! UserId = 6
+
+@2017-10-08 09:30:15 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:30:15 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:15 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:30:15 INFO  LibClient:32 - 59848 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:15 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59848] Client Socket: [59848 ]
+
+@2017-10-08 09:30:15 INFO  LibClient:33 - 59848 : Connected to portid: 59848
+@2017-10-08 09:30:15 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:15 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59848
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 hi
+@2017-10-08 09:30:15 INFO  LibServer:110 - Output to 127.0.0.1:59848 Who are you?
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 librarian
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 Please Input the password
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 admin
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 Menu: Add User, Add Title
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 Add Title
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 Enter the title name to add
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 9781442668584,By the grace of God
+@2017-10-08 09:30:15 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:30:15 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 The title entered already exists!
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 Add Title
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 Enter the title name to add
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59848 9999999999999,Mike's fantastic book
+@2017-10-08 09:30:15 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59848 Title added! TitleId = 6
+
+@2017-10-08 09:30:15 INFO  LibClient:32 - 59849 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:15 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59849] Client Socket: [59849 ]
+
+@2017-10-08 09:30:15 INFO  LibClient:33 - 59849 : Connected to portid: 59849
+@2017-10-08 09:30:15 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:15 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59849
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 hi
+@2017-10-08 09:30:15 INFO  LibServer:110 - Output to 127.0.0.1:59849 Who are you?
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 librarian
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 Please Input the password
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 admin
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 Menu: Add User, Add Title
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 Add User
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 Enter the user name to add
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:30:15 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@470e2030, models.User@3fb4f649, models.User@33833882, models.User@200a570f, models.User@16b3fc9e]
+@2017-10-08 09:30:15 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 The user entered already exists!
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 Add User
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 Enter the user name to add
+
+@2017-10-08 09:30:15 INFO  LibServer:94 - Input from 127.0.0.1:59849 Mike@carleton.ca,Mike
+@2017-10-08 09:30:15 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:30:15 INFO  LibServer:102 - Output to 127.0.0.1:59849 User added! UserId = 6
+
+@2017-10-08 09:30:17 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:30:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:17 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:30:17 INFO  LibClient:32 - 59872 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:17 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59872] Client Socket: [59872 ]
+
+@2017-10-08 09:30:17 INFO  LibClient:33 - 59872 : Connected to portid: 59872
+@2017-10-08 09:30:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59872
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 hi
+@2017-10-08 09:30:17 INFO  LibServer:110 - Output to 127.0.0.1:59872 Who are you?
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 librarian
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 Please Input the password
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 admin
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 Menu: Add User, Add Title
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 Add Title
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 Enter the title name to add
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 9781442668584,By the grace of God
+@2017-10-08 09:30:17 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:30:17 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 The title entered already exists!
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 Add Title
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 Enter the title name to add
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59872 9999999999999,Mike's fantastic book
+@2017-10-08 09:30:17 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59872 Title added! TitleId = 6
+
+@2017-10-08 09:30:17 INFO  LibClient:32 - 59873 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:17 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59873] Client Socket: [59873 ]
+
+@2017-10-08 09:30:17 INFO  LibClient:33 - 59873 : Connected to portid: 59873
+@2017-10-08 09:30:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59873
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 hi
+@2017-10-08 09:30:17 INFO  LibServer:110 - Output to 127.0.0.1:59873 Who are you?
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 librarian
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 Please Input the password
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 admin
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 Menu: Add User, Add Title
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 Add User
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 Enter the user name to add
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:30:17 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@470e2030, models.User@3fb4f649, models.User@33833882, models.User@200a570f, models.User@16b3fc9e]
+@2017-10-08 09:30:17 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 The user entered already exists!
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 Add User
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 Enter the user name to add
+
+@2017-10-08 09:30:17 INFO  LibServer:94 - Input from 127.0.0.1:59873 Mike@carleton.ca,Mike
+@2017-10-08 09:30:17 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:30:17 INFO  LibServer:102 - Output to 127.0.0.1:59873 User added! UserId = 6
+
+@2017-10-08 09:30:18 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:30:18 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:18 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:30:18 INFO  LibClient:32 - 59889 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:18 INFO  LibClient:33 - 59889 : Connected to portid: 59889
+@2017-10-08 09:30:18 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59889] Client Socket: [59889 ]
+
+@2017-10-08 09:30:18 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:18 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59889
+@2017-10-08 09:30:18 INFO  LibClient:32 - 59890 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:18 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:59890] Client Socket: [59890 ]
+
+@2017-10-08 09:30:18 INFO  LibClient:33 - 59890 : Connected to portid: 59890
+@2017-10-08 09:30:18 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 hi
+@2017-10-08 09:30:18 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__59890
+@2017-10-08 09:30:18 INFO  LibServer:110 - Output to 127.0.0.1:59890 Who are you?
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 librarian
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 Please Input the password
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 admin
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 Menu: Add User, Add Title
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 Add User
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 Enter the user name to add
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:30:18 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@39ed3c8d, models.User@71dac704, models.User@123772c4, models.User@2d363fb3, models.User@7d6f77cc]
+@2017-10-08 09:30:18 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 The user entered already exists!
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 Add User
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 Enter the user name to add
+
+@2017-10-08 09:30:18 INFO  LibServer:94 - Input from 127.0.0.1:59890 Mike@carleton.ca,Mike
+@2017-10-08 09:30:18 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:30:18 INFO  LibServer:102 - Output to 127.0.0.1:59890 User added! UserId = 6
+
+@2017-10-08 09:30:30 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:30:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:30 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:30:30 INFO  LibClient:32 - 60066 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:60066] Client Socket: [60066 ]
+
+@2017-10-08 09:30:30 INFO  LibClient:33 - 60066 : Connected to portid: 60066
+@2017-10-08 09:30:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60066
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 hi
+@2017-10-08 09:30:30 INFO  LibServer:110 - Output to 127.0.0.1:60066 Who are you?
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 librarian
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 Please Input the password
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 admin
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 Menu: Add User, Add Title
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 Add Title
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 Enter the title name to add
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 9781442668584,By the grace of God
+@2017-10-08 09:30:30 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:30:30 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 The title entered already exists!
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 Add Title
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 Enter the title name to add
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60066 9999999999999,Mike's fantastic book
+@2017-10-08 09:30:30 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60066 Title added! TitleId = 6
+
+@2017-10-08 09:30:30 INFO  LibClient:32 - 60067 : Connected to server: /127.0.0.1
+@2017-10-08 09:30:30 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:60067] Client Socket: [60067 ]
+
+@2017-10-08 09:30:30 INFO  LibClient:33 - 60067 : Connected to portid: 60067
+@2017-10-08 09:30:30 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:30:30 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60067
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 hi
+@2017-10-08 09:30:30 INFO  LibServer:110 - Output to 127.0.0.1:60067 Who are you?
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 librarian
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 Please Input the password
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 admin
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 Menu: Add User, Add Title
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 Add User
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 Enter the user name to add
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:30:30 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@470e2030, models.User@3fb4f649, models.User@33833882, models.User@200a570f, models.User@16b3fc9e]
+@2017-10-08 09:30:30 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 The user entered already exists!
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 Add User
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 Enter the user name to add
+
+@2017-10-08 09:30:30 INFO  LibServer:94 - Input from 127.0.0.1:60067 Mike@carleton.ca,Mike
+@2017-10-08 09:30:30 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:30:30 INFO  LibServer:102 - Output to 127.0.0.1:60067 User added! UserId = 6
+
+@2017-10-08 09:34:32 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 09:34:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:34:32 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 09:34:32 INFO  LibClient:32 - 63343 : Connected to server: /127.0.0.1
+@2017-10-08 09:34:32 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:63343] Client Socket: [63343 ]
+
+@2017-10-08 09:34:32 INFO  LibClient:33 - 63343 : Connected to portid: 63343
+@2017-10-08 09:34:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:34:32 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__63343
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 hi
+@2017-10-08 09:34:32 INFO  LibServer:110 - Output to 127.0.0.1:63343 Who are you?
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 librarian
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 Please Input the password
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 admin
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 Menu: Add User, Add Title
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 Add Title
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 Enter the title name to add
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 9781442668584,By the grace of God
+@2017-10-08 09:34:32 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@7de26db8, models.Title@1175e2db, models.Title@36aa7bc2, models.Title@76ccd017, models.Title@182decdb]
+@2017-10-08 09:34:32 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 The title entered already exists!
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 Add Title
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 Enter the title name to add
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63343 9999999999999,Mike's fantastic book
+@2017-10-08 09:34:32 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63343 Title added! TitleId = 6
+
+@2017-10-08 09:34:32 INFO  LibClient:32 - 63344 : Connected to server: /127.0.0.1
+@2017-10-08 09:34:32 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:63344] Client Socket: [63344 ]
+
+@2017-10-08 09:34:32 INFO  LibClient:33 - 63344 : Connected to portid: 63344
+@2017-10-08 09:34:32 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 09:34:32 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__63344
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 hi
+@2017-10-08 09:34:32 INFO  LibServer:110 - Output to 127.0.0.1:63344 Who are you?
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 librarian
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 Please Input the password
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 admin
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 Menu: Add User, Add Title
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 Add User
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 Enter the user name to add
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 Zhibo@carleton.ca,Zhibo
+@2017-10-08 09:34:32 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@470e2030, models.User@3fb4f649, models.User@33833882, models.User@200a570f, models.User@16b3fc9e]
+@2017-10-08 09:34:32 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 The user entered already exists!
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 Add User
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 Enter the user name to add
+
+@2017-10-08 09:34:32 INFO  LibServer:94 - Input from 127.0.0.1:63344 Mike@carleton.ca,Mike
+@2017-10-08 09:34:32 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 09:34:32 INFO  LibServer:102 - Output to 127.0.0.1:63344 User added! UserId = 6
+
 @

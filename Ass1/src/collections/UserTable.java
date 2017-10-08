@@ -25,21 +25,23 @@ public class UserTable {
 		}
     	logger.info(String.format("Operation:Initialize UserTable;UserTable: %s", users));
 	}
+	
     public static final UserTable getInstance() {
         return UserList.INSTANCE;
     }
+    
 	public Object addUser(String string, String string2) {
 		int userid = -1;
 		boolean found = false;
-		for(int i=0;i<users.size();i++){
-			String email=(users.get(i)).getUser();
-			if(email.equalsIgnoreCase(string)){
+		
+		for(int i=0 ;i<users.size(); ++i){
+			if(users.get(i).getUser().equalsIgnoreCase(string)){
 				found=true;
 			}
 		}
+		
 		if(!found){
-			User newuser=new User(string,string2,users.size());
-			users.add(newuser);
+			users.add(new User(string, string2, users.size()));
 			userid = users.size();
 			logger.info(String.format("Operation:Create New User;User Info:[%s,%s];State:Success", string,string2));
 		}else{
