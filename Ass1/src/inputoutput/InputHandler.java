@@ -9,6 +9,7 @@ public class InputHandler {
     public static final int LIBRARIAN = 3;
     public static final int ADDUSER = 4;
     public static final int ADDTITLE = 5;
+    public static final int FINDTITLE = 6;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -45,7 +46,11 @@ public class InputHandler {
 	        	if (input.equalsIgnoreCase("add user")) {
 	        		oo.setOutput(Strings.ADDUSER);
 	        		oo.setState(ADDUSER);
-	        	} else if (input.equalsIgnoreCase("add title")) {
+	        	}else if (input.equalsIgnoreCase("find title")) {
+	        		oo.setOutput(Strings.FINDTITLE);
+	        		oo.setState(FINDTITLE);
+	        	}
+	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
 	        		oo.setState(ADDTITLE);
 	        	}else {
@@ -60,6 +65,10 @@ public class InputHandler {
 		 		o = outputHandler.addTitle(input);
 		 		oo.setOutput(o.getOutput());
 		 		oo.setState(o.getState());
+	        } else if (state == FINDTITLE) {
+	        	o = outputHandler.findTitle(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
 	        }
 		 }
 	 return oo;

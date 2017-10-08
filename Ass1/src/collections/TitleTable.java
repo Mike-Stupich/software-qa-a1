@@ -49,4 +49,24 @@ public class TitleTable {
     	}
     	return titleId;
     }
+    
+    public Object findTitle(String input) {
+    	int titleId = -1;
+    	boolean found = false;
+    	Object result = titleId;
+    	for (int i=0; i< titles.size(); ++i) {
+    		if (titles.get(i).getISBN().equalsIgnoreCase(input) || titles.get(i).getTitle().equalsIgnoreCase(input)){
+    			found = true;
+    			titleId = i;
+    		}
+    	}
+    	if (!found) {
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titls", input));
+    	} else {
+    		result = titles.get(titleId);
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Success", input));
+    	}
+    	return result;
+    }
+    	
 }

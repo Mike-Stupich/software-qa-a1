@@ -2,6 +2,7 @@ package inputoutput;
 
 import collections.TitleTable;
 import collections.UserTable;
+import models.Title;
 import res.Strings;
 import utilities.Config;
 
@@ -12,6 +13,7 @@ public class OutputHandler {
     public static final int LIBRARIAN = 3;
     public static final int ADDUSER = 4;
     public static final int ADDTITLE = 5;
+    public static final int FINDTITLE =6;
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
@@ -60,6 +62,26 @@ public class OutputHandler {
 				o.setOutput(Strings.TITLEEXISTS);
 			}
 			o.setState(LIBRARIAN);
+		}
+		return o;
+	}
+	
+	public Output findTitle(String input) {
+		Output o = new Output("",0);
+		Object result = -1;
+		if (input.isEmpty()) {
+			o.setOutput(Strings.INVALIDFINDTITLE);
+			o.setState(FINDTITLE);
+		} else {
+			result = TitleTable.getInstance().findTitle(input);
+			if (!result.equals(-1)) {
+				Title t = (Title) result;
+				o.setOutput(t.getTitle() + "," +t.getISBN());
+				o.setState(LIBRARIAN);
+			} else {
+				o.setOutput(Strings.ADDTITLE);
+				o.setState(ADDTITLE);
+			}
 		}
 		return o;
 	}

@@ -71,4 +71,37 @@ public class TestCases {
 		ls.handle(clientId, add_title);
 		assertNotEquals(Strings.TITLEEXISTS, ls.handle(clientId, new_title).trim());
 	}
+	
+	@Test
+	public void addItem() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+		
+		// Commands
+		String lib = "librarian";
+		String lib_pass = "admin";
+		String find_title = "Find Title";
+		String new_title = "New Title";
+		String titleToAdd = "New Title,9999999999998";
+		String existing_title = "By the grace of God";
+		
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		// Assert title is returned
+		ls.handle(clientId, find_title);
+		assertNotEquals("-1", ls.handle(clientId, existing_title));
+		
+		// Assert new title is added
+		ls.handle(clientId, find_title);
+		ls.handle(clientId, new_title);
+		assertNotEquals("-1", ls.handle(clientId, titleToAdd));
+		
+		// 
+		ls.handle(clientId, find_title);
+		assertEquals("9999999999998,New Title", ls.handle(clientId, new_title).trim());
+	}
 }
