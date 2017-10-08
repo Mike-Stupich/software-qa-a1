@@ -1,13 +1,15 @@
 package inputoutput;
 
+import collections.UserTable;
 import res.Strings;
 import utilities.Config;
 
 public class OutputHandler {
 	public static final int WAITING = 0;
-	public static final int FINISHWAITING=1;
+	public static final int FINISHWAITING = 1;
     public static final int LIBRARIANLOGIN = 2;
     public static final int LIBRARIAN = 3;
+    public static final int ADDUSER = 4;
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
@@ -21,4 +23,23 @@ public class OutputHandler {
 		return output;
 	}
 	
+	public Output addUser(String user) {
+		Output o = new Output("",0);
+		String[] str = user.split(",");
+		boolean isEmail = str[0].contains("@");
+		Object result = -1;
+		if (str.length!=2 || !isEmail) {
+			o.setOutput(Strings.INVALIDADDUSER);
+			o.setState(ADDUSER);
+		} else {
+			result = UserTable.getInstance().addUser(str[0],str[1]);
+			if (!result.equals(-1)) {
+				o.setOutput("User added! UserId = " + result.toString());
+			} else {
+				o.setOutput(Strings.USEREXISTS);
+			}
+			o.setState(LIBRARIAN);
+		}
+		return o;
+	}
 }

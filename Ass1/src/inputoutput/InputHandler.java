@@ -4,9 +4,10 @@ import res.Strings;
 
 public class InputHandler {
 	public static final int WAITING = 0;
-	public static final int FINISHWAITING=1;
+	public static final int FINISHWAITING = 1;
     public static final int LIBRARIANLOGIN = 2;
     public static final int LIBRARIAN = 3;
+    public static final int ADDUSER = 4;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -32,7 +33,11 @@ public class InputHandler {
     		oo.setOutput(o.getOutput());
             oo.setState(o.getState());
         }else if (state==LIBRARIAN) {
-        	if (input.equalsIgnoreCase("menu")) {
+        	if (input.equalsIgnoreCase("add user")) {
+        		oo.setOutput(Strings.ADDUSER);
+        		oo.setState(ADDUSER);
+        	}
+        	else if (input.equalsIgnoreCase("menu")) {
         		oo.setOutput(Strings.LIBRARIANMENU);
         		oo.setState(LIBRARIAN);
         	}
@@ -42,6 +47,18 @@ public class InputHandler {
         	} else {
 	        	oo.setOutput(Strings.LIBRARIANMENU);
 	        	oo.setState(LIBRARIAN);	
+        	}
+        } else if (state==ADDUSER) {
+        	if (input.equalsIgnoreCase("menu")) {
+        		oo.setOutput(Strings.LIBRARIANMENU);
+        		oo.setState(LIBRARIAN);
+        	}else if (input.equalsIgnoreCase("log out")) {
+        		oo.setOutput(Strings.LOGOUT);
+        		oo.setState(WAITING);
+        	} else {
+        		o = outputHandler.addUser(input);
+        		oo.setOutput(o.getOutput());
+        		oo.setState(o.getState());
         	}
         }
         return oo;

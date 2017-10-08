@@ -435,4 +435,125 @@
 
 @2017-10-08 07:22:23 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
 
+@2017-10-08 08:23:14 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:23:14 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:23:14 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-08 08:23:17 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51468] Client Socket: [51468 ]
+
+@2017-10-08 08:23:17 INFO  LibClient:32 - 51468 : Connected to server: /127.0.0.1
+@2017-10-08 08:23:17 INFO  LibClient:33 - 51468 : Connected to portid: 51468
+@2017-10-08 08:23:17 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:23:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51468
+@2017-10-08 08:23:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-08 08:25:00 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:25:00 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:25:00 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:25:00 INFO  LibClient:32 - 51494 : Connected to server: /127.0.0.1
+@2017-10-08 08:25:00 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51494] Client Socket: [51494 ]
+
+@2017-10-08 08:25:00 INFO  LibClient:33 - 51494 : Connected to portid: 51494
+@2017-10-08 08:25:00 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:25:00 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51494
+@2017-10-08 08:25:00 INFO  LibServer:94 - Input from 127.0.0.1:51494 hi
+@2017-10-08 08:25:00 INFO  LibServer:110 - Output to 127.0.0.1:51494 Who are you?
+
+@2017-10-08 08:25:00 INFO  LibServer:94 - Input from 127.0.0.1:51494 librarian
+@2017-10-08 08:25:00 INFO  LibServer:102 - Output to 127.0.0.1:51494 Please Input the password
+
+@2017-10-08 08:25:00 INFO  LibServer:94 - Input from 127.0.0.1:51494 admin
+@2017-10-08 08:25:00 INFO  LibServer:102 - Output to 127.0.0.1:51494 Menu: Add User
+
+@2017-10-08 08:25:00 INFO  LibServer:94 - Input from 127.0.0.1:51494 Add User
+@2017-10-08 08:25:00 INFO  LibServer:102 - Output to 127.0.0.1:51494 Enter the user name to add
+
+@2017-10-08 08:25:00 INFO  LibServer:94 - Input from 127.0.0.1:51494 Zhibo@carleton.ca,Zhibo
+@2017-10-08 08:25:00 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@7de26db8, models.User@1175e2db, models.User@36aa7bc2, models.User@76ccd017, models.User@182decdb]
+@2017-10-08 08:25:00 INFO  String:44 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Success
+@2017-10-08 08:25:00 INFO  LibServer:102 - Output to 127.0.0.1:51494 User added! UserId = 6
+
+@2017-10-08 08:25:49 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:25:49 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:25:49 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:25:49 INFO  LibClient:32 - 51506 : Connected to server: /127.0.0.1
+@2017-10-08 08:25:49 INFO  LibClient:33 - 51506 : Connected to portid: 51506
+@2017-10-08 08:25:49 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51506] Client Socket: [51506 ]
+
+@2017-10-08 08:25:49 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:25:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51506
+@2017-10-08 08:26:22 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:26:22 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:22 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:26:22 INFO  LibClient:32 - 51514 : Connected to server: /127.0.0.1
+@2017-10-08 08:26:22 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51514] Client Socket: [51514 ]
+
+@2017-10-08 08:26:22 INFO  LibClient:33 - 51514 : Connected to portid: 51514
+@2017-10-08 08:26:22 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:22 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51514
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 hi
+@2017-10-08 08:26:22 INFO  LibServer:110 - Output to 127.0.0.1:51514 Who are you?
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 librarian
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 Please Input the password
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 admin
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 Menu: Add User
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 Add User
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 Enter the user name to add
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 Zhibo@carleton.ca,Zhibo
+@2017-10-08 08:26:22 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@7de26db8, models.User@1175e2db, models.User@36aa7bc2, models.User@76ccd017, models.User@182decdb]
+@2017-10-08 08:26:22 INFO  String:46 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 The user entered already exists!
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 Add User
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 Enter the user name to add
+
+@2017-10-08 08:26:22 INFO  LibServer:94 - Input from 127.0.0.1:51514 Mike@carleton.ca,Mike
+@2017-10-08 08:26:22 INFO  String:44 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 08:26:22 INFO  LibServer:102 - Output to 127.0.0.1:51514 User added! UserId = 6
+
+@2017-10-08 08:26:24 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:26:24 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:26:24 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:24 INFO  LibClient:32 - 51518 : Connected to server: /127.0.0.1
+@2017-10-08 08:26:24 INFO  LibClient:33 - 51518 : Connected to portid: 51518
+@2017-10-08 08:26:24 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51518] Client Socket: [51518 ]
+
+@2017-10-08 08:26:24 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51518
+@2017-10-08 08:26:36 INFO  LibServer:30 - Binding to port 5050
+@2017-10-08 08:26:36 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:36 INFO  LibServer:44 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-08 08:26:36 INFO  LibClient:32 - 51526 : Connected to server: /127.0.0.1
+@2017-10-08 08:26:36 INFO  LibServer:62 - Client accepted : Client Address : [/127.0.0.1:51526] Client Socket: [51526 ]
+
+@2017-10-08 08:26:36 INFO  LibClient:33 - 51526 : Connected to portid: 51526
+@2017-10-08 08:26:36 INFO  LibServer:53 - Waiting for a client ...
+@2017-10-08 08:26:36 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51526
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 hi
+@2017-10-08 08:26:36 INFO  LibServer:110 - Output to 127.0.0.1:51526 Who are you?
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 librarian
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 Please Input the password
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 admin
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 Menu: Add User
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 Add User
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 Enter the user name to add
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 Zhibo@carleton.ca,Zhibo
+@2017-10-08 08:26:36 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@7de26db8, models.User@1175e2db, models.User@36aa7bc2, models.User@76ccd017, models.User@182decdb]
+@2017-10-08 08:26:36 INFO  String:46 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 The user entered already exists!
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 Add User
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 Enter the user name to add
+
+@2017-10-08 08:26:36 INFO  LibServer:94 - Input from 127.0.0.1:51526 Mike@carleton.ca,Mike
+@2017-10-08 08:26:36 INFO  String:44 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-08 08:26:36 INFO  LibServer:102 - Output to 127.0.0.1:51526 User added! UserId = 6
+
 @
