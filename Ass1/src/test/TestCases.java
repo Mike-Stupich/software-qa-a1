@@ -104,4 +104,28 @@ public class TestCases {
 		ls.handle(clientId, find_title);
 		assertEquals("9999999999998,New Title", ls.handle(clientId, new_title).trim());
 	}
+	
+	@Test
+	public void removeTitle() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+
+		// Commands
+		String lib = "librarian";
+		String lib_pass = "admin";
+		String remove_title = "Remove Title";
+		String existing_title = "By the grace of God";
+		String fake_title = "This title isn't saved";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, remove_title);
+		assertNotEquals("-1", ls.handle(clientId, existing_title));
+		
+		ls.handle(clientId, remove_title);
+		assertEquals(Strings.TITLENOTFOUND, ls.handle(clientId, fake_title).trim());
+	}
 }

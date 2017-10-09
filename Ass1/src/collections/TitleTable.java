@@ -68,5 +68,24 @@ public class TitleTable {
     	}
     	return result;
     }
+    
+    public Object removeTitle(String input) {
+    	int titleId = -1;
+    	boolean found = false;
+    	for (int i = 0; i < titles.size(); ++i) {
+    		if (titles.get(i).getISBN().equalsIgnoreCase(input) || titles.get(i).getTitle().equalsIgnoreCase(input)){
+    			titles.remove(i);
+    			found = true;
+    			titleId = i;
+    		}
+    	}
+    	
+    	if (!found) {
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titls", input));
+    	} else {
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Success", input));
+    	}
+    	return titleId;
+    }
     	
 }

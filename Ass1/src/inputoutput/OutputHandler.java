@@ -13,7 +13,8 @@ public class OutputHandler {
     public static final int LIBRARIAN = 3;
     public static final int ADDUSER = 4;
     public static final int ADDTITLE = 5;
-    public static final int FINDTITLE =6;
+    public static final int FINDTITLE = 6;
+    public static final int REMOVETITLE =7;
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
@@ -82,6 +83,24 @@ public class OutputHandler {
 				o.setOutput(Strings.ADDTITLE);
 				o.setState(ADDTITLE);
 			}
+		}
+		return o;
+	}
+	
+	public Output removeTitle(String input) {
+		Output o = new Output("", 0);
+		Object result = -1;
+		if (input.isEmpty()) {
+			o.setOutput(Strings.INVALIDFINDTITLE);
+			o.setState(REMOVETITLE);
+		} else {
+			result = TitleTable.getInstance().removeTitle(input);
+			if (!result.equals(-1)) {
+				o.setOutput(Strings.TITLEREMOVED);
+			} else {
+				o.setOutput(Strings.TITLENOTFOUND);
+			}
+			o.setState(REMOVETITLE);
 		}
 		return o;
 	}

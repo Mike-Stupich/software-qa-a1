@@ -10,6 +10,7 @@ public class InputHandler {
     public static final int ADDUSER = 4;
     public static final int ADDTITLE = 5;
     public static final int FINDTITLE = 6;
+    public static final int REMOVETITLE = 7;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -49,6 +50,9 @@ public class InputHandler {
 	        	}else if (input.equalsIgnoreCase("find title")) {
 	        		oo.setOutput(Strings.FINDTITLE);
 	        		oo.setState(FINDTITLE);
+	        	}else if (input.equalsIgnoreCase("remove title")) {
+	        		oo.setOutput(Strings.REMOVETITLE);
+	        		oo.setState(REMOVETITLE);
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
@@ -67,6 +71,10 @@ public class InputHandler {
 		 		oo.setState(o.getState());
 	        } else if (state == FINDTITLE) {
 	        	o = outputHandler.findTitle(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == REMOVETITLE) {
+	        	o = outputHandler.removeTitle(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }
