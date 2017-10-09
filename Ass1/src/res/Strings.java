@@ -24,12 +24,13 @@ public class Strings {
 	public final static String TITLEEXISTS = "The title entered already exists!";	
 	
 	public final static String FINDTITLE = "Enter the title or ISBN to search for";
-	public final static String TITLENOTEXISTS = "Those do not exist, would you like to add the title?";
+	public final static String TITLENOTFOUNDADD = "Those do not exist, would you like to add the title?";
 	public final static String INVALIDFINDTITLE = "Enter a valid title or isbn!";
 	
 	public final static String REMOVETITLE = "Enter the title or ISBN to remove";
 	public final static String TITLEREMOVED = "The title has been removed!";
 	public final static String TITLENOTFOUND = "The title is not stored.";
+	
 	
 	public final static String INVALID = "Sorry, that command doesn't work\n";
 }

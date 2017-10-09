@@ -3,27 +3,20 @@ package inputoutput;
 import collections.TitleTable;
 import collections.UserTable;
 import models.Title;
+import res.States;
 import res.Strings;
 import utilities.Config;
 
 public class OutputHandler {
-	public static final int WAITING = 0;
-	public static final int FINISHWAITING = 1;
-    public static final int LIBRARIANLOGIN = 2;
-    public static final int LIBRARIAN = 3;
-    public static final int ADDUSER = 4;
-    public static final int ADDTITLE = 5;
-    public static final int FINDTITLE = 6;
-    public static final int REMOVETITLE =7;
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
 		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput(Strings.LIBRARIANMENU);
-        	output.setState(LIBRARIAN);
+        	output.setState(States.LIBRARIAN);
 		}else{
 			output.setOutput(Strings.INCPASS);
-        	output.setState(LIBRARIANLOGIN);
+        	output.setState(States.LIBRARIANLOGIN);
 		}
 		return output;
 	}
@@ -35,15 +28,15 @@ public class OutputHandler {
 		Object result = -1;
 		if (str.length!=2 || !isEmail) {
 			o.setOutput(Strings.INVALIDADDUSER);
-			o.setState(ADDUSER);
+			o.setState(States.ADDUSER);
 		} else {
 			result = UserTable.getInstance().addUser(str[0],str[1]);
 			if (!result.equals(-1)) {
-				o.setOutput("User added! UserId = " + result.toString());
+				o.setOutput(String.format("User added! UserId = %s", result.toString()));
 			} else {
 				o.setOutput(Strings.USEREXISTS);
 			}
-			o.setState(LIBRARIAN);
+			o.setState(States.LIBRARIAN);
 		}
 		return o;
 	}
@@ -54,15 +47,15 @@ public class OutputHandler {
 		Object result = -1;
 		if (str.length != 2) {
 			o.setOutput(Strings.INVALIDADDTITLE);
-			o.setState(ADDTITLE);
+			o.setState(States.ADDTITLE);
 		} else {
 			result = TitleTable.getInstance().addTitle(str[0], str[1]);
 			if (!result.equals(-1)) {
-				o.setOutput("Title added! TitleId = " + result.toString());
+				o.setOutput(String.format("Title added! TitleId = %s", result.toString()));
 			} else {
 				o.setOutput(Strings.TITLEEXISTS);
 			}
-			o.setState(LIBRARIAN);
+			o.setState(States.LIBRARIAN);
 		}
 		return o;
 	}
@@ -72,16 +65,16 @@ public class OutputHandler {
 		Object result = -1;
 		if (input.isEmpty()) {
 			o.setOutput(Strings.INVALIDFINDTITLE);
-			o.setState(FINDTITLE);
+			o.setState(States.FINDTITLE);
 		} else {
 			result = TitleTable.getInstance().findTitle(input);
 			if (!result.equals(-1)) {
 				Title t = (Title) result;
-				o.setOutput(t.getTitle() + "," +t.getISBN());
-				o.setState(LIBRARIAN);
+				o.setOutput(String.format("%s, %s",t.getTitle(), t.getISBN()));
+				o.setState(States.LIBRARIAN);
 			} else {
 				o.setOutput(Strings.ADDTITLE);
-				o.setState(ADDTITLE);
+				o.setState(States.ADDTITLE);
 			}
 		}
 		return o;
@@ -92,7 +85,7 @@ public class OutputHandler {
 		Object result = -1;
 		if (input.isEmpty()) {
 			o.setOutput(Strings.INVALIDFINDTITLE);
-			o.setState(REMOVETITLE);
+			o.setState(States.REMOVETITLE);
 		} else {
 			result = TitleTable.getInstance().removeTitle(input);
 			if (!result.equals(-1)) {
@@ -100,7 +93,27 @@ public class OutputHandler {
 			} else {
 				o.setOutput(Strings.TITLENOTFOUND);
 			}
-			o.setState(REMOVETITLE);
+			o.setState(States.REMOVETITLE);
+		}
+		return o;
+	}
+	
+	public Output removeItem(String input) {
+		Output o = new Output("",0);
+		Object result = -1;
+		if (input.isEmpty()) {
+			o.setOutput(Strings.INVALIDFINDTITLE);
+			o.setState(States.REMOVEITEM);
+		} else {
+			result = TitleTable.getInstance().findTitle(input);
+			if (result.equals(-1)) {
+				o.setOutput(Strings.TITLENOTFOUND);
+				o.setState(States.LIBRARIAN);
+			} else {
+				Title t = (Title)result;
+				o.setOutput(String.format("%s, %s\n%s", t.getTitle().toString(), t.getISBN().toString(), Strings.REMOVETITLE));
+				o.setState(States.REMOVETITLE);
+			}
 		}
 		return o;
 	}

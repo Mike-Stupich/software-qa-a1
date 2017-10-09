@@ -12,6 +12,7 @@ import org.apache.log4j.Logger;
 import inputoutput.Client;
 import inputoutput.InputHandler;
 import inputoutput.ServerOutput;
+import res.States;
 import res.Strings;
 import utilities.Config;
 import utilities.Trace;
@@ -101,9 +102,9 @@ public class LibServer implements Runnable{
 				clientSetState(from,so.getState());
 				logger.info(String.format("Output to %s:%d"+" "+output,from.getSocketAddress(),from.getID()));
 			}else{
-				Client client = new Client(from,InputHandler.WAITING);
+				Client client = new Client(from, States.WAITING);
 				clientList.add(client);
-				so=handler.processInput(input,InputHandler.WAITING);
+				so=handler.processInput(input, States.WAITING);
 				output=so.getOutput()+"\n";
 				from.send(output);
 				clientSetState(from,so.getState());

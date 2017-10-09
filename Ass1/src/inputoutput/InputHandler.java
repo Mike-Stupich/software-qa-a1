@@ -1,19 +1,11 @@
 package inputoutput;
 
+import res.States;
 import res.Strings;
 
 public class InputHandler {
-	public static final int WAITING = 0;
-	public static final int FINISHWAITING = 1;
-    public static final int LIBRARIANLOGIN = 2;
-    public static final int LIBRARIAN = 3;
-    public static final int ADDUSER = 4;
-    public static final int ADDTITLE = 5;
-    public static final int FINDTITLE = 6;
-    public static final int REMOVETITLE = 7;
-    
+	
     OutputHandler outputHandler=new OutputHandler();
-
 
 	public ServerOutput processInput(String input, int state) {
 		 String output = "";
@@ -22,59 +14,66 @@ public class InputHandler {
 		 
 		 if(input.equalsIgnoreCase("log out")) {
 			 oo.setOutput(Strings.LOGOUT);
-			 oo.setState(WAITING);
+			 oo.setState(States.WAITING);
 		 } else if (input.equalsIgnoreCase("menu") || input.equalsIgnoreCase("main menu")) {
      		oo.setOutput(Strings.LIBRARIANMENU);
-     		oo.setState(LIBRARIAN);
+     		oo.setState(States.LIBRARIAN);
 		 } else {
 		 
-	        if (state == WAITING) {
+	        if (state == States.WAITING) {
 	            oo.setOutput(Strings.WHO);
-	            oo.setState(FINISHWAITING);
-	         }else if (state == FINISHWAITING) {
+	            oo.setState(States.FINISHWAITING);
+	         }else if (state == States.FINISHWAITING) {
 	            if (input.equalsIgnoreCase("librarian")) {
 	                oo.setOutput(Strings.PASSPROMPT);
-		            oo.setState(LIBRARIANLOGIN);
+		            oo.setState(States.LIBRARIANLOGIN);
 	            } else {
 	            	oo.setOutput(Strings.INVALID + Strings.WHO);
-	            	oo.setState(FINISHWAITING);
+	            	oo.setState(States.FINISHWAITING);
 	            }
-	        }else if(state==LIBRARIANLOGIN){
+	        }else if(state==States.LIBRARIANLOGIN){
 	        	o=outputHandler.librarianLogin(input);
 	    		oo.setOutput(o.getOutput());
 	            oo.setState(o.getState());
-	        }else if (state==LIBRARIAN) {
+	        }else if (state==States.LIBRARIAN) {
 	        	if (input.equalsIgnoreCase("add user")) {
 	        		oo.setOutput(Strings.ADDUSER);
-	        		oo.setState(ADDUSER);
+	        		oo.setState(States.ADDUSER);
 	        	}else if (input.equalsIgnoreCase("find title")) {
 	        		oo.setOutput(Strings.FINDTITLE);
-	        		oo.setState(FINDTITLE);
+	        		oo.setState(States.FINDTITLE);
 	        	}else if (input.equalsIgnoreCase("remove title")) {
 	        		oo.setOutput(Strings.REMOVETITLE);
-	        		oo.setState(REMOVETITLE);
+	        		oo.setState(States.REMOVETITLE);
+	        	}else if (input.equalsIgnoreCase("remove item")) {
+	        		oo.setOutput(Strings.REMOVETITLE);
+	        		oo.setState(States.REMOVEITEM);
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
-	        		oo.setState(ADDTITLE);
+	        		oo.setState(States.ADDTITLE);
 	        	}else {
 		        	oo.setOutput(Strings.LIBRARIANMENU);
-		        	oo.setState(LIBRARIAN);	
+		        	oo.setState(States.LIBRARIAN);	
 	        	}
-	        } else if (state==ADDUSER) {
+	        } else if (state == States.ADDUSER) {
         		o = outputHandler.addUser(input);
         		oo.setOutput(o.getOutput());
         		oo.setState(o.getState());
-	        } else if (state == ADDTITLE) {
+	        } else if (state == States.ADDTITLE) {
 		 		o = outputHandler.addTitle(input);
 		 		oo.setOutput(o.getOutput());
 		 		oo.setState(o.getState());
-	        } else if (state == FINDTITLE) {
+	        } else if (state == States.FINDTITLE) {
 	        	o = outputHandler.findTitle(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
-	        } else if (state == REMOVETITLE) {
+	        } else if (state == States.REMOVETITLE) {
 	        	o = outputHandler.removeTitle(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == States.REMOVEITEM) {
+	        	o = outputHandler.removeItem(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }

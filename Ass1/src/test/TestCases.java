@@ -44,6 +44,7 @@ public class TestCases {
 		// Add new user
 		ls.handle(clientId, create_user);
 		assertNotEquals(Strings.USEREXISTS, ls.handle(clientId, new_user).trim());
+		ls.handle(clientId, "Exit");
 	}
 	
 	@Test
@@ -70,6 +71,7 @@ public class TestCases {
 		// Add new title
 		ls.handle(clientId, add_title);
 		assertNotEquals(Strings.TITLEEXISTS, ls.handle(clientId, new_title).trim());
+		ls.handle(clientId, "Exit");
 	}
 	
 	@Test
@@ -102,7 +104,8 @@ public class TestCases {
 		
 		// 
 		ls.handle(clientId, find_title);
-		assertEquals("9999999999998,New Title", ls.handle(clientId, new_title).trim());
+		assertEquals("9999999999998, New Title", ls.handle(clientId, new_title).trim());
+		ls.handle(clientId, "Exit");
 	}
 	
 	@Test
@@ -127,5 +130,34 @@ public class TestCases {
 		
 		ls.handle(clientId, remove_title);
 		assertEquals(Strings.TITLENOTFOUND, ls.handle(clientId, fake_title).trim());
+		ls.handle(clientId, "Exit");
+	}
+	
+	@Test
+	public void removeItem() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+
+		// Commands
+		String lib = "librarian";
+		String lib_pass = "admin";
+		String remove_item = "Remove Item";
+		String existing_item = "Dante's lyric poetry";
+		String fake_title = "This title isn't saved";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, remove_item);
+		assertEquals(Strings.TITLENOTFOUND, ls.handle(clientId, fake_title).trim());
+		
+		ls.handle(clientId, remove_item);
+		ls.handle(clientId, existing_item);
+		assertNotEquals("-1", ls.handle(clientId, existing_item));
+		
+		
+		ls.handle(clientId, "Exit");
 	}
 }
