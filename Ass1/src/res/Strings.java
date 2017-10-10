@@ -7,13 +7,17 @@ public class Strings {
 	public final static String SERVERSUCCESS = "Server stated successfully!";
 	
 	public final static String WELCOME = "Welcome To Mike's Library!";
-	public final static String WHO = "Who are you?";
+	public final static String WHO = "Who are you? Librarian or Borrower?";
 	public final static String LIBRARIANLOGIN = "What can I do for you?";
 	public final static String PASSPROMPT = "Please Input the password";
 	public final static String INCPASS = "Wrong Password! Please Input The Password:";
 	public final static String LOGOUT = "Successfully Logged Out!";
 	
-	public final static String LIBRARIANMENU = "Menu: Add User/Title/Item, Remove Title/Item, Loan Item";
+	public final static String BORROWERLOGIN = "Please enter your useremail,password";
+	public final static String LOGINFAILED = "Incorrect login";
+	
+	public final static String LIBRARIANMENU = "Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System";
+	public final static String BORROWERMENU = "Menu: Find User/Title, Loan Item, Return Loan";
 	
 	public final static String ADDUSER = "Enter the useremail to add";
 	public final static String REMOVEUSER  = "Enter the useremail to remove";
@@ -29,6 +33,9 @@ public class Strings {
 	public final static String FINDTITLE = "Enter the title or ISBN to search for";
 	public final static String TITLENOTFOUNDADD = "Those do not exist, would you like to add the title?";
 	public final static String INVALIDFINDTITLE = "Enter a valid title or isbn!";
+	
+	public final static String FINDUSER = "Enter the useremail to search for";
+	
 	
 	public final static String REMOVETITLE = "Enter the title or ISBN to remove";
 	public final static String TITLEREMOVED = "The title has been removed!";

@@ -27,15 +27,39 @@ public class InputHandler {
 	            if (input.equalsIgnoreCase("librarian")) {
 	                oo.setOutput(Strings.PASSPROMPT);
 		            oo.setState(States.LIBRARIANLOGIN);
+	            } else if (input.equalsIgnoreCase("borrower")) {
+	            	oo.setOutput(Strings.BORROWERLOGIN);
+	            	oo.setState(States.BORROWERLOGIN);
 	            } else {
 	            	oo.setOutput(Strings.INVALID + Strings.WHO);
 	            	oo.setState(States.FINISHWAITING);
 	            }
-	        }else if(state==States.LIBRARIANLOGIN){
+	        } else if (state == States.BORROWERLOGIN) {
+	        	o = outputHandler.borrowerLogin(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if(state == States.BORROWER){
+	        	if (input.equalsIgnoreCase("find user")) {
+	        		oo.setOutput(Strings.FINDUSER);
+	        		oo.setState(States.FINDUSER);
+	        	} else if (input.equalsIgnoreCase("return loan")) {
+	        		oo.setOutput(Strings.LOANRETURN);
+	        		oo.setState(States.LOANRETURN);
+	        	} else if (input.equalsIgnoreCase("loan item")) {
+	        		oo.setOutput(Strings.LOANADD);
+	        		oo.setState(States.LOANITEM);
+	        	} else if (input.equalsIgnoreCase("find title")) {
+	        		oo.setOutput(Strings.FINDTITLE);
+	        		oo.setState(States.FINDTITLE);
+	        	} else {
+	        		oo.setOutput(Strings.BORROWERMENU);
+	        		oo.setState(States.BORROWER);
+	        	}
+	        } else if(state==States.LIBRARIANLOGIN){
 	        	o=outputHandler.librarianLogin(input);
 	    		oo.setOutput(o.getOutput());
 	            oo.setState(o.getState());
-	        }else if (state==States.LIBRARIAN) {
+	        } else if (state==States.LIBRARIAN) {
 	        	if (input.equalsIgnoreCase("add user")) {
 	        		oo.setOutput(Strings.ADDUSER);
 	        		oo.setState(States.ADDUSER);
@@ -113,6 +137,10 @@ public class InputHandler {
 	        	oo.setState(o.getState());
 	        } else if (state == States.REMOVEUSER) {
 	        	o = outputHandler.removeUser(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == States.FINDUSER) {
+	        	o = outputHandler.findUser(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }

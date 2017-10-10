@@ -26,6 +26,26 @@ public class OutputHandler {
 		return output;
 	}
 	
+	public Output borrowerLogin(String input) {
+		Output o = new Output("",0);
+		String[] str = input.split(",");
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDADDUSER);
+			o.setState(States.BORROWERLOGIN);
+		} else {
+			boolean result = false;
+			result = UserTable.getInstance().login(str[0], str[1]);
+			if (result) {
+				o.setOutput(Strings.BORROWERMENU);
+				o.setState(States.BORROWER);
+			} else {
+				o.setOutput(Strings.LOGINFAILED);
+				o.setState(States.BORROWERLOGIN);
+			}
+		}
+		return o;
+	}
+	
 	public Output addUser(String user) {
 		Output o = new Output("",0);
 		String[] str = user.split(",");
@@ -242,6 +262,22 @@ public class OutputHandler {
 		result = String.format("Users: %s, Titles: %s", users, titles);
 		o.setOutput(result.toString());
 		o.setState(States.LIBRARIAN);
+		return o;
+	}
+	
+	public Output findUser(String user) {
+		Output o = new Output("",0);
+		Object result = -1;
+		String[] str = user.split("@");
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.FINDUSER);
+		} else {
+			User u  =(User) UserTable.getInstance().findUser(user);
+			result = u.toString();
+			o.setOutput(result.toString());
+			o.setState(States.BORROWER);
+		}
 		return o;
 	}
 }

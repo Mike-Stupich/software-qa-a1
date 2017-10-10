@@ -59,7 +59,7 @@ public class LoanTable {
 				} else if  (userLoans >= 10) {
 					result = Strings.USERPASTBOOKLIMIT;
 				} else {
-					loans.add(new Loan(u.getUserId(), title, now));
+					loans.add(new Loan(u.getUserId(), t.getISBN(), now));
 					result = Strings.LOANADDED;	
 				}
 			}
@@ -131,5 +131,13 @@ public class LoanTable {
 			}
 		}
 		return userLoanCount;
+	}
+	
+	public String printLoans() {
+		String result = "";
+		for (int i = 0 ; i < loans.size(); ++ i ) {
+			result += loans.get(i).toString();
+		}
+		return result;
 	}
 }

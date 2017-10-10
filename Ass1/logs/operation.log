@@ -12891,4 +12891,1677 @@ Enter the title or ISBN to remove
 @2017-10-10 14:27:44 INFO  LibServer:97 - Client : 64817Exits
 @2017-10-10 14:27:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
 
+@2017-10-10 14:52:46 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:52:46 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:52:46 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-10 14:52:46 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:52:46 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:52:46 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:52:46]
+@2017-10-10 14:52:46 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:52:48 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:65492] Client Socket: [65492 ]
+
+@2017-10-10 14:52:48 INFO  LibClient:32 - 65492 : Connected to server: /127.0.0.1
+@2017-10-10 14:52:48 INFO  LibClient:33 - 65492 : Connected to portid: 65492
+@2017-10-10 14:52:48 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:52:48 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__65492
+@2017-10-10 14:52:50 INFO  LibServer:104 - Input from 127.0.0.1:65492 hi
+@2017-10-10 14:52:50 INFO  LibServer:120 - Output to 127.0.0.1:65492 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:52:53 INFO  LibServer:104 - Input from 127.0.0.1:65492 Borrower
+@2017-10-10 14:52:53 INFO  LibServer:112 - Output to 127.0.0.1:65492 Sorry, that command doesn't work
+Who are you? Librarian or Borrower?
+
+@2017-10-10 14:53:47 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 14:53:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:65527] Client Socket: [65527 ]
+
+@2017-10-10 14:53:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:53:52 INFO  LibClient:32 - 65527 : Connected to server: /127.0.0.1
+@2017-10-10 14:53:52 INFO  LibClient:33 - 65527 : Connected to portid: 65527
+@2017-10-10 14:53:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__65527
+@2017-10-10 14:53:53 INFO  LibServer:104 - Input from 127.0.0.1:65527 hi
+@2017-10-10 14:53:53 INFO  LibServer:120 - Output to 127.0.0.1:65527 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:53:55 INFO  LibServer:104 - Input from 127.0.0.1:65527 borrower
+@2017-10-10 14:53:55 INFO  LibServer:112 - Output to 127.0.0.1:65527 Sorry, that command doesn't work
+Who are you? Librarian or Borrower?
+
+@2017-10-10 14:53:57 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 14:54:29 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:54:29 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:54:29 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-10 14:54:29 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:54:29 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:54:29 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:54:29]
+@2017-10-10 14:54:29 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:54:31 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:49620] Client Socket: [49620 ]
+
+@2017-10-10 14:54:31 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:54:31 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__49620
+@2017-10-10 14:54:31 INFO  LibClient:32 - 49620 : Connected to server: /127.0.0.1
+@2017-10-10 14:54:31 INFO  LibClient:33 - 49620 : Connected to portid: 49620
+@2017-10-10 14:54:32 INFO  LibServer:104 - Input from 127.0.0.1:49620 hi
+@2017-10-10 14:54:32 INFO  LibServer:120 - Output to 127.0.0.1:49620 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:54:34 INFO  LibServer:104 - Input from 127.0.0.1:49620 borrower
+@2017-10-10 14:54:34 INFO  LibServer:112 - Output to 127.0.0.1:49620 Please enter your useremail,password
+
+@2017-10-10 14:54:42 INFO  LibServer:104 - Input from 127.0.0.1:49620 Zhibo@carleton.ca,zhibo
+@2017-10-10 14:54:42 INFO  LibServer:112 - Output to 127.0.0.1:49620 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 14:54:46 INFO  LibServer:104 - Input from 127.0.0.1:49620 find user
+@2017-10-10 14:54:46 INFO  LibServer:112 - Output to 127.0.0.1:49620 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 14:54:48 INFO  LibServer:104 - Input from 127.0.0.1:49620 f
+@2017-10-10 14:54:48 INFO  LibServer:112 - Output to 127.0.0.1:49620 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 14:55:00 INFO  LibServer:104 - Input from 127.0.0.1:49620 loan item
+@2017-10-10 14:55:00 INFO  LibServer:112 - Output to 127.0.0.1:49620 Enter the useremail and title to loan
+
+@2017-10-10 14:55:15 INFO  LibServer:104 - Input from 127.0.0.1:49620 zhibo@carleton.ca,Courtesy lost
+@2017-10-10 14:55:15 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:15 DEBUG String:56 - userid: 0, amount: 5.00
+@2017-10-10 14:55:15 INFO  LibServer:112 - Output to 127.0.0.1:49620 The user has an outstanding balance that must be paid.
+
+@2017-10-10 14:55:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
+@2017-10-10 14:55:45 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:55:45 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:45 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-10 14:55:45 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:55:45 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:55:45 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:55:45]
+@2017-10-10 14:55:45 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:55:49 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:55:49 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:55:49 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:55:49 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:55:49]
+@2017-10-10 14:55:49 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51237 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51237] Client Socket: [51237 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51237 : Connected to portid: 51237
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51237
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51237 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 Add Title
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Enter the title name to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 9781442668584,By the grace of God
+@2017-10-10 14:55:49 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 The title entered already exists!
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 Add Title
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Enter the title name to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 9999999999999,Mike's fantastic book
+@2017-10-10 14:55:49 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Title added! TitleId = 6
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51237 exit
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51237 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51238 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51238] Client Socket: [51238 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51238 : Connected to portid: 51238
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51238
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51238 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 Add Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 By the grace of God
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 By the grace of God, 9781442668584
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 Add Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 New Title
+@2017-10-10 14:55:49 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Enter the title name to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 New Title,9999999999998
+@2017-10-10 14:55:49 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Title added! TitleId = 7
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 Add Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 New Title
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 9999999999998, New Title
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51238 exit
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51238 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51239 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51239] Client Socket: [51239 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51239 : Connected to portid: 51239
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51239
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51239 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 Add User
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 Enter the useremail to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 Zhibo@carleton.ca,Zhibo
+@2017-10-10 14:55:49 INFO  String:51 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 The user entered already exists!
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 Add User
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 Enter the useremail to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 Mike@carleton.ca,Mike
+@2017-10-10 14:55:49 INFO  String:49 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 User added! UserId = 6
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51239 exit
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51239 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51240 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51240] Client Socket: [51240 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51240 : Connected to portid: 51240
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51240
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51240 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 Remove Title
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 By the grace of God
+@2017-10-10 14:55:49 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 The title has been removed!
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 Remove Title
+@2017-10-10 14:55:49 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 The title is not stored.
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51240 This title isn't saved
+@2017-10-10 14:55:49 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51240 The title is not stored.
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51240 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51240Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51241 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51241] Client Socket: [51241 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51241 : Connected to portid: 51241
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51241
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51241 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 Remove Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 This title isn't saved
+@2017-10-10 14:55:49 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 The title is not stored.
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 Remove Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 Dante's lyric poetry
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51241 Dante's lyric poetry
+@2017-10-10 14:55:49 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51241 The title has been removed!
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51241 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51241Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51242 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51242] Client Socket: [51242 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51242 : Connected to portid: 51242
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51242
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51242 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 Add User
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 Enter the useremail to add
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 mikestupich@carleton.ca,mike
+@2017-10-10 14:55:49 INFO  String:49 - Operation:Create New User;User Info:[mikestupich@carleton.ca,mike];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 User added! UserId = 7
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 Remove user
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 Enter the useremail to remove
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51242 mikestupich@carleton.ca
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51242 The user was successfully removed
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51242 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51242Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51243 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51243 : Connected to portid: 51243
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51243] Client Socket: [51243 ]
+
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51243
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51244 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51244] Client Socket: [51244 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51244 : Connected to portid: 51244
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51244
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51244 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51244 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51244 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51244 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51244 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51244 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51244 monitor system
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51244 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, Mike@carleton.ca, userId: 5, , Titles: Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, Mike's fantastic book, 9999999999999, 9999999999998, New Title, 
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51244 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51244Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51245 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51245] Client Socket: [51245 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51245 : Connected to portid: 51245
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51245
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51245 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 Loan Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 Enter the useremail and title to loan
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:49 DEBUG String:56 - userid: 0, amount: 5.00
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 The user has an outstanding balance that must be paid.
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 Pay Fines
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 Enter the useremail to collect their fines
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51245 Zhibo@carleton.ca
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51245 The fine was successfully paid
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51245 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51245Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51246 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51246] Client Socket: [51246 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51246 : Connected to portid: 51246
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51246
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51246 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 Loan Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Enter the useremail and title to loan
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:49 DEBUG String:56 - false
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 The loan was successfully added
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 Loan Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Enter the useremail and title to loan
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 Yu@carleton.ca,xyz,
+@2017-10-10 14:55:49 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 Loan Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Enter the useremail and title to loan
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51246 mike,By the grace of God
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51246 Your user must be user@email
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51246 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51246Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:49 INFO  LibClient:32 - 51247 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:49 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51247] Client Socket: [51247 ]
+
+@2017-10-10 14:55:49 INFO  LibClient:33 - 51247 : Connected to portid: 51247
+@2017-10-10 14:55:49 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:49 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51247
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 hi
+@2017-10-10 14:55:49 INFO  LibServer:120 - Output to 127.0.0.1:51247 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 librarian
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 Please Input the password
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 admin
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 Loan Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 Enter the useremail and title to loan
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:49 DEBUG String:56 - false
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 The loan was successfully added
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 Renew Item
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 Enter the userid and isbn of a loan to renew
+
+@2017-10-10 14:55:49 INFO  LibServer:104 - Input from 127.0.0.1:51247 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:49 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:49 INFO  LibServer:112 - Output to 127.0.0.1:51247 The loan was successfully renewed
+
+@2017-10-10 14:55:49 INFO  LibServer:93 - Client: 51247 Exits
+@2017-10-10 14:55:49 INFO  LibServer:97 - Client : 51247Exits
+@2017-10-10 14:55:49 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:55:52 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:55:52 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:55:52 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:55:52]
+@2017-10-10 14:55:52 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51295 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51295 : Connected to portid: 51295
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51295] Client Socket: [51295 ]
+
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51295
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51295 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 Add Title
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Enter the title name to add
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 9781442668584,By the grace of God
+@2017-10-10 14:55:52 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 The title entered already exists!
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 Add Title
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Enter the title name to add
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 9999999999999,Mike's fantastic book
+@2017-10-10 14:55:52 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Title added! TitleId = 6
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51295 exit
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51295 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51296 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51296] Client Socket: [51296 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51296 : Connected to portid: 51296
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51296
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51296 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 Add Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 By the grace of God
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 By the grace of God, 9781442668584
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 Add Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 New Title
+@2017-10-10 14:55:52 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Enter the title name to add
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 New Title,9999999999998
+@2017-10-10 14:55:52 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Title added! TitleId = 7
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 Add Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 New Title
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 9999999999998, New Title
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51296 exit
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51296 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51297 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51297 : Connected to portid: 51297
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51297] Client Socket: [51297 ]
+
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51297
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51298 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51298] Client Socket: [51298 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51298 : Connected to portid: 51298
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 hi
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51298
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51298 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 Remove Title
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 By the grace of God
+@2017-10-10 14:55:52 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 The title has been removed!
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 Remove Title
+@2017-10-10 14:55:52 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 The title is not stored.
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51298 This title isn't saved
+@2017-10-10 14:55:52 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51298 The title is not stored.
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51298 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51298Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51299 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51299] Client Socket: [51299 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51299 : Connected to portid: 51299
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51299
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51299 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 Remove Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 This title isn't saved
+@2017-10-10 14:55:52 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 The title is not stored.
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 Remove Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 Dante's lyric poetry
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51299 Dante's lyric poetry
+@2017-10-10 14:55:52 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51299 The title has been removed!
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51299 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51299Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51300 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51300] Client Socket: [51300 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51300 : Connected to portid: 51300
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51300
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51300 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 Add User
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 Enter the useremail to add
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 mikestupich@carleton.ca,mike
+@2017-10-10 14:55:52 INFO  String:49 - Operation:Create New User;User Info:[mikestupich@carleton.ca,mike];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 User added! UserId = 6
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 Remove user
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 Enter the useremail to remove
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51300 mikestupich@carleton.ca
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51300 The user was successfully removed
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51300 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51300Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51301 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51301] Client Socket: [51301 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51301 : Connected to portid: 51301
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51301
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51301 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 DEBUG String:56 - false
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 The loan was successfully added
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 Return Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 Enter the userid and isbn of a loan to return
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51301 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51301 The loan was successfully returend
+
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51302] Client Socket: [51302 ]
+
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51302
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51302 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51302 : Connected to portid: 51302
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51302 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51302 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51302 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51302 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51302 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51302 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51302 monitor system
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51302 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, , Titles: Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, Mike's fantastic book, 9999999999999, 9999999999998, New Title, 
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51302 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51302Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51303 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51303] Client Socket: [51303 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51303 : Connected to portid: 51303
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51303
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51303 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 DEBUG String:56 - userid: 0, amount: 5.00
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 The user has an outstanding balance that must be paid.
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 Pay Fines
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 Enter the useremail to collect their fines
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51303 Zhibo@carleton.ca
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51303 The fine was successfully paid
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51303 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51303Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51304 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51304] Client Socket: [51304 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51304 : Connected to portid: 51304
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51304
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51304 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 DEBUG String:56 - false
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 The loan was successfully added
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 Yu@carleton.ca,xyz,
+@2017-10-10 14:55:52 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51304 mike,By the grace of God
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51304 Your user must be user@email
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51304 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51304Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:52 INFO  LibClient:32 - 51305 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:52 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51305] Client Socket: [51305 ]
+
+@2017-10-10 14:55:52 INFO  LibClient:33 - 51305 : Connected to portid: 51305
+@2017-10-10 14:55:52 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:52 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51305
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 hi
+@2017-10-10 14:55:52 INFO  LibServer:120 - Output to 127.0.0.1:51305 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 librarian
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 Please Input the password
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 admin
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 Loan Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 Enter the useremail and title to loan
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 DEBUG String:56 - false
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 The loan was successfully added
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 Renew Item
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 Enter the userid and isbn of a loan to renew
+
+@2017-10-10 14:55:52 INFO  LibServer:104 - Input from 127.0.0.1:51305 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:52 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:52 INFO  LibServer:112 - Output to 127.0.0.1:51305 The loan was successfully renewed
+
+@2017-10-10 14:55:52 INFO  LibServer:93 - Client: 51305 Exits
+@2017-10-10 14:55:52 INFO  LibServer:97 - Client : 51305Exits
+@2017-10-10 14:55:52 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:55:53 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:55:53 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:55:53 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:55:53]
+@2017-10-10 14:55:53 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51320 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51320] Client Socket: [51320 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51320 : Connected to portid: 51320
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 hi
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51320
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51320 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 Add Title
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Enter the title name to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 9781442668584,By the grace of God
+@2017-10-10 14:55:53 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 The title entered already exists!
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 Add Title
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Enter the title name to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 9999999999999,Mike's fantastic book
+@2017-10-10 14:55:53 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Title added! TitleId = 6
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51320 exit
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51320 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51321 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51321] Client Socket: [51321 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51321 : Connected to portid: 51321
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51321
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51321 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 Add Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 By the grace of God
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 By the grace of God, 9781442668584
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 Add Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 New Title
+@2017-10-10 14:55:53 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Enter the title name to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 New Title,9999999999998
+@2017-10-10 14:55:53 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Title added! TitleId = 7
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 Add Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Enter the title or ISBN to search for
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 New Title
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 9999999999998, New Title
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51321 exit
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51321 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51322 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51322] Client Socket: [51322 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51322 : Connected to portid: 51322
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51322
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51322 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 Add User
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 Enter the useremail to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 Zhibo@carleton.ca,Zhibo
+@2017-10-10 14:55:53 INFO  String:51 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 The user entered already exists!
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 Add User
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 Enter the useremail to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 Mike@carleton.ca,Mike
+@2017-10-10 14:55:53 INFO  String:49 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 User added! UserId = 6
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51322 exit
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51322 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51323 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51323] Client Socket: [51323 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51323 : Connected to portid: 51323
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51323
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51323 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 Remove Title
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 By the grace of God
+@2017-10-10 14:55:53 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 The title has been removed!
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 Remove Title
+@2017-10-10 14:55:53 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 The title is not stored.
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51323 This title isn't saved
+@2017-10-10 14:55:53 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51323 The title is not stored.
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51323 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51323Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51324 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51324] Client Socket: [51324 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51324 : Connected to portid: 51324
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51324
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51324 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 Remove Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 This title isn't saved
+@2017-10-10 14:55:53 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 The title is not stored.
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 Remove Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 Enter the title or ISBN to remove
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 Dante's lyric poetry
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51324 Dante's lyric poetry
+@2017-10-10 14:55:53 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51324 The title has been removed!
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51324 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51324Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51325 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51325] Client Socket: [51325 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51325 : Connected to portid: 51325
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51325
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51325 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 Add User
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 Enter the useremail to add
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 mikestupich@carleton.ca,mike
+@2017-10-10 14:55:53 INFO  String:49 - Operation:Create New User;User Info:[mikestupich@carleton.ca,mike];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 User added! UserId = 7
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 Remove user
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 Enter the useremail to remove
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51325 mikestupich@carleton.ca
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51325 The user was successfully removed
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51325 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51325Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51326 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51326] Client Socket: [51326 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51326 : Connected to portid: 51326
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51326
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51326 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 DEBUG String:56 - false
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 The loan was successfully added
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 Return Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 Enter the userid and isbn of a loan to return
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51326 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51326 The loan was successfully returend
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51327 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51327] Client Socket: [51327 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51327 : Connected to portid: 51327
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51327
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51327 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51327 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51327 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51327 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51327 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51327 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51327 monitor system
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51327 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, Mike@carleton.ca, userId: 5, , Titles: Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, Mike's fantastic book, 9999999999999, 9999999999998, New Title, 
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51327 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51327Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51328 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51328] Client Socket: [51328 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51328 : Connected to portid: 51328
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51328
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51328 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 DEBUG String:56 - userid: 0, amount: 5.00
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 The user has an outstanding balance that must be paid.
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 Pay Fines
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 Enter the useremail to collect their fines
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51328 Zhibo@carleton.ca
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51328 The fine was successfully paid
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51328 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51328Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51329 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51329] Client Socket: [51329 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51329 : Connected to portid: 51329
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51329
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51329 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 DEBUG String:56 - false
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 The loan was successfully added
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 Yu@carleton.ca,xyz,
+@2017-10-10 14:55:53 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51329 mike,By the grace of God
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51329 Your user must be user@email
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51329 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51329Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:55:53 INFO  LibClient:32 - 51330 : Connected to server: /127.0.0.1
+@2017-10-10 14:55:53 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51330] Client Socket: [51330 ]
+
+@2017-10-10 14:55:53 INFO  LibClient:33 - 51330 : Connected to portid: 51330
+@2017-10-10 14:55:53 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:55:53 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51330
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 hi
+@2017-10-10 14:55:53 INFO  LibServer:120 - Output to 127.0.0.1:51330 Who are you? Librarian or Borrower?
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 librarian
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 Please Input the password
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 admin
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 Loan Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 Enter the useremail and title to loan
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 DEBUG String:56 - false
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 The loan was successfully added
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 Renew Item
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 Enter the userid and isbn of a loan to renew
+
+@2017-10-10 14:55:53 INFO  LibServer:104 - Input from 127.0.0.1:51330 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:55:53 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:55:53 INFO  LibServer:112 - Output to 127.0.0.1:51330 The loan was successfully renewed
+
+@2017-10-10 14:55:53 INFO  LibServer:93 - Client: 51330 Exits
+@2017-10-10 14:55:53 INFO  LibServer:97 - Client : 51330Exits
+@2017-10-10 14:55:53 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 17:50:17 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 17:50:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:50:17 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 17:50:17 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 17:50:17 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 17:50:17 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 05:50:17]
+@2017-10-10 17:50:17 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 17:50:17 INFO  LibClient:32 - 62946 : Connected to server: /127.0.0.1
+@2017-10-10 17:50:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62946] Client Socket: [62946 ]
+
+@2017-10-10 17:50:17 INFO  LibClient:33 - 62946 : Connected to portid: 62946
+@2017-10-10 17:50:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:50:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62946
+@2017-10-10 17:50:17 INFO  LibClient:32 - 62947 : Connected to server: /127.0.0.1
+@2017-10-10 17:50:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62947] Client Socket: [62947 ]
+
+@2017-10-10 17:50:17 INFO  LibClient:33 - 62947 : Connected to portid: 62947
+@2017-10-10 17:50:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62947
+@2017-10-10 17:50:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:50:17 INFO  String:46 - Multiple loans of same book at same time
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62946 hi
+@2017-10-10 17:50:17 INFO  LibServer:120 - Output to 127.0.0.1:62946 Who are you? Librarian or Borrower?
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62946 borrower
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62946 Please enter your useremail,password
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62946 Yu@carleton.ca,Yu
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62946 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62946 loan item
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62946 Enter the useremail and title to loan
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62947 hi
+@2017-10-10 17:50:17 INFO  LibServer:120 - Output to 127.0.0.1:62947 Who are you? Librarian or Borrower?
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62947 borrower
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62947 Please enter your useremail,password
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62947 Michelle@carleton.ca,Michelle
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62947 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62947 loan item
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62947 Enter the useremail and title to loan
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62946 Yu@carleton.ca,Yu,Courtesy lost
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62946 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 17:50:17 INFO  String:57 - User: Yu@carleton.ca,Yu|Operation: loan item|Result:No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 17:50:17 INFO  LibServer:104 - Input from 127.0.0.1:62947 Michelle@carleton.ca,Michelle,Courtesy lost
+@2017-10-10 17:50:17 INFO  LibServer:112 - Output to 127.0.0.1:62947 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 17:50:17 INFO  String:58 - User: Michelle@carleton.ca,Michelle|Operation: loan item|Result:No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 17:56:58 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 17:56:58 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:56:58 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 17:56:58 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 17:56:58 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 17:56:58 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 05:56:58]
+@2017-10-10 17:56:58 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 17:56:58 INFO  LibClient:32 - 63145 : Connected to server: /127.0.0.1
+@2017-10-10 17:56:58 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:63145] Client Socket: [63145 ]
+
+@2017-10-10 17:56:58 INFO  LibClient:33 - 63145 : Connected to portid: 63145
+@2017-10-10 17:56:58 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:56:58 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__63145
+@2017-10-10 17:56:58 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:63146] Client Socket: [63146 ]
+
+@2017-10-10 17:56:58 INFO  LibClient:32 - 63146 : Connected to server: /127.0.0.1
+@2017-10-10 17:56:58 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 17:56:58 INFO  LibClient:33 - 63146 : Connected to portid: 63146
+@2017-10-10 17:56:58 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__63146
+@2017-10-10 17:56:58 INFO  String:49 - Multiple loans of same book at same time
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63145 hi
+@2017-10-10 17:56:58 INFO  LibServer:120 - Output to 127.0.0.1:63145 Who are you? Librarian or Borrower?
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63145 borrower
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63145 Please enter your useremail,password
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63145 Yu@carleton.ca,Yu
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63145 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63145 loan item
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63145 Enter the useremail and title to loan
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63146 hi
+@2017-10-10 17:56:58 INFO  LibServer:120 - Output to 127.0.0.1:63146 Who are you? Librarian or Borrower?
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63146 borrower
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63146 Please enter your useremail,password
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63146 Michelle@carleton.ca,Michelle
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63146 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63146 loan item
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63146 Enter the useremail and title to loan
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63145 Yu@carleton.ca,Courtesy lost
+@2017-10-10 17:56:58 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 17:56:58 DEBUG String:56 - false
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63145 The loan was successfully added
+
+@2017-10-10 17:56:58 INFO  String:60 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 17:56:58 INFO  LibServer:104 - Input from 127.0.0.1:63146 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 17:56:58 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 17:56:58 DEBUG String:56 - false
+@2017-10-10 17:56:58 INFO  LibServer:112 - Output to 127.0.0.1:63146 The loan was successfully added
+
+@2017-10-10 17:56:58 INFO  String:61 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 18:05:11 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:05:11 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:11 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:05:11 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:05:11 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:05:11 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:05:11]
+@2017-10-10 18:05:11 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:05:11 INFO  LibClient:32 - 51386 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:11 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51386] Client Socket: [51386 ]
+
+@2017-10-10 18:05:11 INFO  LibClient:33 - 51386 : Connected to portid: 51386
+@2017-10-10 18:05:11 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:11 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51386
+@2017-10-10 18:05:11 INFO  LibClient:32 - 51387 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:11 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51387] Client Socket: [51387 ]
+
+@2017-10-10 18:05:11 INFO  LibClient:33 - 51387 : Connected to portid: 51387
+@2017-10-10 18:05:11 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51387
+@2017-10-10 18:05:11 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:11 INFO  String:52 - Multiple loans of same book at same time
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51386 hi
+@2017-10-10 18:05:11 INFO  LibServer:120 - Output to 127.0.0.1:51386 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51386 borrower
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51386 Please enter your useremail,password
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51386 Yu@carleton.ca,Yu
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51386 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51386 loan item
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51386 Enter the useremail and title to loan
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51387 hi
+@2017-10-10 18:05:11 INFO  LibServer:120 - Output to 127.0.0.1:51387 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51387 borrower
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51387 Please enter your useremail,password
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51387 Michelle@carleton.ca,Michelle
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51387 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51387 loan item
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51387 Enter the useremail and title to loan
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51386 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:05:11 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:11 DEBUG String:56 - false
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51386 The loan was successfully added
+
+@2017-10-10 18:05:11 INFO  LibServer:104 - Input from 127.0.0.1:51387 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:05:11 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:11 DEBUG String:56 - false
+@2017-10-10 18:05:11 INFO  LibServer:112 - Output to 127.0.0.1:51387 The loan was successfully added
+
+@2017-10-10 18:05:11 INFO  String:66 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 18:05:11 INFO  String:67 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 18:05:27 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:05:27 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:27 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:05:27 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:05:27 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:05:27 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:05:27]
+@2017-10-10 18:05:27 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:05:27 INFO  LibClient:32 - 51712 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:27 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51712] Client Socket: [51712 ]
+
+@2017-10-10 18:05:27 INFO  LibClient:33 - 51712 : Connected to portid: 51712
+@2017-10-10 18:05:27 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51712
+@2017-10-10 18:05:27 INFO  LibClient:32 - 51713 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:27 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:51713] Client Socket: [51713 ]
+
+@2017-10-10 18:05:27 INFO  LibClient:33 - 51713 : Connected to portid: 51713
+@2017-10-10 18:05:27 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:27 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__51713
+@2017-10-10 18:05:27 INFO  String:52 - Multiple loans of same book at same time
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51712 hi
+@2017-10-10 18:05:27 INFO  LibServer:120 - Output to 127.0.0.1:51712 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51712 borrower
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51712 Please enter your useremail,password
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51712 Yu@carleton.ca,Yu
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51712 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51712 loan item
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51712 Enter the useremail and title to loan
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51713 hi
+@2017-10-10 18:05:27 INFO  LibServer:120 - Output to 127.0.0.1:51713 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51713 borrower
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51713 Please enter your useremail,password
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51713 Michelle@carleton.ca,Michelle
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51713 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51713 loan item
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51713 Enter the useremail and title to loan
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51712 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:05:27 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:27 DEBUG String:56 - false
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51712 The loan was successfully added
+
+@2017-10-10 18:05:27 INFO  LibServer:104 - Input from 127.0.0.1:51713 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:05:27 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:27 DEBUG String:56 - false
+@2017-10-10 18:05:27 INFO  LibServer:112 - Output to 127.0.0.1:51713 The loan was successfully added
+
+@2017-10-10 18:05:27 INFO  String:66 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 18:05:27 INFO  String:67 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+
+@2017-10-10 18:05:55 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:05:55 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:55 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:05:55 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:05:55 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:05:55 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:05:55]
+@2017-10-10 18:05:55 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:05:55 INFO  LibClient:32 - 52128 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:55 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52128] Client Socket: [52128 ]
+
+@2017-10-10 18:05:55 INFO  LibClient:33 - 52128 : Connected to portid: 52128
+@2017-10-10 18:05:55 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:55 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52128
+@2017-10-10 18:05:55 INFO  LibClient:32 - 52129 : Connected to server: /127.0.0.1
+@2017-10-10 18:05:55 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52129] Client Socket: [52129 ]
+
+@2017-10-10 18:05:55 INFO  LibClient:33 - 52129 : Connected to portid: 52129
+@2017-10-10 18:05:55 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52129
+@2017-10-10 18:05:55 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:05:55 INFO  String:52 - Multiple loans of same book at same time
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52128 hi
+@2017-10-10 18:05:55 INFO  LibServer:120 - Output to 127.0.0.1:52128 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52128 borrower
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52128 Please enter your useremail,password
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52128 Yu@carleton.ca,Yu
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52128 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52128 loan item
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52128 Enter the useremail and title to loan
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52129 hi
+@2017-10-10 18:05:55 INFO  LibServer:120 - Output to 127.0.0.1:52129 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52129 borrower
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52129 Please enter your useremail,password
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52129 Michelle@carleton.ca,Michelle
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52129 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52129 loan item
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52129 Enter the useremail and title to loan
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52128 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:05:55 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:55 DEBUG String:56 - false
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52128 The loan was successfully added
+
+@2017-10-10 18:05:55 INFO  LibServer:104 - Input from 127.0.0.1:52129 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:05:55 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:05:55 DEBUG String:56 - false
+@2017-10-10 18:05:55 INFO  LibServer:112 - Output to 127.0.0.1:52129 The loan was successfully added
+
+@2017-10-10 18:05:55 INFO  String:66 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:05:55 INFO  String:67 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:07:08 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:07:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:07:08 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:07:08 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:07:08 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:07:08 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:07:08]
+@2017-10-10 18:07:08 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:07:08 INFO  LibClient:32 - 52163 : Connected to server: /127.0.0.1
+@2017-10-10 18:07:08 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52163] Client Socket: [52163 ]
+
+@2017-10-10 18:07:08 INFO  LibClient:33 - 52163 : Connected to portid: 52163
+@2017-10-10 18:07:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:07:08 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52163
+@2017-10-10 18:07:08 INFO  LibClient:32 - 52164 : Connected to server: /127.0.0.1
+@2017-10-10 18:07:08 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52164] Client Socket: [52164 ]
+
+@2017-10-10 18:07:08 INFO  LibClient:33 - 52164 : Connected to portid: 52164
+@2017-10-10 18:07:08 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52164
+@2017-10-10 18:07:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:07:08 INFO  String:52 - Multiple loans of same book at same time
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52163 hi
+@2017-10-10 18:07:08 INFO  LibServer:120 - Output to 127.0.0.1:52163 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52163 borrower
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52163 Please enter your useremail,password
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52163 Yu@carleton.ca,Yu
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52163 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52163 loan item
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52163 Enter the useremail and title to loan
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52164 hi
+@2017-10-10 18:07:08 INFO  LibServer:120 - Output to 127.0.0.1:52164 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52164 borrower
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52164 Please enter your useremail,password
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52164 Michelle@carleton.ca,Michelle
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52164 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52164 loan item
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52164 Enter the useremail and title to loan
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52163 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:07:08 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:07:08 DEBUG String:56 - false
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52163 The loan was successfully added
+
+@2017-10-10 18:07:08 INFO  LibServer:104 - Input from 127.0.0.1:52164 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:07:08 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:07:08 DEBUG String:56 - false
+@2017-10-10 18:07:08 INFO  LibServer:112 - Output to 127.0.0.1:52164 The loan was successfully added
+
+@2017-10-10 18:07:08 INFO  String:66 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:07:08 INFO  String:67 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:09:19 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:09:19 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:19 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:09:19 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:09:19 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:09:19 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:09:19]
+@2017-10-10 18:09:19 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:09:19 INFO  LibClient:32 - 52221 : Connected to server: /127.0.0.1
+@2017-10-10 18:09:19 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52221] Client Socket: [52221 ]
+
+@2017-10-10 18:09:19 INFO  LibClient:33 - 52221 : Connected to portid: 52221
+@2017-10-10 18:09:19 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:19 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52221
+@2017-10-10 18:09:19 INFO  LibClient:32 - 52222 : Connected to server: /127.0.0.1
+@2017-10-10 18:09:19 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52222] Client Socket: [52222 ]
+
+@2017-10-10 18:09:19 INFO  LibClient:33 - 52222 : Connected to portid: 52222
+@2017-10-10 18:09:19 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52222
+@2017-10-10 18:09:19 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:19 INFO  String:53 - Multiple loans of same book at same time
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52221 hi
+@2017-10-10 18:09:19 INFO  LibServer:120 - Output to 127.0.0.1:52221 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52221 borrower
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52221 Please enter your useremail,password
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52221 Yu@carleton.ca,Yu
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52221 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52221 loan item
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52221 Enter the useremail and title to loan
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52222 hi
+@2017-10-10 18:09:19 INFO  LibServer:120 - Output to 127.0.0.1:52222 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52222 borrower
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52222 Please enter your useremail,password
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52222 Michelle@carleton.ca,Michelle
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52222 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52222 loan item
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52222 Enter the useremail and title to loan
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52221 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:09:19 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:09:19 DEBUG String:56 - false
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52221 The loan was successfully added
+
+@2017-10-10 18:09:19 INFO  LibServer:104 - Input from 127.0.0.1:52222 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:09:19 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:09:19 DEBUG String:56 - false
+@2017-10-10 18:09:19 INFO  LibServer:112 - Output to 127.0.0.1:52222 The loan was successfully added
+
+@2017-10-10 18:09:19 INFO  String:67 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:09:19 INFO  String:68 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:09:59 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:09:59 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:59 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:09:59 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:09:59 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:09:59 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:09:59]
+@2017-10-10 18:09:59 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:09:59 INFO  LibClient:32 - 52244 : Connected to server: /127.0.0.1
+@2017-10-10 18:09:59 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52244] Client Socket: [52244 ]
+
+@2017-10-10 18:09:59 INFO  LibClient:33 - 52244 : Connected to portid: 52244
+@2017-10-10 18:09:59 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:59 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52244
+@2017-10-10 18:09:59 INFO  LibClient:32 - 52245 : Connected to server: /127.0.0.1
+@2017-10-10 18:09:59 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:52245] Client Socket: [52245 ]
+
+@2017-10-10 18:09:59 INFO  LibClient:33 - 52245 : Connected to portid: 52245
+@2017-10-10 18:09:59 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52245
+@2017-10-10 18:09:59 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:09:59 INFO  String:53 - Multiple loans of same book at same time
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52244 hi
+@2017-10-10 18:09:59 INFO  LibServer:120 - Output to 127.0.0.1:52244 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52244 borrower
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52244 Please enter your useremail,password
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52244 Yu@carleton.ca,Yu
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52244 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52244 loan item
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52244 Enter the useremail and title to loan
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52245 hi
+@2017-10-10 18:09:59 INFO  LibServer:120 - Output to 127.0.0.1:52245 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52245 borrower
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52245 Please enter your useremail,password
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52245 Michelle@carleton.ca,Michelle
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52245 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52245 loan item
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52245 Enter the useremail and title to loan
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52244 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:09:59 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:09:59 DEBUG String:56 - false
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52244 The loan was successfully added
+
+@2017-10-10 18:09:59 INFO  LibServer:104 - Input from 127.0.0.1:52245 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:09:59 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:09:59 DEBUG String:56 - false
+@2017-10-10 18:09:59 INFO  LibServer:112 - Output to 127.0.0.1:52245 The loan was successfully added
+
+@2017-10-10 18:09:59 DEBUG String:66 - Loans: 0, 9781442668584, 2017-10-10 06:09:591, Courtesy lost, 2017-10-10 06:09:592, Courtesy lost, 2017-10-10 06:09:59
+@2017-10-10 18:09:59 INFO  String:68 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:09:59 INFO  String:69 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:14:57 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 18:14:57 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 18:14:57 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:14:57 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 18:14:57 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 18:14:57 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 06:14:57]
+@2017-10-10 18:14:57 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 18:14:57 INFO  LibClient:32 - 54611 : Connected to server: /127.0.0.1
+@2017-10-10 18:14:57 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:54611] Client Socket: [54611 ]
+
+@2017-10-10 18:14:57 INFO  LibClient:33 - 54611 : Connected to portid: 54611
+@2017-10-10 18:14:57 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:14:57 INFO  LibClient:32 - 54612 : Connected to server: /127.0.0.1
+@2017-10-10 18:14:57 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:54612] Client Socket: [54612 ]
+
+@2017-10-10 18:14:57 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__54611
+@2017-10-10 18:14:57 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 18:14:57 INFO  LibClient:33 - 54612 : Connected to portid: 54612
+@2017-10-10 18:14:57 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__54612
+@2017-10-10 18:14:57 INFO  String:53 - Multiple loans of same book at same time
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54611 hi
+@2017-10-10 18:14:57 INFO  LibServer:120 - Output to 127.0.0.1:54611 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54611 borrower
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54611 Please enter your useremail,password
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54611 Yu@carleton.ca,Yu
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54611 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54611 loan item
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54611 Enter the useremail and title to loan
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54612 hi
+@2017-10-10 18:14:57 INFO  LibServer:120 - Output to 127.0.0.1:54612 Who are you? Librarian or Borrower?
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54612 borrower
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54612 Please enter your useremail,password
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54612 Michelle@carleton.ca,Michelle
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54612 Menu: Find User/Title, Loan Item, Return Loan
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54612 loan item
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54612 Enter the useremail and title to loan
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54611 Yu@carleton.ca,Courtesy lost
+@2017-10-10 18:14:57 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:14:57 DEBUG String:56 - false
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54611 The loan was successfully added
+
+@2017-10-10 18:14:57 INFO  LibServer:104 - Input from 127.0.0.1:54612 Michelle@carleton.ca,Courtesy lost
+@2017-10-10 18:14:57 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 18:14:57 INFO  LibServer:112 - Output to 127.0.0.1:54612 The loan entered already exists.
+
+@2017-10-10 18:14:57 DEBUG String:66 - Loans: 0, 9781442668584, 2017-10-10 06:14:571, 9781442667181, 2017-10-10 06:14:57
+@2017-10-10 18:14:57 INFO  String:68 - User: Yu@carleton.ca|Operation: loan item|Result:The loan was successfully added
+@2017-10-10 18:14:57 INFO  String:69 - User: Michelle@carleton.ca|Operation: loan item|Result:The loan entered already exists.
+@2017-10-10 18:14:57 DEBUG String:72 - Loans: 0, 9781442668584, 2017-10-10 06:14:571, 9781442667181, 2017-10-10 06:14:57
 @

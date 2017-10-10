@@ -91,4 +91,13 @@ public class UserTable {
 		}
 		return result;
 	}
+	
+	public boolean login(String user, String pass) {
+		for (int i = 0 ; i < users.size(); ++i ) {
+			if (user.equalsIgnoreCase(users.get(i).getUser()) && pass.equalsIgnoreCase(users.get(i).getPass())){
+				return true;
+			}
+		}
+		return false;
+	}
 }
