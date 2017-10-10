@@ -193,4 +193,20 @@ public class OutputHandler {
 		}
 		return o;
 	}
+	
+	public Output payFines(String input) {
+		Output o = new Output("", 0);
+		Object result = -1;
+		String[] usr = input.split("@");
+		if (usr.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.PAYFINES);
+		} else {
+			User u = (User) UserTable.getInstance().findUser(input);
+			result = FineTable.getInstance().payFine(u.getUserId());
+			o.setOutput(result.toString());
+			o.setState(States.LIBRARIAN);
+		}
+		return o;
+	}
 }

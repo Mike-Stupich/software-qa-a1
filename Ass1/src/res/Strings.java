@@ -42,6 +42,9 @@ public class Strings {
 	public final static String LOANITEM = "Enter the loan to be added";
 	public final static String LOANEXISTS = "The loan entered already exists.";
 	
+	public final static String PAYFINES = "Enter the useremail to collect their fines";
+
+	
 	public final static String USERMUSTPAYFINES = "The user has an outstanding balance that must be paid.";
 	public final static String USERPASTBOOKLIMIT = "The user has already borrowed the max number of books.";
 	

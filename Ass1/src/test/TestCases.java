@@ -17,6 +17,11 @@ import utilities.Config;
 public class TestCases {
 	
 	static LibServer ls = new LibServer(Config.DEFAULT_PORT);
+	// Generic commands
+	String hi = "hi";
+	String lib = "librarian";
+	String lib_pass = "admin";
+	String exit = "exit";
 	
 	// Assert that the server has successfully started
 	@BeforeClass
@@ -30,14 +35,13 @@ public class TestCases {
 		final int clientId = lc.getID();
 		
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
+
 		String create_user = "Add User";
 		String old_user = "Zhibo@carleton.ca,Zhibo";
 		String new_user = "Mike@carleton.ca,Mike";
 		
 		// Login as librarian
-		ls.handle(clientId, "hi");
+		ls.handle(clientId, hi);
 		ls.handle(clientId, lib);
 		ls.handle(clientId, lib_pass);
 		
@@ -48,7 +52,7 @@ public class TestCases {
 		// Add new user
 		ls.handle(clientId, create_user);
 		assertNotEquals(Strings.USEREXISTS, ls.handle(clientId, new_user).trim());
-		ls.handle(clientId, "Exit");
+		ls.handle(clientId, exit);
 	}
 	
 	@Test
@@ -56,15 +60,13 @@ public class TestCases {
 		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
 		final int clientId = lc.getID();
 		
-		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
+		// Commands\
 		String add_title = "Add Title";
 		String old_title = "9781442668584,By the grace of God";
 		String new_title = "9999999999999,Mike's fantastic book";
 		
 		// Login as librarian
-		ls.handle(clientId, "hi");
+		ls.handle(clientId, hi);
 		ls.handle(clientId, lib);
 		ls.handle(clientId, lib_pass);
 		
@@ -75,7 +77,7 @@ public class TestCases {
 		// Add new title
 		ls.handle(clientId, add_title);
 		assertNotEquals(Strings.TITLEEXISTS, ls.handle(clientId, new_title).trim());
-		ls.handle(clientId, "Exit");
+		ls.handle(clientId, exit);
 	}
 	
 	@Test
@@ -84,8 +86,6 @@ public class TestCases {
 		final int clientId = lc.getID();
 		
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String add_item = "Add Item";
 		String new_title = "New Title";
 		String titleToAdd = "New Title,9999999999998";
@@ -93,7 +93,7 @@ public class TestCases {
 		
 		
 		// Login as librarian
-		ls.handle(clientId, "hi");
+		ls.handle(clientId, hi);
 		ls.handle(clientId, lib);
 		ls.handle(clientId, lib_pass);
 		
@@ -109,7 +109,7 @@ public class TestCases {
 		// 
 		ls.handle(clientId, add_item);
 		assertEquals("9999999999998, New Title", ls.handle(clientId, new_title).trim());
-		ls.handle(clientId, "Exit");
+		ls.handle(clientId, exit);
 	}
 	
 	@Test
@@ -118,8 +118,6 @@ public class TestCases {
 		final int clientId = lc.getID();
 
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String remove_title = "Remove Title";
 		String existing_title = "By the grace of God";
 		String fake_title = "This title isn't saved";
@@ -143,8 +141,6 @@ public class TestCases {
 		final int clientId = lc.getID();
 
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String remove_item = "Remove Item";
 		String existing_item = "Dante's lyric poetry";
 		String fake_title = "This title isn't saved";
@@ -174,8 +170,6 @@ public class TestCases {
 		date.setTime(date.getTime() + twodays);
 
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String loan_title = "Loan Item";
 		// Loan Format: useremail, book title
 		String valid_loan = "Yu@carleton.ca,Courtesy lost";
@@ -208,8 +202,6 @@ public class TestCases {
 		date.setTime(date.getTime() + twodays);
 
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String loan_title = "Loan Item";
 		String return_title = "Return Item";
 		// Loan Format: useremail, book title
@@ -236,8 +228,6 @@ public class TestCases {
 		date.setTime(date.getTime() + twodays);
 
 		// Commands
-		String lib = "librarian";
-		String lib_pass = "admin";
 		String loan_title = "Loan Item";
 		String renew_item= "Renew Item";
 		// Loan Format: useremail, book title
@@ -257,4 +247,32 @@ public class TestCases {
 		ls.handle(clientId, "Exit");
 	}
 	
+	@Test
+	public void collectFine() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+		long twodays = 1000 * 60 * 60 * 24 * 2;
+		Date date = new Date();
+		date.setTime(date.getTime() + twodays);
+
+		// Commands
+		String loan_title = "Loan Item";
+		String pay_fines = "Pay Fines";
+		// Loan Format: useremail, book title
+		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
+		String owing_fines = "Zhibo@carleton.ca";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, loan_title);
+		assertEquals(Strings.USERMUSTPAYFINES, ls.handle(clientId, valid_loan).trim());
+		
+		ls.handle(clientId, pay_fines);
+		assertEquals(Strings.FINEPAID, ls.handle(clientId, owing_fines).trim());
+		
+		ls.handle(clientId, "Exit");
+	}
 }

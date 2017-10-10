@@ -29,6 +29,7 @@ public class FineTable {
     }
     
     public Object payFine(int userId) {
+    	boolean found = false;
     	ArrayList<User> users = UserTable.getInstance().users;
     	if (userId > users.size() || userId < 0) {
     		return Strings.INVALIDUSERID;
@@ -38,8 +39,11 @@ public class FineTable {
     		Fine f = fines.get(i);
     		if (f.getUserId() == userId) {
     			f.setFine(0);
-    			return Strings.FINEPAID;
+    			found = true;
     		}
+    	}
+    	if (found) {
+    		return Strings.FINEPAID;
     	}
     	return Strings.NOFINEONUSER;    	
     }

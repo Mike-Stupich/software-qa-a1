@@ -57,6 +57,9 @@ public class InputHandler {
 	        	} else if (input.equalsIgnoreCase("renew item")) {
 	        		oo.setOutput(Strings.LOANRENEW);
 	        		oo.setState(States.LOANRENEW);
+	        	} else if (input.equalsIgnoreCase("pay fines")) {
+	        		oo.setOutput(Strings.PAYFINES);
+	        		oo.setState(States.PAYFINES);
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
@@ -95,6 +98,10 @@ public class InputHandler {
 	        	oo.setState(o.getState());
 	        } else if (state == States.LOANRENEW) {
 	        	o = outputHandler.renewLoan(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == States.PAYFINES) {
+	        	o = outputHandler.payFines(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }
