@@ -1,13 +1,11 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import client.LibClient;
-import collections.LoanTable;
 import collections.UserTable;
 import res.Strings;
 import server.LibServer;
@@ -15,7 +13,7 @@ import utilities.Config;
 import utilities.Trace;
 
 public class UserStories {
-	private Logger logger = Trace.getInstance().getLogger("user_stories_file");
+	private Logger logger = Trace.getInstance().getLogger("user_stories");
 	static LibServer ls = new LibServer(Config.DEFAULT_PORT);
 	// Generic commands
 	String hi = "hi";
@@ -36,25 +34,25 @@ public class UserStories {
 		String remove_user = "Remove user";
 		String res;
 		
-		logger.info("Librarian adds and removes a user");
+		logger.info("USER_STORY:Librarian adds and removes a user");
 		
 		ls.handle(id, hi);
 		ls.handle(id, lib);
 		ls.handle(id, lib_pass);
 		
-		logger.info(String.format("Users: %s",UserTable.getInstance().printUsers()));
+		logger.info(String.format("USER_STORY:Users: %s",UserTable.getInstance().printUsers()));
 		
 		ls.handle(id, add_user);
 		res = ls.handle(id, String.format("%s,%s", newUser,newPass));
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", newUser, add_user, res));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", newUser, add_user, res));
 		
-		logger.info(String.format("Users: %s",UserTable.getInstance().printUsers()));
+		logger.info(String.format("USER_STORY:Users: %s",UserTable.getInstance().printUsers()));
 		
 		ls.handle(id, remove_user);
 		res = ls.handle(id, String.format("%s,%s", newUser,newPass));
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", newUser, remove_user, res));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", newUser, remove_user, res));
 		
-		logger.info(String.format("Users: %s",UserTable.getInstance().printUsers()));
+		logger.info(String.format("USER_STORY:Users: %s",UserTable.getInstance().printUsers()));
 		
 		ls.handle(id, exit);
 	}
@@ -68,7 +66,7 @@ public class UserStories {
 		String pass = "Zhibo";
 		String book = "The act in context";
 		
-		logger.info("User tries to loan an item but must first pay fines");
+		logger.info("USER_STORY:User tries to loan an item but must first pay fines");
 		
 		String loan_item = "Loan Item";
 		String pay_fines = "Pay Fines";
@@ -81,15 +79,15 @@ public class UserStories {
 		ls.handle(id, loan_item);
 		res = ls.handle(id, String.format("%s,%s", user, book)).trim();
 		assertEquals(Strings.USERMUSTPAYFINES, res);
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, loan_item, res));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", user, loan_item, res));
 		
 		ls.handle(id, pay_fines);
 		ls.handle(id, user);
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, pay_fines, res));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", user, pay_fines, res));
 		
 		ls.handle(id, loan_item);
 		res = ls.handle(id, String.format("%s,%s", user, book)).trim();
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, loan_item, res));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", user, loan_item, res));
 		assertEquals(Strings.LOANADDED, res);
 		
 		ls.handle(id, exit);
@@ -111,7 +109,7 @@ public class UserStories {
 		String loan_item = "loan item";
 		String book = "Courtesy lost";
 		
-		logger.info(String.format("Multiple loans of same book at same time"));
+		logger.info(String.format("USER_STORY:Multiple loans of same book at same time"));
 		ls.handle(id1, hi);
 		ls.handle(id1, bor);
 		ls.handle(id1, String.format("%s,%s", user1, pass1));
@@ -125,8 +123,8 @@ public class UserStories {
 		String res1 = ls.handle(id1, String.format("%s,%s", user1, book)).trim();
 		String res2 = ls.handle(id2, String.format("%s,%s", user2, book)).trim(); 
 		
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", user1, loan_item, res1));
-		logger.info(String.format("User: %s|Operation: %s|Result:%s", user2, loan_item, res2));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", user1, loan_item, res1));
+		logger.info(String.format("USER_STORY:User: %s|Operation: %s|Result:%s", user2, loan_item, res2));
 		assertEquals(Strings.LOANADDED, res1);
 		assertEquals(Strings.LOANEXISTS, res2);
 		

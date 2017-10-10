@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 
-import models.Fine;
-import models.Loan;
 import models.User;
 import res.Strings;
 import utilities.Trace;
