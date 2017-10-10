@@ -14,4 +14,5 @@ public class States {
     public static final int LOANRETURN = 10;
     public static final int LOANRENEW = 11;
     public static final int PAYFINES = 12;
+    public static final int REMOVEUSER = 13;
 }

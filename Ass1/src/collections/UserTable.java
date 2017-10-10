@@ -4,7 +4,10 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 
+import models.Fine;
+import models.Loan;
 import models.User;
+import res.Strings;
 import utilities.Trace;
 
 public class UserTable {
@@ -48,6 +51,21 @@ public class UserTable {
 			logger.info(String.format("Operation:Create New User;User Info:[%s,%s];State:Fail;Reason:The User already existed.", string,string2));
 		}
 		return userid;	
+	}
+	
+	public Object removeUser(int userId) {
+		if (userId > users.size() || userId < 0) {
+			return -1;
+		}
+		Object f = FineTable.getInstance().getUserFines(userId);
+		int loans = LoanTable.getInstance().checkUserLoans(userId);
+		if (!f.equals(false)) {
+			return Strings.USERMUSTPAYFINES;
+		} else if (loans != 0) {
+			return Strings.USERMUSTRETURNLOANS;
+		}
+		return users.remove(userId);
+		
 	}
 	
 	public Object findUser(String user) {

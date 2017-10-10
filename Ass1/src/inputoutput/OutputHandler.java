@@ -46,6 +46,28 @@ public class OutputHandler {
 		return o;
 	}
 	
+	public Output removeUser(String user) {
+		Output o = new Output("", 0);
+		Object result = -1;
+		String[] usr = user.split("@");
+		
+		if (usr.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.REMOVEUSER);
+		} else {
+			User u = (User) UserTable.getInstance().findUser(user);
+			result = UserTable.getInstance().removeUser(u.getUserId());
+			if (result.equals(-1)) {
+				o.setOutput(Strings.INVALIDUSEREMAIL);
+			} else {
+				result = (User) result;
+				o.setOutput(Strings.USERREMOVED);
+			}
+			o.setState(States.LIBRARIAN);
+		}
+		return o;
+	}
+	
 	public Output addTitle(String title) {
 		Output o = new Output("",0);
 		String[] str = title.split(",");

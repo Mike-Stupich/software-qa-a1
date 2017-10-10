@@ -15,9 +15,12 @@ public class Strings {
 	
 	public final static String LIBRARIANMENU = "Menu: Add User/Title/Item, Remove Title/Item, Loan Item";
 	
-	public final static String ADDUSER = "Enter the user name to add";
+	public final static String ADDUSER = "Enter the useremail to add";
+	public final static String REMOVEUSER  = "Enter the useremail to remove";
 	public final static String INVALIDADDUSER = "Your input should be username@email,password";
 	public final static String USEREXISTS = "The user entered already exists!";
+	public final static String USERDOESNOTEXIST = "The user entered does not exist!";
+	public final static String USERREMOVED = "The user was successfully removed";
 	
 	public final static String ADDTITLE = "Enter the title name to add";
 	public final static String INVALIDADDTITLE = "Your input should be titlename,isbn";
@@ -47,6 +50,7 @@ public class Strings {
 	
 	public final static String USERMUSTPAYFINES = "The user has an outstanding balance that must be paid.";
 	public final static String USERPASTBOOKLIMIT = "The user has already borrowed the max number of books.";
+	public final static String USERMUSTRETURNLOANS = "The user must return loans";
 	
 	public final static String FINEPAID = "The fine was successfully paid";
 	public final static String NOFINEONUSER = "There is no fine for this users";

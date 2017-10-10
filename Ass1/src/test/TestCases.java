@@ -3,6 +3,7 @@ package test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Date;
 
@@ -272,6 +273,29 @@ public class TestCases {
 		
 		ls.handle(clientId, pay_fines);
 		assertEquals(Strings.FINEPAID, ls.handle(clientId, owing_fines).trim());
+		
+		ls.handle(clientId, "Exit");
+	}
+	
+	@Test
+	public void removeUser() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);	
+		final int clientId = lc.getID();
+		
+		String add_user = "Add User";
+		String remove_user = "Remove user";
+		String useradd = "mikestupich@carleton.ca,mike";
+		String userremove = "mikestupich@carleton.ca";
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, add_user);
+		ls.handle(clientId, useradd);
+		
+		ls.handle(clientId, remove_user);
+		assertEquals(Strings.USERREMOVED,ls.handle(clientId, userremove).trim());
 		
 		ls.handle(clientId, "Exit");
 	}

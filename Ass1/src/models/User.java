@@ -11,6 +11,10 @@ public class User {
 		this.userId = id;
 	}
 	
+	public String toString() {
+		return String.format("%s, userId: %d", this.user, this.userId);
+	}
+	
 	public String getUser() {
 		return user;
 	}
