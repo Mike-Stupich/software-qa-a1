@@ -8,5 +8,5 @@ public class Config {
 	
 	public static final double TODAYS = 1000 * 60 * 60 * 24;
 	public static final double FINEPERDAY = 2;
-	public static final int DAYSUNTILDUE = 3;
+	public static final int OVERDUELIMIT = 3;
 }

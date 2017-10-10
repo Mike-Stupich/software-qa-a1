@@ -1,11 +1,11 @@
 package inputoutput;
 
-import java.util.Date;
-
 import collections.LoanTable;
 import collections.TitleTable;
 import collections.UserTable;
+import models.Loan;
 import models.Title;
+import models.User;
 import res.States;
 import res.Strings;
 import utilities.Config;
@@ -136,6 +136,32 @@ public class OutputHandler {
 			result = LoanTable.getInstance().addLoan(str[0], str[1]);
 			o.setOutput(result.toString());
 			o.setState(States.LIBRARIAN);
+		}
+		return o;
+	}
+	
+	public Output returnLoan(String input) {
+		Output o = new Output("", 0);
+		Object result = -1;
+		String[] str = input.split(",");
+		String[] usr = str[0].split("@");
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDLOANID);
+			o.setState(States.LOANRETURN);
+		} else if (usr.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.LOANRETURN);
+		} else {
+			User u = (User)UserTable.getInstance().findUser(str[0]);
+			Title t = (Title)TitleTable.getInstance().findTitle(str[1]);
+			result = LoanTable.getInstance().returnLoan(u.getUserId(), t.getISBN());
+			if (result.equals(false)) {
+				o.setOutput(Strings.LOANRETURNED);
+				o.setState(States.LIBRARIAN);
+			} else {
+				o.setOutput(Strings.INVALIDLOANID);
+				o.setState(States.LOANRETURN);
+			}
 		}
 		return o;
 	}

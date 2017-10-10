@@ -198,4 +198,32 @@ public class TestCases {
 		
 		ls.handle(clientId, "Exit");
 	}
+	
+	@Test
+	public void returnLoan() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+		long twodays = 1000 * 60 * 60 * 24 * 2;
+		Date date = new Date();
+		date.setTime(date.getTime() + twodays);
+
+		// Commands
+		String lib = "librarian";
+		String lib_pass = "admin";
+		String loan_title = "Loan Item";
+		String return_title = "Return Item";
+		// Loan Format: useremail, book title
+		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, loan_title);
+		assertEquals(Strings.LOANADDED, ls.handle(clientId, valid_loan).trim());
+		
+		ls.handle(clientId, return_title);
+		assertEquals(Strings.LOANRETURNED, ls.handle(clientId, valid_loan).trim());
+	}
 }

@@ -9,6 +9,7 @@ import models.Loan;
 import models.Title;
 import models.User;
 import res.Strings;
+import utilities.Config;
 import utilities.Trace;
 
 public class LoanTable {
@@ -82,14 +83,24 @@ public class LoanTable {
 		return userLoans;
 	}
 	
-	public boolean returnLoan(Loan loan) {
-		boolean found = false;
-		for (int i = 0; i < loans.size(); ++i) {
-			if (loan.equals(loans.get(i))) {
-				loans.remove(i);
-				found = true;
+	private Loan findLoan(int user, String isbn) {
+		for (int i = 0 ; i < loans.size(); ++i) {
+			Loan l = loans.get(i);
+			if (l.getUserId() == user && l.getIsbn().equals(isbn)) {
+				return l;
 			}
 		}
-		return found;
+		return null;
+	}
+	
+	public Object returnLoan(int user, String isbn) {
+		for (int i = 0 ; i < loans.size(); ++i) {
+			Loan l = loans.get(i);
+			if (l.getUserId() == user && l.getIsbn().equals(isbn)) {
+				loans.remove(i);
+				return l;
+			}
+		}
+		return false;
 	}
 }

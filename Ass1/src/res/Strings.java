@@ -35,6 +35,8 @@ public class Strings {
 	public final static String LOANITEM = "Enter the loan to be added";
 	public final static String LOANEXISTS = "The loan entered already exists.";
 	public final static String LOANADDED = "The loan was successfully added";
+	public final static String LOANRETURNED="The loan was successfully returend";
+	public final static String LOANRENEWED="The loan was successfully renewed";
 	
 	public final static String FINEPAID = "The fine was successfully paid";
 	public final static String NOFINEONUSER = "There is no fine for this users";

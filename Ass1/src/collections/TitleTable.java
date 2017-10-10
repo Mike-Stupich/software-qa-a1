@@ -70,6 +70,13 @@ public class TitleTable {
     	}
     }
     
+    public Object findTitle(int i) {
+    	if (i > titles.size() || i < 0) {
+    		return false;
+    	}
+    	return titles.get(i);
+    }
+    
     public Object removeTitle(String input) {
     	int titleId = -1;
     	boolean found = false;
