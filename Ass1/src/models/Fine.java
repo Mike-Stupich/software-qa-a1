@@ -8,6 +8,10 @@ public class Fine {
 		this.userId = userId;
 		this.fine = fine;
 	}
+	
+	public String toString() {
+		return String.format("userid: %d, amount: %1.2f", this.userId, this.fine);
+	}
 
 	public int getUserId() {
 		return userId;

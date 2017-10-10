@@ -51,12 +51,28 @@ public class FineTable {
     	
     	for (int i =0 ; i < loans.size(); ++i) {
     		Loan currLoan = loans.get(i);
-    		daysOverdue = (int)((now.getTime() - currLoan.getDate().getTime()) * Config.TODAYS);
+    		daysOverdue = (int)((now.getTime() - currLoan.getDate().getTime()) / Config.TODAYS);
     		if (daysOverdue > 0) {
     			int id = loans.get(i).getUserId();
     			fines.get(id).setFine(fines.get(id).getFine() + daysOverdue * Config.FINEPERDAY);
     		}	
     	}
     	return true;
+    }
+    
+    public Object getUserFines(int userId) {
+    	for (int i = 0; i < fines.size(); ++i ) {
+    		Fine f = fines.get(i);
+    		if (f.getUserId() == userId) {
+    			return f;
+    		}
+    	}
+    	return false;
+    }
+    
+    public void logFines() {
+    	for (int i = 0 ; i < fines.size(); ++i ) {
+    		logger.debug(fines.get(i).toString());
+    	}
     }
 }

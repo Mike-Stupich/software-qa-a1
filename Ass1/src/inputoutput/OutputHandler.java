@@ -1,8 +1,10 @@
 package inputoutput;
 
+import collections.FineTable;
 import collections.LoanTable;
 import collections.TitleTable;
 import collections.UserTable;
+import models.Fine;
 import models.Loan;
 import models.Title;
 import models.User;

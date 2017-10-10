@@ -5,11 +5,11 @@ import java.util.Date;
 
 import org.apache.log4j.Logger;
 
+import models.Fine;
 import models.Loan;
 import models.Title;
 import models.User;
 import res.Strings;
-import utilities.Config;
 import utilities.Trace;
 
 public class LoanTable {
@@ -37,7 +37,6 @@ public class LoanTable {
 		Object loanUser = UserTable.getInstance().findUser(user);
 		Object loanTitle = TitleTable.getInstance().findTitle(title);
 		Date now = new Date();
-		logger.debug(String.format("Loan user: %s, Loan title: %s", loanUser, loanTitle));
 		if (loanUser.equals(false)|| loanTitle.equals(-1)) {
 			result = Strings.INVALIDLOANTITLE;
 		} else {
@@ -52,8 +51,17 @@ public class LoanTable {
 			}
 			if (!found) {
 				User u = (User)loanUser;
-				loans.add(new Loan(u.getUserId(), title, now));
-				result = Strings.LOANADDED;	
+				Object f = checkUser(u.getUserId());
+				int userLoans = checkUserLoans(u.getUserId());
+				logger.debug(f);
+				if (!f.equals(false)) {
+					result = Strings.USERMUSTPAYFINES;
+				} else if  (userLoans >= 10) {
+					result = Strings.USERPASTBOOKLIMIT;
+				} else {
+					loans.add(new Loan(u.getUserId(), title, now));
+					result = Strings.LOANADDED;	
+				}
 			}
 		}
 		return result;
@@ -83,16 +91,6 @@ public class LoanTable {
 		return userLoans;
 	}
 	
-	private Loan findLoan(int user, String isbn) {
-		for (int i = 0 ; i < loans.size(); ++i) {
-			Loan l = loans.get(i);
-			if (l.getUserId() == user && l.getIsbn().equals(isbn)) {
-				return l;
-			}
-		}
-		return null;
-	}
-	
 	public Object returnLoan(int user, String isbn) {
 		for (int i = 0 ; i < loans.size(); ++i) {
 			Loan l = loans.get(i);
@@ -108,11 +106,30 @@ public class LoanTable {
 		for (int i = 0 ; i < loans.size(); ++i) {
 			Loan l = loans.get(i);
 			if (l.getUserId() == user && l.getIsbn().equals(isbn)) {
-				loans.get(i).setDate(new Date());;
-				return l;
+				Object f = checkUser(user);
+				if (f.equals(false)) {
+					loans.get(i).setDate(new Date());
+					return l;
+				} else {
+					return f;
+				}
 			}
 		}
 		return false;
 	}
 	
+	public Object checkUser(int userid) {
+		 return FineTable.getInstance().getUserFines(userid);
+	}
+	
+	public int checkUserLoans(int userid) {
+		int userLoanCount = 0;
+		for (int i = 0 ; i < loans.size(); ++i ) {
+			int usr = loans.get(i).getUserId();
+			if (usr == userid) {
+				userLoanCount++;
+			}
+		}
+		return userLoanCount;
+	}
 }

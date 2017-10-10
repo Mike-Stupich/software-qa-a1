@@ -178,8 +178,8 @@ public class TestCases {
 		String lib_pass = "admin";
 		String loan_title = "Loan Item";
 		// Loan Format: useremail, book title
-		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
-		String invalid_loan = "Zhibo@carleton.ca,xyz,";
+		String valid_loan = "Yu@carleton.ca,Courtesy lost";
+		String invalid_loan = "Yu@carleton.ca,xyz,";
 		String invalid_user = "mike,By the grace of God";
 		
 		// Login as librarian
@@ -213,7 +213,7 @@ public class TestCases {
 		String loan_title = "Loan Item";
 		String return_title = "Return Item";
 		// Loan Format: useremail, book title
-		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
+		String valid_loan = "Yu@carleton.ca,Courtesy lost";
 		
 		// Login as librarian
 		ls.handle(clientId, "hi");
@@ -241,7 +241,7 @@ public class TestCases {
 		String loan_title = "Loan Item";
 		String renew_item= "Renew Item";
 		// Loan Format: useremail, book title
-		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
+		String valid_loan = "Yu@carleton.ca,Courtesy lost";
 		
 		// Login as librarian
 		ls.handle(clientId, "hi");
