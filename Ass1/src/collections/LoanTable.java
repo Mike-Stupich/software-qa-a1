@@ -55,7 +55,13 @@ public class LoanTable {
 				int userLoans = checkUserLoans(u.getUserId());
 				logger.debug(f);
 				if (!f.equals(false)) {
-					result = Strings.USERMUSTPAYFINES;
+					Fine fine = (Fine)f;
+					if ((int)fine.getFine() == 0) {
+						loans.add(new Loan(u.getUserId(), t.getISBN(), now));
+						result = Strings.LOANADDED;	
+					} else {
+						result = Strings.USERMUSTPAYFINES;
+					}
 				} else if  (userLoans >= 10) {
 					result = Strings.USERPASTBOOKLIMIT;
 				} else {

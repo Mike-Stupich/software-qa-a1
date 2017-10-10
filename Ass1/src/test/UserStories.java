@@ -36,6 +36,8 @@ public class UserStories {
 		String remove_user = "Remove user";
 		String res;
 		
+		logger.info("Librarian adds and removes a user");
+		
 		ls.handle(id, hi);
 		ls.handle(id, lib);
 		ls.handle(id, lib_pass);
@@ -56,7 +58,42 @@ public class UserStories {
 		
 		ls.handle(id, exit);
 	}
-
+	
+	// User tries to loan an item, but has to pay fine. Pays fine then borrows title
+	@Test
+	public void fineStory() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int id = lc.getID();
+		String user = "Zhibo@carleton.ca";
+		String pass = "Zhibo";
+		String book = "The act in context";
+		
+		logger.info("User tries to loan an item but must first pay fines");
+		
+		String loan_item = "Loan Item";
+		String pay_fines = "Pay Fines";
+		String res;
+		
+		ls.handle(id, hi);
+		ls.handle(id, bor);
+		ls.handle(id, String.format("%s,%s", user, pass));
+		
+		ls.handle(id, loan_item);
+		res = ls.handle(id, String.format("%s,%s", user, book)).trim();
+		assertEquals(Strings.USERMUSTPAYFINES, res);
+		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, loan_item, res));
+		
+		ls.handle(id, pay_fines);
+		ls.handle(id, user);
+		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, pay_fines, res));
+		
+		ls.handle(id, loan_item);
+		res = ls.handle(id, String.format("%s,%s", user, book)).trim();
+		logger.info(String.format("User: %s|Operation: %s|Result:%s", user, loan_item, res));
+		assertEquals(Strings.LOANADDED, res);
+		
+		ls.handle(id, exit);
+	}
 	
 	// Multiple clients try to borrow same book
 	@Test

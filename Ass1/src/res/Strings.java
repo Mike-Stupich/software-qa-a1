@@ -17,7 +17,7 @@ public class Strings {
 	public final static String LOGINFAILED = "Incorrect login";
 	
 	public final static String LIBRARIANMENU = "Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System";
-	public final static String BORROWERMENU = "Menu: Find User/Title, Loan Item, Return Loan";
+	public final static String BORROWERMENU = "Menu: Find User/Title, Loan Item, Return Loan, Pay Fines";
 	
 	public final static String ADDUSER = "Enter the useremail to add";
 	public final static String REMOVEUSER  = "Enter the useremail to remove";

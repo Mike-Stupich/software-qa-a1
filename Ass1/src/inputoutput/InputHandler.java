@@ -51,7 +51,11 @@ public class InputHandler {
 	        	} else if (input.equalsIgnoreCase("find title")) {
 	        		oo.setOutput(Strings.FINDTITLE);
 	        		oo.setState(States.FINDTITLE);
-	        	} else {
+	        	} else if (input.equalsIgnoreCase("pay fines")) {
+	        		oo.setOutput(Strings.PAYFINES);
+	        		oo.setState(States.PAYFINES);
+	        	}
+	        	else {
 	        		oo.setOutput(Strings.BORROWERMENU);
 	        		oo.setState(States.BORROWER);
 	        	}
