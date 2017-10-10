@@ -39,7 +39,7 @@ public class InputHandler {
 	        	if (input.equalsIgnoreCase("add user")) {
 	        		oo.setOutput(Strings.ADDUSER);
 	        		oo.setState(States.ADDUSER);
-	        	}else if (input.equalsIgnoreCase("find title")) {
+	        	}else if (input.equalsIgnoreCase("add item")) {
 	        		oo.setOutput(Strings.FINDTITLE);
 	        		oo.setState(States.FINDTITLE);
 	        	}else if (input.equalsIgnoreCase("remove title")) {
@@ -48,6 +48,9 @@ public class InputHandler {
 	        	}else if (input.equalsIgnoreCase("remove item")) {
 	        		oo.setOutput(Strings.REMOVETITLE);
 	        		oo.setState(States.REMOVEITEM);
+	        	}else if (input.equalsIgnoreCase("loan item")) {
+	        		oo.setOutput(Strings.LOANITEM);
+	        		oo.setState(States.LOANITEM);
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
@@ -74,6 +77,10 @@ public class InputHandler {
 	        	oo.setState(o.getState());
 	        } else if (state == States.REMOVEITEM) {
 	        	o = outputHandler.removeItem(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == States.LOANITEM) {
+	        	o = outputHandler.loanItem(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }

@@ -9,6 +9,10 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import collections.FineTable;
+import collections.LoanTable;
+import collections.TitleTable;
+import collections.UserTable;
 import inputoutput.Client;
 import inputoutput.InputHandler;
 import inputoutput.ServerOutput;
@@ -43,6 +47,11 @@ public class LibServer implements Runnable{
 			thread = new Thread(this);
 			thread.start();
 			logger.info(String.format("Server started: %s %d", server,thread.getId()));
+			//Initialize tables
+			UserTable.getInstance();
+			TitleTable.getInstance();
+			LoanTable.getInstance();
+			FineTable.getInstance();
 			
 			System.out.println(Strings.SERVERSUCCESS);
 		}

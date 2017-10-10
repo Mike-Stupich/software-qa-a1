@@ -1,6 +1,10 @@
 package test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+
+import java.util.Date;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -82,7 +86,7 @@ public class TestCases {
 		// Commands
 		String lib = "librarian";
 		String lib_pass = "admin";
-		String find_title = "Find Title";
+		String add_item = "Add Item";
 		String new_title = "New Title";
 		String titleToAdd = "New Title,9999999999998";
 		String existing_title = "By the grace of God";
@@ -94,16 +98,16 @@ public class TestCases {
 		ls.handle(clientId, lib_pass);
 		
 		// Assert title is returned
-		ls.handle(clientId, find_title);
+		ls.handle(clientId, add_item);
 		assertNotEquals("-1", ls.handle(clientId, existing_title));
 		
 		// Assert new title is added
-		ls.handle(clientId, find_title);
+		ls.handle(clientId, add_item);
 		ls.handle(clientId, new_title);
 		assertNotEquals("-1", ls.handle(clientId, titleToAdd));
 		
 		// 
-		ls.handle(clientId, find_title);
+		ls.handle(clientId, add_item);
 		assertEquals("9999999999998, New Title", ls.handle(clientId, new_title).trim());
 		ls.handle(clientId, "Exit");
 	}
@@ -157,6 +161,40 @@ public class TestCases {
 		ls.handle(clientId, existing_item);
 		assertNotEquals("-1", ls.handle(clientId, existing_item));
 		
+		
+		ls.handle(clientId, "Exit");
+	}
+	
+	@Test
+	public void loanBook() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);
+		final int clientId = lc.getID();
+		long twodays = 1000 * 60 * 60 * 24 * 2;
+		Date date = new Date();
+		date.setTime(date.getTime() + twodays);
+
+		// Commands
+		String lib = "librarian";
+		String lib_pass = "admin";
+		String loan_title = "Loan Item";
+		// Loan Format: useremail, book title
+		String valid_loan = "Zhibo@carleton.ca,Courtesy lost";
+		String invalid_loan = "Zhibo@carleton.ca,xyz,";
+		String invalid_user = "mike,By the grace of God";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		ls.handle(clientId, loan_title);
+		assertEquals(Strings.LOANADDED, ls.handle(clientId, valid_loan).trim());
+		
+		ls.handle(clientId, loan_title);
+		assertEquals(Strings.INVALIDLOANTITLE, ls.handle(clientId, invalid_loan).trim());
+		
+		ls.handle(clientId, loan_title);
+		assertEquals(Strings.INVALIDUSEREMAIL, ls.handle(clientId, invalid_user).trim());
 		
 		ls.handle(clientId, "Exit");
 	}

@@ -49,4 +49,20 @@ public class UserTable {
 		}
 		return userid;	
 	}
+	
+	public Object findUser(String user) {
+		for (int i = 0 ; i < users.size(); ++i) {
+			if (users.get(i).getUser().equalsIgnoreCase(user)) {
+				return users.get(i);
+			}
+		}
+		return false;
+	}
+	
+	public Object findUser(int id) {
+		if (id >= 0 && id < users.size()) {
+			return users.get(id);
+		}
+		return false;
+	}
 }

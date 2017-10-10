@@ -53,7 +53,7 @@ public class TitleTable {
     public Object findTitle(String input) {
     	int titleId = -1;
     	boolean found = false;
-    	Object result = titleId;
+    	Object result = -1;
     	for (int i=0; i< titles.size(); ++i) {
     		if (titles.get(i).getISBN().equalsIgnoreCase(input) || titles.get(i).getTitle().equalsIgnoreCase(input)){
     			found = true;
@@ -61,12 +61,13 @@ public class TitleTable {
     		}
     	}
     	if (!found) {
-    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titls", input));
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titletable", input));
+    		return -1;
     	} else {
     		result = titles.get(titleId);
     		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Success", input));
+    		return result;
     	}
-    	return result;
     }
     
     public Object removeTitle(String input) {
@@ -81,11 +82,12 @@ public class TitleTable {
     	}
     	
     	if (!found) {
-    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titls", input));
+    		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Fail;Reason:Title not in titletable", input));
+    		return -1;
     	} else {
     		logger.info(String.format("Operation:Find Title;Title Info:[%s];State:Success", input));
+        	return titleId;
     	}
-    	return titleId;
     }
     	
 }

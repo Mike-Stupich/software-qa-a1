@@ -10,4 +10,5 @@ public class States {
     public static final int FINDTITLE = 6;
     public static final int REMOVETITLE =7;
     public static final int REMOVEITEM = 8;
+    public static final int LOANITEM = 9;
 }

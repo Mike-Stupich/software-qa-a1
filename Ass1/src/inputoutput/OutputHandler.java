@@ -1,5 +1,8 @@
 package inputoutput;
 
+import java.util.Date;
+
+import collections.LoanTable;
 import collections.TitleTable;
 import collections.UserTable;
 import models.Title;
@@ -114,6 +117,25 @@ public class OutputHandler {
 				o.setOutput(String.format("%s, %s\n%s", t.getTitle().toString(), t.getISBN().toString(), Strings.REMOVETITLE));
 				o.setState(States.REMOVETITLE);
 			}
+		}
+		return o;
+	}
+	
+	public Output loanItem(String input) {
+		Output o = new Output("",0);
+		Object result = -1;
+		String[] str = input.split(",");
+		String[] usr = str[0].split("@");
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDLOANTITLE);
+			o.setState(States.LOANITEM);
+		} else if (usr.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.LOANITEM);
+		} else {
+			result = LoanTable.getInstance().addLoan(str[0], str[1]);
+			o.setOutput(result.toString());
+			o.setState(States.LIBRARIAN);
 		}
 		return o;
 	}
