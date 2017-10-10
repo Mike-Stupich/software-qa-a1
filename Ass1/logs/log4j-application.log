@@ -1087,4 +1087,69 @@
 @2017-10-10 19:40:31 INFO  LibServer:104 - Input from 127.0.0.1:58519 exit
 @2017-10-10 19:40:31 INFO  LibServer:112 - Output to 127.0.0.1:58519 Menu: Add User/Title/Item, Remove Title/Item, Loan Item, Return Loan, Renew Loan, Pay Fines, Monitor System
 
+@2017-10-10 19:44:50 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 19:44:50 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-10 19:44:50 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:44:50 INFO  String:27 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 19:44:50 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 19:44:50 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 07:44:50]
+@2017-10-10 19:44:50 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 19:45:09 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62325] Client Socket: [62325 ]
+
+@2017-10-10 19:45:09 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:45:09 INFO  LibClient:32 - 62325 : Connected to server: /127.0.0.1
+@2017-10-10 19:45:09 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62325
+@2017-10-10 19:45:09 INFO  LibClient:33 - 62325 : Connected to portid: 62325
+@2017-10-10 19:45:12 INFO  LibServer:104 - Input from 127.0.0.1:62325 hi
+@2017-10-10 19:45:12 INFO  LibServer:120 - Output to 127.0.0.1:62325 Who are you? Librarian or Borrower?
+
+@2017-10-10 19:45:15 INFO  LibServer:104 - Input from 127.0.0.1:62325 Borrower
+@2017-10-10 19:45:15 INFO  LibServer:112 - Output to 127.0.0.1:62325 Please enter your useremail,password
+
+@2017-10-10 19:45:23 INFO  LibServer:104 - Input from 127.0.0.1:62325 Zhibo@carleton.ca,Zhibo
+@2017-10-10 19:45:23 INFO  LibServer:112 - Output to 127.0.0.1:62325 Menu: Find User/Title, Loan Item, Return Loan, Pay Fines
+
+@2017-10-10 19:45:29 INFO  LibServer:104 - Input from 127.0.0.1:62325 Find Mike
+@2017-10-10 19:45:29 INFO  LibServer:112 - Output to 127.0.0.1:62325 Menu: Find User/Title, Loan Item, Return Loan, Pay Fines
+
+@2017-10-10 19:45:35 INFO  LibServer:104 - Input from 127.0.0.1:62325 Find User
+@2017-10-10 19:45:35 INFO  LibServer:112 - Output to 127.0.0.1:62325 Enter the useremail to search for
+
+@2017-10-10 19:45:40 INFO  LibServer:104 - Input from 127.0.0.1:62325 Mike@Carleton.ca
+@2017-10-10 19:48:14 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 19:48:14 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 11
+@2017-10-10 19:48:14 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:48:14 INFO  String:27 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 19:48:14 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 19:48:14 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 07:48:14]
+@2017-10-10 19:48:14 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 19:48:16 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64642] Client Socket: [64642 ]
+
+@2017-10-10 19:48:16 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:48:16 INFO  LibClient:32 - 64642 : Connected to server: /127.0.0.1
+@2017-10-10 19:48:16 INFO  LibClient:33 - 64642 : Connected to portid: 64642
+@2017-10-10 19:48:16 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64642
+@2017-10-10 19:48:20 INFO  LibServer:104 - Input from 127.0.0.1:64642 hi
+@2017-10-10 19:48:20 INFO  LibServer:120 - Output to 127.0.0.1:64642 Who are you? Librarian or Borrower?
+
+@2017-10-10 19:48:21 INFO  LibServer:104 - Input from 127.0.0.1:64642 borrower
+@2017-10-10 19:48:21 INFO  LibServer:112 - Output to 127.0.0.1:64642 Please enter your useremail,password
+
+@2017-10-10 19:48:29 INFO  LibServer:104 - Input from 127.0.0.1:64642 zhibo@carleton.ca,Zhibo
+@2017-10-10 19:48:29 INFO  LibServer:112 - Output to 127.0.0.1:64642 Menu: Find User/Title, Loan Item, Return Loan, Pay Fines
+
+@2017-10-10 19:48:32 INFO  LibServer:104 - Input from 127.0.0.1:64642 Find User
+@2017-10-10 19:48:32 INFO  LibServer:112 - Output to 127.0.0.1:64642 Enter the useremail to search for
+
+@2017-10-10 19:48:36 INFO  LibServer:104 - Input from 127.0.0.1:64642 mike@carleton.ca
+@2017-10-10 19:48:36 INFO  LibServer:112 - Output to 127.0.0.1:64642 The user entered does not exist!
+
+@2017-10-10 19:48:37 INFO  LibServer:104 - Input from 127.0.0.1:64642 
+@2017-10-10 19:48:37 INFO  LibServer:112 - Output to 127.0.0.1:64642 Menu: Find User/Title, Loan Item, Return Loan, Pay Fines
+
+@2017-10-10 19:48:38 INFO  LibServer:104 - Input from 127.0.0.1:64642 null
+@2017-10-10 19:48:38 INFO  LibServer:112 - Output to 127.0.0.1:64642 Menu: Find User/Title, Loan Item, Return Loan, Pay Fines
+
+@2017-10-10 19:48:39 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Connection reset 
+
 @

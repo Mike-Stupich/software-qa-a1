@@ -277,9 +277,14 @@ public class OutputHandler {
 			o.setOutput(Strings.INVALIDUSEREMAIL);
 			o.setState(States.FINDUSER);
 		} else {
-			User u  =(User) UserTable.getInstance().findUser(user);
-			result = u.toString();
-			o.setOutput(result.toString());
+			Object usr = UserTable.getInstance().findUser(user);
+			if (usr.equals(false)) {
+				o.setOutput(Strings.USERDOESNOTEXIST);
+			} else {
+				User u = (User) usr;
+				result = u.toString();
+				o.setOutput(result.toString());
+			}
 			o.setState(States.BORROWER);
 		}
 		return o;
