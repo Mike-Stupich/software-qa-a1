@@ -75,14 +75,20 @@ public class OutputHandler {
 			o.setOutput(Strings.INVALIDUSEREMAIL);
 			o.setState(States.REMOVEUSER);
 		} else {
-			User u = (User) UserTable.getInstance().findUser(user);
-			result = UserTable.getInstance().removeUser(u.getUserId());
-			if (result.equals(-1)) {
+			Object userObj = UserTable.getInstance().findUser(user);
+			if (userObj.equals(false)) {
 				o.setOutput(Strings.INVALIDUSEREMAIL);
 			} else {
-				result = (User) result;
-				o.setOutput(Strings.USERREMOVED);
+				User u = (User) userObj;
+				result = UserTable.getInstance().removeUser(u.getUserId());
+				if (result.equals(-1)) {
+					o.setOutput(Strings.INVALIDUSEREMAIL);
+				} else {
+					result = (User) result;
+					o.setOutput(Strings.USERREMOVED);
+				}
 			}
+			
 			o.setState(States.LIBRARIAN);
 		}
 		return o;

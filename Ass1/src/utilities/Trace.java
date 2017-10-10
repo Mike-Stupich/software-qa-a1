@@ -26,7 +26,4 @@ public class Trace {
 		}
 		return _instance;
 	}
-	
-	
-
 }
