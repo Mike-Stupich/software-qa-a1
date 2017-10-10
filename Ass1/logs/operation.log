@@ -12456,4 +12456,439 @@ Enter the title or ISBN to remove
 @2017-10-10 04:14:30 INFO  LibServer:97 - Client : 50073Exits
 @2017-10-10 04:14:30 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
 
+@2017-10-10 14:21:00 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:21:00 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:21:00 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:00 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:21:00 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@75a1cd57, models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2]
+@2017-10-10 14:21:00 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:21:00]
+@2017-10-10 14:21:00 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:21:00 INFO  LibClient:32 - 64607 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:00 INFO  LibClient:33 - 64607 : Connected to portid: 64607
+@2017-10-10 14:21:00 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64607] Client Socket: [64607 ]
+
+@2017-10-10 14:21:00 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:00 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64607
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 hi
+@2017-10-10 14:21:00 INFO  LibServer:120 - Output to 127.0.0.1:64607 Who are you?
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 librarian
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 Please Input the password
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 admin
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 Add User
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 Enter the useremail to add
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 mikestupich@carleton.ca,mike
+@2017-10-10 14:21:00 INFO  String:49 - Operation:Create New User;User Info:[mikestupich@carleton.ca,mike];State:Success
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 User added! UserId = 6
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 Remove user
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 Enter the useremail to remove
+
+@2017-10-10 14:21:00 INFO  LibServer:104 - Input from 127.0.0.1:64607 mikestupich@carleton.ca
+@2017-10-10 14:21:00 INFO  LibServer:112 - Output to 127.0.0.1:64607 The user was successfully removed
+
+@2017-10-10 14:21:00 INFO  LibServer:93 - Client: 64607 Exits
+@2017-10-10 14:21:00 INFO  LibServer:97 - Client : 64607Exits
+@2017-10-10 14:21:00 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:21:04 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:21:04 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:21:04 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@dcf3e99, models.Title@6d9c638, models.Title@7dc5e7b4, models.Title@1ee0005, models.Title@75a1cd57]
+@2017-10-10 14:21:04 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:21:04]
+@2017-10-10 14:21:04 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64611 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64611] Client Socket: [64611 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64611 : Connected to portid: 64611
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64611
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64612 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64612] Client Socket: [64612 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64612 : Connected to portid: 64612
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 hi
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64612
+@2017-10-10 14:21:04 INFO  LibServer:120 - Output to 127.0.0.1:64612 Who are you?
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 librarian
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Please Input the password
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 admin
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 Add Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Enter the title or ISBN to search for
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 By the grace of God
+@2017-10-10 14:21:04 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 By the grace of God, 9781442668584
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 Add Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Enter the title or ISBN to search for
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 New Title
+@2017-10-10 14:21:04 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Enter the title name to add
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 New Title,9999999999998
+@2017-10-10 14:21:04 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Title added! TitleId = 6
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 Add Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Enter the title or ISBN to search for
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 New Title
+@2017-10-10 14:21:04 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 9999999999998, New Title
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64612 exit
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64612 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64613 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64613] Client Socket: [64613 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64613 : Connected to portid: 64613
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64613
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 hi
+@2017-10-10 14:21:04 INFO  LibServer:120 - Output to 127.0.0.1:64613 Who are you?
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 librarian
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 Please Input the password
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 admin
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 Add User
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 Enter the useremail to add
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 Zhibo@carleton.ca,Zhibo
+@2017-10-10 14:21:04 INFO  String:51 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 The user entered already exists!
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 Add User
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 Enter the useremail to add
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 Mike@carleton.ca,Mike
+@2017-10-10 14:21:04 INFO  String:49 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 User added! UserId = 6
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64613 exit
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64613 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64614 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64614 : Connected to portid: 64614
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64614] Client Socket: [64614 ]
+
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64614
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64615 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64615] Client Socket: [64615 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64615 : Connected to portid: 64615
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64615
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 hi
+@2017-10-10 14:21:04 INFO  LibServer:120 - Output to 127.0.0.1:64615 Who are you?
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 librarian
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 Please Input the password
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 admin
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 Remove Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 Enter the title or ISBN to remove
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 This title isn't saved
+@2017-10-10 14:21:04 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 The title is not stored.
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 Remove Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 Enter the title or ISBN to remove
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 Dante's lyric poetry
+@2017-10-10 14:21:04 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64615 Dante's lyric poetry
+@2017-10-10 14:21:04 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64615 The title has been removed!
+
+@2017-10-10 14:21:04 INFO  LibServer:93 - Client: 64615 Exits
+@2017-10-10 14:21:04 INFO  LibServer:97 - Client : 64615Exits
+@2017-10-10 14:21:04 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64616 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64616] Client Socket: [64616 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64616 : Connected to portid: 64616
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64616
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 hi
+@2017-10-10 14:21:04 INFO  LibServer:120 - Output to 127.0.0.1:64616 Who are you?
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 librarian
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 Please Input the password
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 admin
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 Add User
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 Enter the useremail to add
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 mikestupich@carleton.ca,mike
+@2017-10-10 14:21:04 INFO  String:49 - Operation:Create New User;User Info:[mikestupich@carleton.ca,mike];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 User added! UserId = 7
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 Remove user
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 Enter the useremail to remove
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64616 mikestupich@carleton.ca
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64616 The user was successfully removed
+
+@2017-10-10 14:21:04 INFO  LibServer:93 - Client: 64616 Exits
+@2017-10-10 14:21:04 INFO  LibServer:97 - Client : 64616Exits
+@2017-10-10 14:21:04 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64617 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64617] Client Socket: [64617 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64617 : Connected to portid: 64617
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64617
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 hi
+@2017-10-10 14:21:04 INFO  LibServer:120 - Output to 127.0.0.1:64617 Who are you?
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 librarian
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 Please Input the password
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 admin
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 Loan Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 Enter the useremail and title to loan
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:21:04 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:21:04 DEBUG String:56 - false
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 The loan was successfully added
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 Return Item
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 Enter the userid and isbn of a loan to return
+
+@2017-10-10 14:21:04 INFO  LibServer:104 - Input from 127.0.0.1:64617 Yu@carleton.ca,Courtesy lost
+@2017-10-10 14:21:04 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 14:21:04 INFO  LibServer:112 - Output to 127.0.0.1:64617 The loan was successfully returend
+
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64618 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64618] Client Socket: [64618 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64618 : Connected to portid: 64618
+@2017-10-10 14:21:04 INFO  LibServer:84 - Client Tried to connect: Socket[addr=/127.0.0.1,port=64618,localport=5050]
+@2017-10-10 14:21:04 INFO  LibServer:85 - Client refused: maximum number of clients reached: d
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64619 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64619] Client Socket: [64619 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64619 : Connected to portid: 64619
+@2017-10-10 14:21:04 INFO  LibServer:84 - Client Tried to connect: Socket[addr=/127.0.0.1,port=64619,localport=5050]
+@2017-10-10 14:21:04 INFO  LibServer:85 - Client refused: maximum number of clients reached: d
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64620 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64620] Client Socket: [64620 ]
+
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64620 : Connected to portid: 64620
+@2017-10-10 14:21:04 INFO  LibServer:84 - Client Tried to connect: Socket[addr=/127.0.0.1,port=64620,localport=5050]
+@2017-10-10 14:21:04 INFO  LibServer:85 - Client refused: maximum number of clients reached: d
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64621] Client Socket: [64621 ]
+
+@2017-10-10 14:21:04 INFO  LibServer:84 - Client Tried to connect: Socket[addr=/127.0.0.1,port=64621,localport=5050]
+@2017-10-10 14:21:04 INFO  LibClient:32 - 64621 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:04 INFO  LibServer:85 - Client refused: maximum number of clients reached: d
+@2017-10-10 14:21:04 INFO  LibClient:33 - 64621 : Connected to portid: 64621
+@2017-10-10 14:21:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:08 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:21:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:08 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:21:08 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:21:08 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@75a1cd57, models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2]
+@2017-10-10 14:21:08 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:21:08]
+@2017-10-10 14:21:08 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:21:08 INFO  LibClient:32 - 64626 : Connected to server: /127.0.0.1
+@2017-10-10 14:21:08 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64626] Client Socket: [64626 ]
+
+@2017-10-10 14:21:08 INFO  LibClient:33 - 64626 : Connected to portid: 64626
+@2017-10-10 14:21:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:21:08 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64626
+@2017-10-10 14:21:08 INFO  LibServer:104 - Input from 127.0.0.1:64626 hi
+@2017-10-10 14:21:08 INFO  LibServer:120 - Output to 127.0.0.1:64626 Who are you?
+
+@2017-10-10 14:21:08 INFO  LibServer:104 - Input from 127.0.0.1:64626 librarian
+@2017-10-10 14:21:08 INFO  LibServer:112 - Output to 127.0.0.1:64626 Please Input the password
+
+@2017-10-10 14:21:08 INFO  LibServer:104 - Input from 127.0.0.1:64626 admin
+@2017-10-10 14:21:08 INFO  LibServer:112 - Output to 127.0.0.1:64626 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:08 INFO  LibServer:104 - Input from 127.0.0.1:64626 monitor_system
+@2017-10-10 14:21:08 INFO  LibServer:112 - Output to 127.0.0.1:64626 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:21:08 INFO  LibServer:93 - Client: 64626 Exits
+@2017-10-10 14:21:08 INFO  LibServer:97 - Client : 64626Exits
+@2017-10-10 14:21:08 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:22:45 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:22:45 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:22:45 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:22:45 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:22:45 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@75a1cd57, models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2]
+@2017-10-10 14:22:45 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:22:45]
+@2017-10-10 14:22:45 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:22:45 INFO  LibClient:32 - 64668 : Connected to server: /127.0.0.1
+@2017-10-10 14:22:45 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64668] Client Socket: [64668 ]
+
+@2017-10-10 14:22:45 INFO  LibClient:33 - 64668 : Connected to portid: 64668
+@2017-10-10 14:22:45 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:22:45 INFO  LibServer:104 - Input from 127.0.0.1:64668 hi
+@2017-10-10 14:22:45 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64668
+@2017-10-10 14:22:45 INFO  LibServer:120 - Output to 127.0.0.1:64668 Who are you?
+
+@2017-10-10 14:22:45 INFO  LibServer:104 - Input from 127.0.0.1:64668 librarian
+@2017-10-10 14:22:45 INFO  LibServer:112 - Output to 127.0.0.1:64668 Please Input the password
+
+@2017-10-10 14:22:45 INFO  LibServer:104 - Input from 127.0.0.1:64668 admin
+@2017-10-10 14:22:45 INFO  LibServer:112 - Output to 127.0.0.1:64668 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:22:45 INFO  LibServer:104 - Input from 127.0.0.1:64668 monitor system
+@2017-10-10 14:22:45 INFO  LibServer:112 - Output to 127.0.0.1:64668 Zhibo@carleton.ca, userId: 0Yu@carleton.ca, userId: 1Michelle@carleton.ca, userId: 2Kevin@carleton.ca, userId: 3Sun@carleton.ca, userId: 4models.Title@75a1cd57models.Title@3d012dddmodels.Title@6f2b958emodels.Title@1eb44e46models.Title@6504e3b2
+
+@2017-10-10 14:22:45 INFO  LibServer:93 - Client: 64668 Exits
+@2017-10-10 14:22:45 INFO  LibServer:97 - Client : 64668Exits
+@2017-10-10 14:22:45 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:23:45 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:23:45 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:23:45 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:23:45 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:23:45 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:23:45 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:23:45]
+@2017-10-10 14:23:45 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:23:45 INFO  LibClient:32 - 64705 : Connected to server: /127.0.0.1
+@2017-10-10 14:23:45 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64705] Client Socket: [64705 ]
+
+@2017-10-10 14:23:45 INFO  LibClient:33 - 64705 : Connected to portid: 64705
+@2017-10-10 14:23:45 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:23:45 INFO  LibServer:104 - Input from 127.0.0.1:64705 hi
+@2017-10-10 14:23:45 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64705
+@2017-10-10 14:23:45 INFO  LibServer:120 - Output to 127.0.0.1:64705 Who are you?
+
+@2017-10-10 14:23:45 INFO  LibServer:104 - Input from 127.0.0.1:64705 librarian
+@2017-10-10 14:23:45 INFO  LibServer:112 - Output to 127.0.0.1:64705 Please Input the password
+
+@2017-10-10 14:23:45 INFO  LibServer:104 - Input from 127.0.0.1:64705 admin
+@2017-10-10 14:23:45 INFO  LibServer:112 - Output to 127.0.0.1:64705 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:23:45 INFO  LibServer:104 - Input from 127.0.0.1:64705 monitor system
+@2017-10-10 14:23:45 INFO  LibServer:112 - Output to 127.0.0.1:64705 Zhibo@carleton.ca, userId: 0Yu@carleton.ca, userId: 1Michelle@carleton.ca, userId: 2Kevin@carleton.ca, userId: 3Sun@carleton.ca, userId: 4By the grace of God, 9781442668584Dante's lyric poetry, 9781442616899Courtesy lost, 9781442667181Writing for justice, 9781611687910The act in context, 9781317594277
+
+@2017-10-10 14:23:45 INFO  LibServer:93 - Client: 64705 Exits
+@2017-10-10 14:23:45 INFO  LibServer:97 - Client : 64705Exits
+@2017-10-10 14:23:45 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:26:04 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:26:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:26:04 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:26:04 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:26:04 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:26:04 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:26:04]
+@2017-10-10 14:26:04 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:26:04 INFO  LibClient:32 - 64771 : Connected to server: /127.0.0.1
+@2017-10-10 14:26:04 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64771] Client Socket: [64771 ]
+
+@2017-10-10 14:26:04 INFO  LibClient:33 - 64771 : Connected to portid: 64771
+@2017-10-10 14:26:04 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:26:04 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64771
+@2017-10-10 14:26:04 INFO  LibServer:104 - Input from 127.0.0.1:64771 hi
+@2017-10-10 14:26:04 INFO  LibServer:120 - Output to 127.0.0.1:64771 Who are you?
+
+@2017-10-10 14:26:04 INFO  LibServer:104 - Input from 127.0.0.1:64771 librarian
+@2017-10-10 14:26:04 INFO  LibServer:112 - Output to 127.0.0.1:64771 Please Input the password
+
+@2017-10-10 14:26:04 INFO  LibServer:104 - Input from 127.0.0.1:64771 admin
+@2017-10-10 14:26:04 INFO  LibServer:112 - Output to 127.0.0.1:64771 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:26:04 INFO  LibServer:104 - Input from 127.0.0.1:64771 monitor system
+@2017-10-10 14:26:04 INFO  LibServer:112 - Output to 127.0.0.1:64771 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, , Titles: By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, 
+
+@2017-10-10 14:26:04 INFO  LibServer:93 - Client: 64771 Exits
+@2017-10-10 14:26:04 INFO  LibServer:97 - Client : 64771Exits
+@2017-10-10 14:26:04 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:27:03 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:27:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:27:03 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:27:03 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:27:03 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:27:03 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:27:03]
+@2017-10-10 14:27:03 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:27:03 INFO  LibClient:32 - 64797 : Connected to server: /127.0.0.1
+@2017-10-10 14:27:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64797] Client Socket: [64797 ]
+
+@2017-10-10 14:27:03 INFO  LibClient:33 - 64797 : Connected to portid: 64797
+@2017-10-10 14:27:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:27:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64797
+@2017-10-10 14:27:03 INFO  LibServer:104 - Input from 127.0.0.1:64797 hi
+@2017-10-10 14:27:03 INFO  LibServer:120 - Output to 127.0.0.1:64797 Who are you?
+
+@2017-10-10 14:27:03 INFO  LibServer:104 - Input from 127.0.0.1:64797 librarian
+@2017-10-10 14:27:03 INFO  LibServer:112 - Output to 127.0.0.1:64797 Please Input the password
+
+@2017-10-10 14:27:03 INFO  LibServer:104 - Input from 127.0.0.1:64797 admin
+@2017-10-10 14:27:03 INFO  LibServer:112 - Output to 127.0.0.1:64797 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:27:03 INFO  LibServer:104 - Input from 127.0.0.1:64797 monitor system
+@2017-10-10 14:27:03 INFO  LibServer:112 - Output to 127.0.0.1:64797 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, , Titles: By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, 
+
+@2017-10-10 14:27:03 INFO  LibServer:93 - Client: 64797 Exits
+@2017-10-10 14:27:03 INFO  LibServer:97 - Client : 64797Exits
+@2017-10-10 14:27:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 14:27:44 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 14:27:44 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 14:27:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:27:44 INFO  String:29 - Operation:Initialize UserTable;UserTable: [Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4]
+@2017-10-10 14:27:44 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277]
+@2017-10-10 14:27:44 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:27:44]
+@2017-10-10 14:27:44 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [userid: 0, amount: 5.00]
+@2017-10-10 14:27:44 INFO  LibClient:32 - 64817 : Connected to server: /127.0.0.1
+@2017-10-10 14:27:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:64817] Client Socket: [64817 ]
+
+@2017-10-10 14:27:44 INFO  LibClient:33 - 64817 : Connected to portid: 64817
+@2017-10-10 14:27:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 14:27:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__64817
+@2017-10-10 14:27:44 INFO  LibServer:104 - Input from 127.0.0.1:64817 hi
+@2017-10-10 14:27:44 INFO  LibServer:120 - Output to 127.0.0.1:64817 Who are you?
+
+@2017-10-10 14:27:44 INFO  LibServer:104 - Input from 127.0.0.1:64817 librarian
+@2017-10-10 14:27:44 INFO  LibServer:112 - Output to 127.0.0.1:64817 Please Input the password
+
+@2017-10-10 14:27:44 INFO  LibServer:104 - Input from 127.0.0.1:64817 admin
+@2017-10-10 14:27:44 INFO  LibServer:112 - Output to 127.0.0.1:64817 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 14:27:44 INFO  LibServer:104 - Input from 127.0.0.1:64817 monitor system
+@2017-10-10 14:27:44 INFO  LibServer:112 - Output to 127.0.0.1:64817 Users: Zhibo@carleton.ca, userId: 0, Yu@carleton.ca, userId: 1, Michelle@carleton.ca, userId: 2, Kevin@carleton.ca, userId: 3, Sun@carleton.ca, userId: 4, , Titles: By the grace of God, 9781442668584, Dante's lyric poetry, 9781442616899, Courtesy lost, 9781442667181, Writing for justice, 9781611687910, The act in context, 9781317594277, 
+
+@2017-10-10 14:27:44 INFO  LibServer:93 - Client: 64817 Exits
+@2017-10-10 14:27:44 INFO  LibServer:97 - Client : 64817Exits
+@2017-10-10 14:27:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
 @

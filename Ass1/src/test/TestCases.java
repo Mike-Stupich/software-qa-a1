@@ -299,4 +299,23 @@ public class TestCases {
 		
 		ls.handle(clientId, "Exit");
 	}
+	
+	@Test
+	public void monitorSystem() {
+		LibClient lc = new LibClient(Config.DEFAULT_HOST, Config.DEFAULT_PORT);	
+		final int clientId = lc.getID();
+		
+		String monitor_system = "monitor system";
+		
+		// Login as librarian
+		ls.handle(clientId, "hi");
+		ls.handle(clientId, lib);
+		ls.handle(clientId, lib_pass);
+		
+		//Assert the titles and users were added
+		assertNotEquals("Users: , Titles:", ls.handle(clientId, monitor_system));
+		
+		ls.handle(clientId, "Exit");
+	}
+	
 }

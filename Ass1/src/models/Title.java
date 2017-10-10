@@ -8,6 +8,10 @@ public class Title {
 		this.ISBN = isbn;
 		this.title = title;
 	}
+	
+	public String toString() {
+		return String.format("%s, %s", this.title, this.ISBN);
+	}
 
 	public String getISBN() {
 		return ISBN;

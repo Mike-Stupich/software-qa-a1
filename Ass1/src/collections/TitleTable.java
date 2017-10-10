@@ -96,5 +96,13 @@ public class TitleTable {
         	return titleId;
     	}
     }
+    
+    public Object printTitles() {
+    	Object result = "";
+    	for (int i = 0 ; i < titles.size(); ++ i ) {
+    		result += titles.get(i).toString() + ", ";
+    	}
+    	return result;
+    }
     	
 }

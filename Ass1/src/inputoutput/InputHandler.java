@@ -63,6 +63,10 @@ public class InputHandler {
 	        	} else if (input.equalsIgnoreCase("remove user")) {
 	        		oo.setOutput(Strings.REMOVEUSER);
 	        		oo.setState(States.REMOVEUSER);
+	        	} else if (input.equalsIgnoreCase("monitor system")) {
+	        		o = outputHandler.monitorSystem();
+	        		oo.setOutput(o.getOutput());
+	        		oo.setState(o.getState());
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);

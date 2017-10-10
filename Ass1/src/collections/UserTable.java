@@ -83,4 +83,12 @@ public class UserTable {
 		}
 		return false;
 	}
+	
+	public Object printUsers() {
+		Object result = "";
+		for (int i = 0 ; i < users.size(); ++i ) {
+			result += users.get(i).toString() + ", ";
+		}
+		return result;
+	}
 }

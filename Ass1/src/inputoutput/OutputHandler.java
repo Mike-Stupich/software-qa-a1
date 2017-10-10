@@ -231,4 +231,17 @@ public class OutputHandler {
 		}
 		return o;
 	}
+	
+	public Output monitorSystem() {
+		Output o = new Output("",0);
+		String result = "";
+		String users;
+		String titles;
+		users = UserTable.getInstance().printUsers().toString();
+		titles = TitleTable.getInstance().printTitles().toString();
+		result = String.format("Users: %s, Titles: %s", users, titles);
+		o.setOutput(result.toString());
+		o.setState(States.LIBRARIAN);
+		return o;
+	}
 }
