@@ -5352,4 +5352,2833 @@ Enter the title or ISBN to remove
 @2017-10-10 00:33:33 INFO  LibServer:97 - Client : 54253Exits
 @2017-10-10 00:33:33 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
 
+@2017-10-10 02:22:44 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:22:44 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:22:44 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:22:44 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:22:44]
+@2017-10-10 02:22:44 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62154 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62154] Client Socket: [62154 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62154 : Connected to portid: 62154
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62154
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62154 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 Add Title
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 Enter the title name to add
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 9781442668584,By the grace of God
+@2017-10-10 02:22:44 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 The title entered already exists!
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 Add Title
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 Enter the title name to add
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62154 9999999999999,Mike's fantastic book
+@2017-10-10 02:22:44 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62154 Title added! TitleId = 6
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62154 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62154Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62155 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62155] Client Socket: [62155 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62155 : Connected to portid: 62155
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62155
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62155 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 Add Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Enter the title or ISBN to search for
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 By the grace of God
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 By the grace of God, 9781442668584
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 Add Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Enter the title or ISBN to search for
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 New Title
+@2017-10-10 02:22:44 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Enter the title name to add
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 New Title,9999999999998
+@2017-10-10 02:22:44 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Title added! TitleId = 7
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 Add Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 Enter the title or ISBN to search for
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62155 New Title
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62155 9999999999998, New Title
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62155 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62155Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62156 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62156] Client Socket: [62156 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62156 : Connected to portid: 62156
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62156
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62156 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 Add User
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 Enter the user name to add
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:22:44 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 The user entered already exists!
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 Add User
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 Enter the user name to add
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62156 Mike@carleton.ca,Mike
+@2017-10-10 02:22:44 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62156 User added! UserId = 6
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62156 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62156Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62157 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62157] Client Socket: [62157 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62157 : Connected to portid: 62157
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62157
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62157 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 Remove Title
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 Enter the title or ISBN to remove
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 By the grace of God
+@2017-10-10 02:22:44 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 The title has been removed!
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 Remove Title
+@2017-10-10 02:22:44 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 The title is not stored.
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62157 This title isn't saved
+@2017-10-10 02:22:44 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62157 The title is not stored.
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62157 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62157Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62158 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62158] Client Socket: [62158 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62158 : Connected to portid: 62158
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62158
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62158 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 Remove Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 Enter the title or ISBN to remove
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 This title isn't saved
+@2017-10-10 02:22:44 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 The title is not stored.
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 Remove Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 Enter the title or ISBN to remove
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 Dante's lyric poetry
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62158 Dante's lyric poetry
+@2017-10-10 02:22:44 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62158 The title has been removed!
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62158 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62158Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62159 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62159] Client Socket: [62159 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62159 : Connected to portid: 62159
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62159
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62159 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 Loan Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 Enter the loan to be added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:22:44 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 The loan was successfully added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 Return Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 The loan was successfully returend
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62159 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62159 The loan was successfully returend
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62160 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62160] Client Socket: [62160 ]
+
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62160
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62160 : Connected to portid: 62160
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62160 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 Loan Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Enter the loan to be added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:22:44 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 The loan was successfully added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 Loan Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Enter the loan to be added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:22:44 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:22:44 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 Loan Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Enter the loan to be added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62160 mike,By the grace of God
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62160 Your user must be user@email
+
+@2017-10-10 02:22:44 INFO  LibServer:93 - Client: 62160 Exits
+@2017-10-10 02:22:44 INFO  LibServer:97 - Client : 62160Exits
+@2017-10-10 02:22:44 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:22:44 INFO  LibClient:32 - 62161 : Connected to server: /127.0.0.1
+@2017-10-10 02:22:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62161] Client Socket: [62161 ]
+
+@2017-10-10 02:22:44 INFO  LibClient:33 - 62161 : Connected to portid: 62161
+@2017-10-10 02:22:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:22:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62161
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 hi
+@2017-10-10 02:22:44 INFO  LibServer:120 - Output to 127.0.0.1:62161 Who are you?
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 librarian
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 Please Input the password
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 admin
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 Loan Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 Enter the loan to be added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:22:44 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:22:44 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 The loan was successfully added
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 Renew Item
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:22:44 INFO  LibServer:104 - Input from 127.0.0.1:62161 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:22:44 INFO  LibServer:112 - Output to 127.0.0.1:62161 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:31:25 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:31:25 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:31:25 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:31:25]
+@2017-10-10 02:31:25 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62417 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62417] Client Socket: [62417 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62417 : Connected to portid: 62417
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62417
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62417 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 Add Title
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 Enter the title name to add
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 9781442668584,By the grace of God
+@2017-10-10 02:31:25 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 The title entered already exists!
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 Add Title
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 Enter the title name to add
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62417 9999999999999,Mike's fantastic book
+@2017-10-10 02:31:25 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62417 Title added! TitleId = 6
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62417 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62417Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62418 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62418] Client Socket: [62418 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62418 : Connected to portid: 62418
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62418
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62418 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 Add Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Enter the title or ISBN to search for
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 By the grace of God
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 By the grace of God, 9781442668584
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 Add Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Enter the title or ISBN to search for
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 New Title
+@2017-10-10 02:31:25 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Enter the title name to add
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 New Title,9999999999998
+@2017-10-10 02:31:25 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Title added! TitleId = 7
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 Add Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 Enter the title or ISBN to search for
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62418 New Title
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62418 9999999999998, New Title
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62418 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62418Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62419 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62419] Client Socket: [62419 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62419 : Connected to portid: 62419
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62419
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62419 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 Add User
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 Enter the user name to add
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:31:25 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 The user entered already exists!
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 Add User
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 Enter the user name to add
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62419 Mike@carleton.ca,Mike
+@2017-10-10 02:31:25 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62419 User added! UserId = 6
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62419 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62419Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62420 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62420] Client Socket: [62420 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62420 : Connected to portid: 62420
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62420
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62420 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 Remove Title
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 Enter the title or ISBN to remove
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 By the grace of God
+@2017-10-10 02:31:25 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 The title has been removed!
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 Remove Title
+@2017-10-10 02:31:25 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 The title is not stored.
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62420 This title isn't saved
+@2017-10-10 02:31:25 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62420 The title is not stored.
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62420 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62420Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62421 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62421] Client Socket: [62421 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62421 : Connected to portid: 62421
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 hi
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62421
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62421 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 Remove Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 Enter the title or ISBN to remove
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 This title isn't saved
+@2017-10-10 02:31:25 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 The title is not stored.
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 Remove Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 Enter the title or ISBN to remove
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 Dante's lyric poetry
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62421 Dante's lyric poetry
+@2017-10-10 02:31:25 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62421 The title has been removed!
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62421 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62421Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62422 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62422] Client Socket: [62422 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62422 : Connected to portid: 62422
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62422
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62422 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 Loan Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 Enter the loan to be added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:31:25 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 The loan was successfully added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 Return Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 The loan was successfully returend
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62422 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62422 The loan was successfully returend
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62423 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62423] Client Socket: [62423 ]
+
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62423
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62423 : Connected to portid: 62423
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62423 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 Loan Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Enter the loan to be added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:31:25 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 The loan was successfully added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 Loan Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Enter the loan to be added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:31:25 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:31:25 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 Loan Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Enter the loan to be added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62423 mike,By the grace of God
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62423 Your user must be user@email
+
+@2017-10-10 02:31:25 INFO  LibServer:93 - Client: 62423 Exits
+@2017-10-10 02:31:25 INFO  LibServer:97 - Client : 62423Exits
+@2017-10-10 02:31:25 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:31:25 INFO  LibClient:32 - 62424 : Connected to server: /127.0.0.1
+@2017-10-10 02:31:25 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62424] Client Socket: [62424 ]
+
+@2017-10-10 02:31:25 INFO  LibClient:33 - 62424 : Connected to portid: 62424
+@2017-10-10 02:31:25 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:31:25 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62424
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 hi
+@2017-10-10 02:31:25 INFO  LibServer:120 - Output to 127.0.0.1:62424 Who are you?
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 librarian
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 Please Input the password
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 admin
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 Loan Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 Enter the loan to be added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:31:25 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:31:25 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 The loan was successfully added
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 Renew Item
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 The loan was successfully renewed
+
+@2017-10-10 02:31:25 INFO  LibServer:104 - Input from 127.0.0.1:62424 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:31:25 INFO  LibServer:112 - Output to 127.0.0.1:62424 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:33:03 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:33:03 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:33:03 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:33:03]
+@2017-10-10 02:33:03 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62469 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62469] Client Socket: [62469 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62469 : Connected to portid: 62469
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62469
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62470 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62470] Client Socket: [62470 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62470 : Connected to portid: 62470
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 hi
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62470
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62470 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 Add Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 By the grace of God
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 By the grace of God, 9781442668584
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 Add Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 New Title
+@2017-10-10 02:33:03 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Enter the title name to add
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 New Title,9999999999998
+@2017-10-10 02:33:03 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Title added! TitleId = 6
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 Add Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62470 New Title
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62470 9999999999998, New Title
+
+@2017-10-10 02:33:03 INFO  LibServer:93 - Client: 62470 Exits
+@2017-10-10 02:33:03 INFO  LibServer:97 - Client : 62470Exits
+@2017-10-10 02:33:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62471 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62471] Client Socket: [62471 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62471 : Connected to portid: 62471
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 hi
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62471
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62471 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 Add User
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 Enter the user name to add
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:33:03 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 The user entered already exists!
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 Add User
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 Enter the user name to add
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62471 Mike@carleton.ca,Mike
+@2017-10-10 02:33:03 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62471 User added! UserId = 6
+
+@2017-10-10 02:33:03 INFO  LibServer:93 - Client: 62471 Exits
+@2017-10-10 02:33:03 INFO  LibServer:97 - Client : 62471Exits
+@2017-10-10 02:33:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62472 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62472] Client Socket: [62472 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62472 : Connected to portid: 62472
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62472
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 hi
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62472 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 Remove Title
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 By the grace of God
+@2017-10-10 02:33:03 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 The title has been removed!
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 Remove Title
+@2017-10-10 02:33:03 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 The title is not stored.
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62472 This title isn't saved
+@2017-10-10 02:33:03 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62472 The title is not stored.
+
+@2017-10-10 02:33:03 INFO  LibServer:93 - Client: 62472 Exits
+@2017-10-10 02:33:03 INFO  LibServer:97 - Client : 62472Exits
+@2017-10-10 02:33:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62473 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62473] Client Socket: [62473 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62473 : Connected to portid: 62473
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62473
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 hi
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62473 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 Remove Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 This title isn't saved
+@2017-10-10 02:33:03 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 The title is not stored.
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 Remove Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 Dante's lyric poetry
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62473 Dante's lyric poetry
+@2017-10-10 02:33:03 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62473 The title has been removed!
+
+@2017-10-10 02:33:03 INFO  LibServer:93 - Client: 62473 Exits
+@2017-10-10 02:33:03 INFO  LibServer:97 - Client : 62473Exits
+@2017-10-10 02:33:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62474 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62474] Client Socket: [62474 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62474 : Connected to portid: 62474
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62474
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 hi
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62474 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 Loan Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 Enter the loan to be added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:03 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 The loan was successfully added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 Return Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 The loan was successfully returend
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62474 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62474 The loan was successfully returend
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62475 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62475] Client Socket: [62475 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62475 : Connected to portid: 62475
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62475
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 hi
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62475 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 Loan Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Enter the loan to be added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:03 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 The loan was successfully added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 Loan Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Enter the loan to be added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:33:03 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:03 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 Loan Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Enter the loan to be added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62475 mike,By the grace of God
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62475 Your user must be user@email
+
+@2017-10-10 02:33:03 INFO  LibServer:93 - Client: 62475 Exits
+@2017-10-10 02:33:03 INFO  LibServer:97 - Client : 62475Exits
+@2017-10-10 02:33:03 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:03 INFO  LibClient:32 - 62476 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:03 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62476] Client Socket: [62476 ]
+
+@2017-10-10 02:33:03 INFO  LibClient:33 - 62476 : Connected to portid: 62476
+@2017-10-10 02:33:03 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62476
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 hi
+@2017-10-10 02:33:03 INFO  LibServer:120 - Output to 127.0.0.1:62476 Who are you?
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 librarian
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 Please Input the password
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 admin
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 Loan Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 Enter the loan to be added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:03 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:03 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 The loan was successfully added
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 Renew Item
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 The loan was successfully renewed
+
+@2017-10-10 02:33:03 INFO  LibServer:104 - Input from 127.0.0.1:62476 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:03 INFO  LibServer:112 - Output to 127.0.0.1:62476 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:33:05 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:33:05 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:33:05 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:33:05]
+@2017-10-10 02:33:05 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62479 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62479] Client Socket: [62479 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62479 : Connected to portid: 62479
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62479
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62479 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 Add Title
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 Enter the title name to add
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 9781442668584,By the grace of God
+@2017-10-10 02:33:05 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 The title entered already exists!
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 Add Title
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 Enter the title name to add
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62479 9999999999999,Mike's fantastic book
+@2017-10-10 02:33:05 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62479 Title added! TitleId = 6
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62479 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62479Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62480 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62480] Client Socket: [62480 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62480 : Connected to portid: 62480
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62480
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62480 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 Add Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 By the grace of God
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 By the grace of God, 9781442668584
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 Add Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 New Title
+@2017-10-10 02:33:05 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Enter the title name to add
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 New Title,9999999999998
+@2017-10-10 02:33:05 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Title added! TitleId = 7
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 Add Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62480 New Title
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62480 9999999999998, New Title
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62480 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62480Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62481 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62481] Client Socket: [62481 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62481 : Connected to portid: 62481
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62481
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62481 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 Add User
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 Enter the user name to add
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:33:05 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 The user entered already exists!
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 Add User
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 Enter the user name to add
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62481 Mike@carleton.ca,Mike
+@2017-10-10 02:33:05 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62481 User added! UserId = 6
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62481 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62481Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62482 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62482] Client Socket: [62482 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62482 : Connected to portid: 62482
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62482
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62482 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 Remove Title
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 By the grace of God
+@2017-10-10 02:33:05 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 The title has been removed!
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 Remove Title
+@2017-10-10 02:33:05 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 The title is not stored.
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62482 This title isn't saved
+@2017-10-10 02:33:05 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62482 The title is not stored.
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62482 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62482Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62483 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62483] Client Socket: [62483 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62483 : Connected to portid: 62483
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62483
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62483 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 Remove Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 This title isn't saved
+@2017-10-10 02:33:05 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 The title is not stored.
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 Remove Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 Dante's lyric poetry
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62483 Dante's lyric poetry
+@2017-10-10 02:33:05 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62483 The title has been removed!
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62483 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62483Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62484 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62484] Client Socket: [62484 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62484 : Connected to portid: 62484
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62484
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62484 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 Loan Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 Enter the loan to be added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:05 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 The loan was successfully added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 Return Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 The loan was successfully returend
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62484 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62484 The loan was successfully returend
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62485 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62485] Client Socket: [62485 ]
+
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62485
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62485 : Connected to portid: 62485
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62485 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 Loan Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Enter the loan to be added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:05 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 The loan was successfully added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 Loan Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Enter the loan to be added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:33:05 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:05 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 Loan Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Enter the loan to be added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62485 mike,By the grace of God
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62485 Your user must be user@email
+
+@2017-10-10 02:33:05 INFO  LibServer:93 - Client: 62485 Exits
+@2017-10-10 02:33:05 INFO  LibServer:97 - Client : 62485Exits
+@2017-10-10 02:33:05 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:05 INFO  LibClient:32 - 62486 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:05 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62486] Client Socket: [62486 ]
+
+@2017-10-10 02:33:05 INFO  LibClient:33 - 62486 : Connected to portid: 62486
+@2017-10-10 02:33:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:05 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62486
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 hi
+@2017-10-10 02:33:05 INFO  LibServer:120 - Output to 127.0.0.1:62486 Who are you?
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 librarian
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 Please Input the password
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 admin
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 Loan Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 Enter the loan to be added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:05 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:05 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 The loan was successfully added
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 Renew Item
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 The loan was successfully renewed
+
+@2017-10-10 02:33:05 INFO  LibServer:104 - Input from 127.0.0.1:62486 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:05 INFO  LibServer:112 - Output to 127.0.0.1:62486 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:33:26 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:33:26 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:33:26 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:33:26]
+@2017-10-10 02:33:26 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62498 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62498] Client Socket: [62498 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62498 : Connected to portid: 62498
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62498
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62498 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 Add Title
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 Enter the title name to add
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 9781442668584,By the grace of God
+@2017-10-10 02:33:26 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 The title entered already exists!
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 Add Title
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 Enter the title name to add
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62498 9999999999999,Mike's fantastic book
+@2017-10-10 02:33:26 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62498 Title added! TitleId = 6
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62498 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62498Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62499 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62499] Client Socket: [62499 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62499 : Connected to portid: 62499
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62499
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62499 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 Add Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 By the grace of God
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 By the grace of God, 9781442668584
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 Add Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 New Title
+@2017-10-10 02:33:26 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Enter the title name to add
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 New Title,9999999999998
+@2017-10-10 02:33:26 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Title added! TitleId = 7
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 Add Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 Enter the title or ISBN to search for
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62499 New Title
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62499 9999999999998, New Title
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62499 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62499Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62500 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62500] Client Socket: [62500 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62500 : Connected to portid: 62500
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62500
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62500 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 Add User
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 Enter the user name to add
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:33:26 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 The user entered already exists!
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 Add User
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 Enter the user name to add
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62500 Mike@carleton.ca,Mike
+@2017-10-10 02:33:26 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62500 User added! UserId = 6
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62500 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62500Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62501 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62501] Client Socket: [62501 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62501 : Connected to portid: 62501
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62501
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62501 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 Remove Title
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 By the grace of God
+@2017-10-10 02:33:26 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 The title has been removed!
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 Remove Title
+@2017-10-10 02:33:26 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 The title is not stored.
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62501 This title isn't saved
+@2017-10-10 02:33:26 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62501 The title is not stored.
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62501 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62501Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62502 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62502] Client Socket: [62502 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62502 : Connected to portid: 62502
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62502
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62502 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 Remove Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 This title isn't saved
+@2017-10-10 02:33:26 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 The title is not stored.
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 Remove Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 Enter the title or ISBN to remove
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 Dante's lyric poetry
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62502 Dante's lyric poetry
+@2017-10-10 02:33:26 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62502 The title has been removed!
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62502 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62502Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62503 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62503] Client Socket: [62503 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62503 : Connected to portid: 62503
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62503
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62503 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 Loan Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 Enter the loan to be added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 The loan was successfully added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 Return Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 The loan was successfully returend
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62503 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62503 The loan was successfully returend
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62504 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62504] Client Socket: [62504 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62504 : Connected to portid: 62504
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62504
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62504 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 Loan Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Enter the loan to be added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 The loan was successfully added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 Loan Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Enter the loan to be added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:33:26 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:33:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 Loan Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Enter the loan to be added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62504 mike,By the grace of God
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62504 Your user must be user@email
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62504 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62504Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:33:26 INFO  LibClient:32 - 62505 : Connected to server: /127.0.0.1
+@2017-10-10 02:33:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62505] Client Socket: [62505 ]
+
+@2017-10-10 02:33:26 INFO  LibClient:33 - 62505 : Connected to portid: 62505
+@2017-10-10 02:33:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:33:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62505
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 hi
+@2017-10-10 02:33:26 INFO  LibServer:120 - Output to 127.0.0.1:62505 Who are you?
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 librarian
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62505 Please Input the password
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 admin
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62505 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 Loan Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62505 Enter the loan to be added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:33:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:33:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62505 The loan was successfully added
+
+@2017-10-10 02:33:26 INFO  LibServer:104 - Input from 127.0.0.1:62505 Renew Item
+@2017-10-10 02:33:26 INFO  LibServer:112 - Output to 127.0.0.1:62505 The loan was successfully renewed
+
+@2017-10-10 02:33:26 INFO  LibServer:93 - Client: 62505 Exits
+@2017-10-10 02:33:26 INFO  LibServer:97 - Client : 62505Exits
+@2017-10-10 02:33:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:17 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:34:17 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:34:17 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:34:17 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:34:17]
+@2017-10-10 02:34:17 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62533 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62533 : Connected to portid: 62533
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62533] Client Socket: [62533 ]
+
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62533
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62534 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62534] Client Socket: [62534 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62534 : Connected to portid: 62534
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 hi
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62534
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62534 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 Add Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 By the grace of God
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 By the grace of God, 9781442668584
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 Add Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 New Title
+@2017-10-10 02:34:17 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Enter the title name to add
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 New Title,9999999999998
+@2017-10-10 02:34:17 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Title added! TitleId = 6
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 Add Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62534 New Title
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62534 9999999999998, New Title
+
+@2017-10-10 02:34:17 INFO  LibServer:93 - Client: 62534 Exits
+@2017-10-10 02:34:17 INFO  LibServer:97 - Client : 62534Exits
+@2017-10-10 02:34:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62535 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62535 : Connected to portid: 62535
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62535] Client Socket: [62535 ]
+
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62535
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62536 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62536] Client Socket: [62536 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62536 : Connected to portid: 62536
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62536
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 hi
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62536 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 Remove Title
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 By the grace of God
+@2017-10-10 02:34:17 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 The title has been removed!
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 Remove Title
+@2017-10-10 02:34:17 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 The title is not stored.
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62536 This title isn't saved
+@2017-10-10 02:34:17 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62536 The title is not stored.
+
+@2017-10-10 02:34:17 INFO  LibServer:93 - Client: 62536 Exits
+@2017-10-10 02:34:17 INFO  LibServer:97 - Client : 62536Exits
+@2017-10-10 02:34:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62537 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62537] Client Socket: [62537 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62537 : Connected to portid: 62537
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62537
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 hi
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62537 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 Remove Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 This title isn't saved
+@2017-10-10 02:34:17 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 The title is not stored.
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 Remove Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 Dante's lyric poetry
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62537 Dante's lyric poetry
+@2017-10-10 02:34:17 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62537 The title has been removed!
+
+@2017-10-10 02:34:17 INFO  LibServer:93 - Client: 62537 Exits
+@2017-10-10 02:34:17 INFO  LibServer:97 - Client : 62537Exits
+@2017-10-10 02:34:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62538 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62538] Client Socket: [62538 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62538 : Connected to portid: 62538
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62538
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 hi
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62538 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 Loan Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 Enter the loan to be added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 The loan was successfully added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 Return Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 The loan was successfully returend
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62538 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62538 The loan id was invalid
+
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62539 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62539] Client Socket: [62539 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62539 : Connected to portid: 62539
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62539
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 hi
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62539 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 Loan Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Enter the loan to be added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 The loan was successfully added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 Loan Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Enter the loan to be added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:34:17 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 Loan Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Enter the loan to be added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62539 mike,By the grace of God
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62539 Your user must be user@email
+
+@2017-10-10 02:34:17 INFO  LibServer:93 - Client: 62539 Exits
+@2017-10-10 02:34:17 INFO  LibServer:97 - Client : 62539Exits
+@2017-10-10 02:34:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:17 INFO  LibClient:32 - 62540 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62540] Client Socket: [62540 ]
+
+@2017-10-10 02:34:17 INFO  LibClient:33 - 62540 : Connected to portid: 62540
+@2017-10-10 02:34:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62540
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 hi
+@2017-10-10 02:34:17 INFO  LibServer:120 - Output to 127.0.0.1:62540 Who are you?
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 librarian
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 Please Input the password
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 admin
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 Loan Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 Enter the loan to be added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 The loan was successfully added
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 Renew Item
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 The loan was successfully renewed
+
+@2017-10-10 02:34:17 INFO  LibServer:104 - Input from 127.0.0.1:62540 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:17 INFO  LibServer:112 - Output to 127.0.0.1:62540 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:34:24 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:34:24 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:34:24 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:34:24]
+@2017-10-10 02:34:24 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62546 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62546 : Connected to portid: 62546
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62546] Client Socket: [62546 ]
+
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62546
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62547 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62547] Client Socket: [62547 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62547 : Connected to portid: 62547
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62547
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62547 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 Add Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 By the grace of God
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 By the grace of God, 9781442668584
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 Add Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 New Title
+@2017-10-10 02:34:24 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Enter the title name to add
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 New Title,9999999999998
+@2017-10-10 02:34:24 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Title added! TitleId = 6
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 Add Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62547 New Title
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62547 9999999999998, New Title
+
+@2017-10-10 02:34:24 INFO  LibServer:93 - Client: 62547 Exits
+@2017-10-10 02:34:24 INFO  LibServer:97 - Client : 62547Exits
+@2017-10-10 02:34:24 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62548 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62548] Client Socket: [62548 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62548 : Connected to portid: 62548
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62548
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62548 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 Add User
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 Enter the user name to add
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:34:24 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 The user entered already exists!
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 Add User
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 Enter the user name to add
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62548 Mike@carleton.ca,Mike
+@2017-10-10 02:34:24 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62548 User added! UserId = 6
+
+@2017-10-10 02:34:24 INFO  LibServer:93 - Client: 62548 Exits
+@2017-10-10 02:34:24 INFO  LibServer:97 - Client : 62548Exits
+@2017-10-10 02:34:24 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62549 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62549] Client Socket: [62549 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62549 : Connected to portid: 62549
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62549
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62549 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 Remove Title
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 By the grace of God
+@2017-10-10 02:34:24 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 The title has been removed!
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 Remove Title
+@2017-10-10 02:34:24 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 The title is not stored.
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62549 This title isn't saved
+@2017-10-10 02:34:24 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62549 The title is not stored.
+
+@2017-10-10 02:34:24 INFO  LibServer:93 - Client: 62549 Exits
+@2017-10-10 02:34:24 INFO  LibServer:97 - Client : 62549Exits
+@2017-10-10 02:34:24 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62550 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62550] Client Socket: [62550 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62550 : Connected to portid: 62550
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62550
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62550 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 Remove Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 This title isn't saved
+@2017-10-10 02:34:24 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 The title is not stored.
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 Remove Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 Dante's lyric poetry
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62550 Dante's lyric poetry
+@2017-10-10 02:34:24 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62550 The title has been removed!
+
+@2017-10-10 02:34:24 INFO  LibServer:93 - Client: 62550 Exits
+@2017-10-10 02:34:24 INFO  LibServer:97 - Client : 62550Exits
+@2017-10-10 02:34:24 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62551 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62551] Client Socket: [62551 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62551 : Connected to portid: 62551
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62551
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62551 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 Loan Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 Enter the loan to be added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:24 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 The loan was successfully added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 Return Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 The loan was successfully returend
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62551 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62551 The loan id was invalid
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62552 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62552] Client Socket: [62552 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62552 : Connected to portid: 62552
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62552
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62552 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 Loan Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Enter the loan to be added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:24 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 The loan was successfully added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 Loan Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Enter the loan to be added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:34:24 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:24 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 Loan Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Enter the loan to be added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62552 mike,By the grace of God
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62552 Your user must be user@email
+
+@2017-10-10 02:34:24 INFO  LibServer:93 - Client: 62552 Exits
+@2017-10-10 02:34:24 INFO  LibServer:97 - Client : 62552Exits
+@2017-10-10 02:34:24 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:24 INFO  LibClient:32 - 62553 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62553] Client Socket: [62553 ]
+
+@2017-10-10 02:34:24 INFO  LibClient:33 - 62553 : Connected to portid: 62553
+@2017-10-10 02:34:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62553
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 hi
+@2017-10-10 02:34:24 INFO  LibServer:120 - Output to 127.0.0.1:62553 Who are you?
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 librarian
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 Please Input the password
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 admin
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 Loan Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 Enter the loan to be added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:24 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:24 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 The loan was successfully added
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 Renew Item
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 The loan was successfully renewed
+
+@2017-10-10 02:34:24 INFO  LibServer:104 - Input from 127.0.0.1:62553 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:24 INFO  LibServer:112 - Output to 127.0.0.1:62553 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:34:26 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:34:26 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:34:26 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:34:26]
+@2017-10-10 02:34:26 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62556 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62556] Client Socket: [62556 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62556 : Connected to portid: 62556
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62556
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62556 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 Add Title
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 Enter the title name to add
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 9781442668584,By the grace of God
+@2017-10-10 02:34:26 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 The title entered already exists!
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 Add Title
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 Enter the title name to add
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62556 9999999999999,Mike's fantastic book
+@2017-10-10 02:34:26 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62556 Title added! TitleId = 6
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62556 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62556Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62557 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62557] Client Socket: [62557 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62557 : Connected to portid: 62557
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62557
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62557 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 Add Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 By the grace of God
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 By the grace of God, 9781442668584
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 Add Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 New Title
+@2017-10-10 02:34:26 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Enter the title name to add
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 New Title,9999999999998
+@2017-10-10 02:34:26 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Title added! TitleId = 7
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 Add Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 Enter the title or ISBN to search for
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62557 New Title
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62557 9999999999998, New Title
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62557 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62557Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62558 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62558] Client Socket: [62558 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62558 : Connected to portid: 62558
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62558
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62558 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 Add User
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 Enter the user name to add
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:34:26 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 The user entered already exists!
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 Add User
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 Enter the user name to add
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62558 Mike@carleton.ca,Mike
+@2017-10-10 02:34:26 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62558 User added! UserId = 6
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62558 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62558Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62559 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62559] Client Socket: [62559 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62559 : Connected to portid: 62559
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62559
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62559 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 Remove Title
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 By the grace of God
+@2017-10-10 02:34:26 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 The title has been removed!
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 Remove Title
+@2017-10-10 02:34:26 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 The title is not stored.
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62559 This title isn't saved
+@2017-10-10 02:34:26 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62559 The title is not stored.
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62559 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62559Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62560 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62560] Client Socket: [62560 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62560 : Connected to portid: 62560
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62560
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62560 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 Remove Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 This title isn't saved
+@2017-10-10 02:34:26 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 The title is not stored.
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 Remove Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 Enter the title or ISBN to remove
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 Dante's lyric poetry
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62560 Dante's lyric poetry
+@2017-10-10 02:34:26 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62560 The title has been removed!
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62560 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62560Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62561 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62561] Client Socket: [62561 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62561 : Connected to portid: 62561
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62561
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62561 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 Loan Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 Enter the loan to be added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 The loan was successfully added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 Return Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 The loan was successfully returend
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62561 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62561 The loan id was invalid
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62562 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62562] Client Socket: [62562 ]
+
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62562
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62562 : Connected to portid: 62562
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62562 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 Loan Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Enter the loan to be added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 The loan was successfully added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 Loan Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Enter the loan to be added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:34:26 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:34:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 Loan Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Enter the loan to be added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62562 mike,By the grace of God
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62562 Your user must be user@email
+
+@2017-10-10 02:34:26 INFO  LibServer:93 - Client: 62562 Exits
+@2017-10-10 02:34:26 INFO  LibServer:97 - Client : 62562Exits
+@2017-10-10 02:34:26 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:34:26 INFO  LibClient:32 - 62563 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62563] Client Socket: [62563 ]
+
+@2017-10-10 02:34:26 INFO  LibClient:33 - 62563 : Connected to portid: 62563
+@2017-10-10 02:34:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62563
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 hi
+@2017-10-10 02:34:26 INFO  LibServer:120 - Output to 127.0.0.1:62563 Who are you?
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 librarian
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 Please Input the password
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 admin
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 Loan Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 Enter the loan to be added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:26 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:26 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 The loan was successfully added
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 Renew Item
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 The loan was successfully renewed
+
+@2017-10-10 02:34:26 INFO  LibServer:104 - Input from 127.0.0.1:62563 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:26 INFO  LibServer:112 - Output to 127.0.0.1:62563 Who are you?
+
+@2017-10-10 02:34:44 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:34:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:44 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:34:44 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@1ee0005, models.User@75a1cd57, models.User@3d012ddd, models.User@6f2b958e, models.User@1eb44e46]
+@2017-10-10 02:34:44 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@515f550a, models.Title@626b2d4a, models.Title@5e91993f, models.Title@1c4af82c, models.Title@379619aa]
+@2017-10-10 02:34:44 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:34:44]
+@2017-10-10 02:34:44 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@156643d4]
+@2017-10-10 02:34:44 INFO  LibClient:32 - 62578 : Connected to server: /127.0.0.1
+@2017-10-10 02:34:44 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62578] Client Socket: [62578 ]
+
+@2017-10-10 02:34:44 INFO  LibClient:33 - 62578 : Connected to portid: 62578
+@2017-10-10 02:34:44 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:34:44 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62578
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 hi
+@2017-10-10 02:34:44 INFO  LibServer:120 - Output to 127.0.0.1:62578 Who are you?
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 librarian
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 Please Input the password
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 admin
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 Loan Item
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 Enter the loan to be added
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:44 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:34:44 DEBUG String:40 - Loan user: models.User@1ee0005, Loan title: models.Title@5e91993f
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 The loan was successfully added
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 Renew Item
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 The loan was successfully renewed
+
+@2017-10-10 02:34:44 INFO  LibServer:104 - Input from 127.0.0.1:62578 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:34:44 INFO  LibServer:112 - Output to 127.0.0.1:62578 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:35:13 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:35:13 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:35:13 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:35:13]
+@2017-10-10 02:35:13 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62593 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62593] Client Socket: [62593 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62593 : Connected to portid: 62593
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62593
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62593 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 Add Title
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 Enter the title name to add
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 9781442668584,By the grace of God
+@2017-10-10 02:35:13 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 The title entered already exists!
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 Add Title
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 Enter the title name to add
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62593 9999999999999,Mike's fantastic book
+@2017-10-10 02:35:13 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62593 Title added! TitleId = 6
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62593 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62593Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62594 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62594] Client Socket: [62594 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62594 : Connected to portid: 62594
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 hi
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62594
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62594 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 Add Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Enter the title or ISBN to search for
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 By the grace of God
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 By the grace of God, 9781442668584
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 Add Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Enter the title or ISBN to search for
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 New Title
+@2017-10-10 02:35:13 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Enter the title name to add
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 New Title,9999999999998
+@2017-10-10 02:35:13 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Title added! TitleId = 7
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 Add Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 Enter the title or ISBN to search for
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62594 New Title
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62594 9999999999998, New Title
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62594 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62594Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62595 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62595] Client Socket: [62595 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62595 : Connected to portid: 62595
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62595
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62595 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 Add User
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 Enter the user name to add
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:35:13 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 The user entered already exists!
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 Add User
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 Enter the user name to add
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62595 Mike@carleton.ca,Mike
+@2017-10-10 02:35:13 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62595 User added! UserId = 6
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62595 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62595Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62596 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62596] Client Socket: [62596 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62596 : Connected to portid: 62596
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62596
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62596 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 Remove Title
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 Enter the title or ISBN to remove
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 By the grace of God
+@2017-10-10 02:35:13 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 The title has been removed!
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 Remove Title
+@2017-10-10 02:35:13 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 The title is not stored.
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62596 This title isn't saved
+@2017-10-10 02:35:13 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62596 The title is not stored.
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62596 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62596Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62597 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62597] Client Socket: [62597 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62597 : Connected to portid: 62597
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62597
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62597 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 Remove Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 Enter the title or ISBN to remove
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 This title isn't saved
+@2017-10-10 02:35:13 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 The title is not stored.
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 Remove Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 Enter the title or ISBN to remove
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 Dante's lyric poetry
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62597 Dante's lyric poetry
+@2017-10-10 02:35:13 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62597 The title has been removed!
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62597 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62597Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62598 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62598] Client Socket: [62598 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62598 : Connected to portid: 62598
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62598
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62598 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 Loan Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 Enter the loan to be added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:35:13 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 The loan was successfully added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 Return Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 The loan was successfully returend
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62598 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62598 The loan was successfully returend
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62599 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62599] Client Socket: [62599 ]
+
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62599
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62599 : Connected to portid: 62599
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62599 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 Loan Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Enter the loan to be added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:35:13 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 The loan was successfully added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 Loan Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Enter the loan to be added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:35:13 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:35:13 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 Loan Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Enter the loan to be added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62599 mike,By the grace of God
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62599 Your user must be user@email
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62599 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62599Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:35:13 INFO  LibClient:32 - 62600 : Connected to server: /127.0.0.1
+@2017-10-10 02:35:13 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62600] Client Socket: [62600 ]
+
+@2017-10-10 02:35:13 INFO  LibClient:33 - 62600 : Connected to portid: 62600
+@2017-10-10 02:35:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:35:13 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62600
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 hi
+@2017-10-10 02:35:13 INFO  LibServer:120 - Output to 127.0.0.1:62600 Who are you?
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 librarian
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 Please Input the password
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 admin
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 Loan Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 Enter the loan to be added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:35:13 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 The loan was successfully added
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 Renew Item
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 The loan was successfully renewed
+
+@2017-10-10 02:35:13 INFO  LibServer:104 - Input from 127.0.0.1:62600 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:35:13 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:35:13 INFO  LibServer:112 - Output to 127.0.0.1:62600 The loan was successfully renewed
+
+@2017-10-10 02:35:13 INFO  LibServer:93 - Client: 62600 Exits
+@2017-10-10 02:35:13 INFO  LibServer:97 - Client : 62600Exits
+@2017-10-10 02:35:13 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibServer:35 - Binding to port 5050
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  LibServer:49 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 12
+@2017-10-10 02:39:17 INFO  String:26 - Operation:Initialize UserTable;UserTable: [models.User@c2e1f26, models.User@dcf3e99, models.User@6d9c638, models.User@7dc5e7b4, models.User@1ee0005]
+@2017-10-10 02:39:17 INFO  String:26 - Operation:Initialize TitleTable;TitleTable: [models.Title@3d012ddd, models.Title@6f2b958e, models.Title@1eb44e46, models.Title@6504e3b2, models.Title@515f550a]
+@2017-10-10 02:39:17 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [0, 9781442668584, 2017-10-10 02:39:17]
+@2017-10-10 02:39:17 INFO  String:25 - Operation:Initialize FeeTable;FeeTable: [models.Fine@1c4af82c]
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62708 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62708] Client Socket: [62708 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62708 : Connected to portid: 62708
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62708
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62708 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 Add Title
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 Enter the title name to add
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 9781442668584,By the grace of God
+@2017-10-10 02:39:17 INFO  String:48 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 The title entered already exists!
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 Add Title
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 Enter the title name to add
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62708 9999999999999,Mike's fantastic book
+@2017-10-10 02:39:17 INFO  String:46 - Operation:Create New Title;Title Info:[9999999999999,Mike's fantastic book];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62708 Title added! TitleId = 6
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62708 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62708Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62709 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62709] Client Socket: [62709 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62709 : Connected to portid: 62709
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62709
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62709 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 Add Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Enter the title or ISBN to search for
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 By the grace of God
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 By the grace of God, 9781442668584
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 Add Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Enter the title or ISBN to search for
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 New Title
+@2017-10-10 02:39:17 INFO  String:64 - Operation:Find Title;Title Info:[New Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Enter the title name to add
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 New Title,9999999999998
+@2017-10-10 02:39:17 INFO  String:46 - Operation:Create New Title;Title Info:[New Title,9999999999998];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Title added! TitleId = 7
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 Add Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 Enter the title or ISBN to search for
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62709 New Title
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[New Title];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62709 9999999999998, New Title
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62709 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62709Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62710 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62710] Client Socket: [62710 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62710 : Connected to portid: 62710
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62710
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62710 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 Add User
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 Enter the user name to add
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 Zhibo@carleton.ca,Zhibo
+@2017-10-10 02:39:17 INFO  String:48 - Operation:Create New User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:The User already existed.
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 The user entered already exists!
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 Add User
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 Enter the user name to add
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62710 Mike@carleton.ca,Mike
+@2017-10-10 02:39:17 INFO  String:46 - Operation:Create New User;User Info:[Mike@carleton.ca,Mike];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62710 User added! UserId = 6
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62710 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62710Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62711 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62711] Client Socket: [62711 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62711 : Connected to portid: 62711
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62711
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62711 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 Remove Title
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 Enter the title or ISBN to remove
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 By the grace of God
+@2017-10-10 02:39:17 INFO  String:95 - Operation:Find Title;Title Info:[By the grace of God];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 The title has been removed!
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 Remove Title
+@2017-10-10 02:39:17 INFO  String:92 - Operation:Find Title;Title Info:[Remove Title];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 The title is not stored.
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62711 This title isn't saved
+@2017-10-10 02:39:17 INFO  String:92 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62711 The title is not stored.
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62711 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62711Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62712 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62712] Client Socket: [62712 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62712 : Connected to portid: 62712
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62712
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62712 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 Remove Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 Enter the title or ISBN to remove
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 This title isn't saved
+@2017-10-10 02:39:17 INFO  String:64 - Operation:Find Title;Title Info:[This title isn't saved];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 The title is not stored.
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 Remove Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 Enter the title or ISBN to remove
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 Dante's lyric poetry
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 Dante's lyric poetry, 9781442616899
+Enter the title or ISBN to remove
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62712 Dante's lyric poetry
+@2017-10-10 02:39:17 INFO  String:95 - Operation:Find Title;Title Info:[Dante's lyric poetry];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62712 The title has been removed!
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62712 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62712Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62713 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62713] Client Socket: [62713 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62713 : Connected to portid: 62713
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62713
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62713 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 Loan Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 Enter the useremail and title to loan
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:39:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 The loan was successfully added
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 Return Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 Enter the userid and isbn of a loan to return
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62713 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62713 The loan was successfully returend
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62714 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62714] Client Socket: [62714 ]
+
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62714
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62714 : Connected to portid: 62714
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62714 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 Loan Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Enter the useremail and title to loan
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:39:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 The loan was successfully added
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 Loan Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Enter the useremail and title to loan
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 Zhibo@carleton.ca,xyz,
+@2017-10-10 02:39:17 INFO  String:64 - Operation:Find Title;Title Info:[xyz];State:Fail;Reason:Title not in titletable
+@2017-10-10 02:39:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: -1
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 No title was found with that input. Your input should be userid,title/isbn
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 Loan Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Enter the useremail and title to loan
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62714 mike,By the grace of God
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62714 Your user must be user@email
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62714 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62714Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
+@2017-10-10 02:39:17 INFO  LibClient:32 - 62715 : Connected to server: /127.0.0.1
+@2017-10-10 02:39:17 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62715] Client Socket: [62715 ]
+
+@2017-10-10 02:39:17 INFO  LibClient:33 - 62715 : Connected to portid: 62715
+@2017-10-10 02:39:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 02:39:17 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62715
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 hi
+@2017-10-10 02:39:17 INFO  LibServer:120 - Output to 127.0.0.1:62715 Who are you?
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 librarian
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 Please Input the password
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 admin
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 Menu: Add User/Title/Item, Remove Title/Item, Loan Item
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 Loan Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 Enter the useremail and title to loan
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:39:17 DEBUG String:40 - Loan user: models.User@c2e1f26, Loan title: models.Title@1eb44e46
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 The loan was successfully added
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 Renew Item
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 Enter the userid and isbn of a loan to renew
+
+@2017-10-10 02:39:17 INFO  LibServer:104 - Input from 127.0.0.1:62715 Zhibo@carleton.ca,Courtesy lost
+@2017-10-10 02:39:17 INFO  String:68 - Operation:Find Title;Title Info:[Courtesy lost];State:Success
+@2017-10-10 02:39:17 INFO  LibServer:112 - Output to 127.0.0.1:62715 The loan was successfully renewed
+
+@2017-10-10 02:39:17 INFO  LibServer:93 - Client: 62715 Exits
+@2017-10-10 02:39:17 INFO  LibServer:97 - Client : 62715Exits
+@2017-10-10 02:39:17 INFO  ServerThread:60 - Class: ServerThread: Exception thrown : Socket closed 
+
 @

@@ -165,4 +165,30 @@ public class OutputHandler {
 		}
 		return o;
 	}
+	
+	public Output renewLoan(String input) {
+		Output o = new Output("", 0);
+		Object result = -1;
+		String[] str = input.split(",");
+		String[] usr = str[0].split("@");
+		if (str.length != 2) {
+			o.setOutput(Strings.INVALIDLOANID);
+			o.setState(States.LOANRENEW);
+		} else if (usr.length != 2) {
+			o.setOutput(Strings.INVALIDUSEREMAIL);
+			o.setState(States.LOANRENEW);
+		} else {
+			User u = (User)UserTable.getInstance().findUser(str[0]);
+			Title t = (Title)TitleTable.getInstance().findTitle(str[1]);
+			result = LoanTable.getInstance().returnLoan(u.getUserId(), t.getISBN());
+			if (result.equals(false)) {
+				o.setOutput(Strings.LOANRENEWED);
+				o.setState(States.LIBRARIAN);
+			} else {
+				o.setOutput(Strings.INVALIDLOANID);
+				o.setState(States.LOANRENEW);
+			}
+		}
+		return o;
+	}
 }

@@ -49,11 +49,14 @@ public class InputHandler {
 	        		oo.setOutput(Strings.REMOVETITLE);
 	        		oo.setState(States.REMOVEITEM);
 	        	}else if (input.equalsIgnoreCase("loan item")) {
-	        		oo.setOutput(Strings.LOANITEM);
+	        		oo.setOutput(Strings.LOANADD);
 	        		oo.setState(States.LOANITEM);
 	        	} else if (input.equalsIgnoreCase("return item")) {
-	        		oo.setOutput(Strings.LOANRETURNED);
+	        		oo.setOutput(Strings.LOANRETURN);
 	        		oo.setState(States.LOANRETURN);
+	        	} else if (input.equalsIgnoreCase("renew item")) {
+	        		oo.setOutput(Strings.LOANRENEW);
+	        		oo.setState(States.LOANRENEW);
 	        	}
 	        	else if (input.equalsIgnoreCase("add title")) {
 	        		oo.setOutput(Strings.ADDTITLE);
@@ -88,6 +91,10 @@ public class InputHandler {
 	        	oo.setState(o.getState());
 	        } else if (state == States.LOANRETURN) {
 	        	o = outputHandler.returnLoan(input);
+	        	oo.setOutput(o.getOutput());
+	        	oo.setState(o.getState());
+	        } else if (state == States.LOANRENEW) {
+	        	o = outputHandler.renewLoan(input);
 	        	oo.setOutput(o.getOutput());
 	        	oo.setState(o.getState());
 	        }

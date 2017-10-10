@@ -30,13 +30,17 @@ public class Strings {
 	public final static String REMOVETITLE = "Enter the title or ISBN to remove";
 	public final static String TITLEREMOVED = "The title has been removed!";
 	public final static String TITLENOTFOUND = "The title is not stored.";
+
+	public final static String LOANADD = "Enter the useremail and title to loan";
+	public final static String LOANADDED = "The loan was successfully added";
+	public final static String LOANRENEW = "Enter the userid and isbn of a loan to renew";
+	public final static String LOANRENEWED="The loan was successfully renewed";
+	public final static String LOANRETURN = "Enter the userid and isbn of a loan to return";
+	public final static String LOANRETURNED="The loan was successfully returend";
 	
 	public final static String INVALIDLOANTITLE = "No title was found with that input. Your input should be userid,title/isbn";
 	public final static String LOANITEM = "Enter the loan to be added";
 	public final static String LOANEXISTS = "The loan entered already exists.";
-	public final static String LOANADDED = "The loan was successfully added";
-	public final static String LOANRETURNED="The loan was successfully returend";
-	public final static String LOANRENEWED="The loan was successfully renewed";
 	
 	public final static String FINEPAID = "The fine was successfully paid";
 	public final static String NOFINEONUSER = "There is no fine for this users";

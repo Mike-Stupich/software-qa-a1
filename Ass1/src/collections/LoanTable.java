@@ -103,4 +103,16 @@ public class LoanTable {
 		}
 		return false;
 	}
+	
+	public Object renewLoan(int user, String isbn) {
+		for (int i = 0 ; i < loans.size(); ++i) {
+			Loan l = loans.get(i);
+			if (l.getUserId() == user && l.getIsbn().equals(isbn)) {
+				loans.get(i).setDate(new Date());;
+				return l;
+			}
+		}
+		return false;
+	}
+	
 }
